@@ -12,6 +12,7 @@ function save_html {
   for url in $@
   do
     curl $url 2> /dev/null > $TMP/$COUNT.txt
+    echo "url#$url" >> $TMP/$COUNT.txt
     COUNT=`expr $COUNT + 1`
   done
 }
@@ -33,7 +34,8 @@ for filepath in $TMP/*.txt
     NOWTIME=`/bin/date +"%s"`
     DIFF=`expr $ENDTIME - $NOWTIME`
     LASTDAY=`expr $DIFF / 86400`
-    echo "[$PERCENT][$PRICE][last$LASTDAY days][$TITLE] | size=12 "
+    LINK=`cat $filepath | grep -e 'url#' | cut -d"#" -f2`
+    echo "[$PERCENT][$PRICE][last$LASTDAY days][$TITLE] | size=12 href=$LINK"
   done
 
 echo "---"
@@ -54,7 +56,8 @@ for filepath in $TMP/*.txt
     TITLE=`cat $filepath | grep -e '<title>' | sed -e 's/<[^>]*>//g' | cut -d"-" -f1`
     PRICE=`cat $filepath | grep -e 'number' | sed -e 's/<[^>]*>//g' | grep -e "円" | tr -d '\t'`
     LASTDAY=`cat $filepath | grep -e 'number' | sed -e 's/<[^>]*>//g' | grep -e "日" | tr -d '\t'`
-    echo "[$PERCENT][$PRICE][last$LASTDAY days][$TITLE] | size=12 "
+    LINK=`cat $filepath | grep -e 'url#' | cut -d"#" -f2`
+    echo "[$PERCENT][$PRICE][last$LASTDAY days][$TITLE] | size=12 href=$LINK"
   done
 
 echo "---"
@@ -72,6 +75,7 @@ for filepath in $TMP/*.txt
     TITLE=`cat $filepath | grep -e "og:title" | sed -e 's/<meta property="og:title" content="//g' | cut -d"-" -f1 | sed -e 's/ //g'`
     PRICE=`cat $filepath | grep -e 'Project-visual__condition-dd is-sum' | sed -e 's/<[^>]*>//g' | sed -e 's/ //g'`
     LASTDAY=`cat $filepath | grep -e 'time-left-to-publish-days' | sed -e 's/<[^>]*>//g' | sed -e 's/ //g'`
-    echo "[$PERCENT][$PRICE][last$LASTDAY days][$TITLE] | size=12 "
+    LINK=`cat $filepath | grep -e 'url#' | cut -d"#" -f2`
+    echo "[$PERCENT][$PRICE][last$LASTDAY days][$TITLE] | size=12 href=$LINK"
   done
 
