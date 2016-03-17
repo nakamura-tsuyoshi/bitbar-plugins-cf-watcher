@@ -1,0 +1,1885 @@
+
+<!DOCTYPE html>
+<html lang="ja" xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+  <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+      <meta name="keywords" content="READYFOR, レディーフォー, クラウドファンディング, ソーシャルファンディング, 資金調達, 米良はるか, クリエーター" />
+    <meta name="msvalidate.01" content="16AD99A6ADD3644D5417B889AACFD4DD" />
+    <!-- meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" -->
+
+    <title>
+    下関を世界有数の港町に！複合施設ウズハウスで町を元気にする（沖野充和（ウズハウスプロジェクト実行委員会代表）） - READYFOR (レディーフォー)
+</title>
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="+5xhFbD8WyZlVx8e9qk2Vj6sqSETARYp9Ekw7QIDStyVSmHpQwN23Msi6KzFa7Cm7qQ2uoGckpCMq1zjUxa08g==" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicon.png?v=20150507">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+    <script type="application/ld+json">
+  {  "@context" : "http://schema.org",
+     "@type" : "WebSite",
+     "name" : "READYFOR",
+     "url" : "https://readyfor.jp/",
+     "producer" : {
+       "@type" : "Person",
+       "familyName" : "Mera",
+       "givenName" : "Haruka",
+       "name" : "米良はるか"    
+     }
+  }
+</script>
+
+
+    <link rel="stylesheet" media="all" href="/assets/common-ce55dabcaa4855e6687e3768ca68c49fc63456c2d2e4a538bcc3566d7ed1c6b6.css" />
+    <link rel="stylesheet" media="all" href="/assets/application-562ac4bc589339231973656687b6848805bf814d3e9d1953571d605761b69caf.css" />
+<link rel="stylesheet" media="all" href="/assets/eyecatch-707ac2c566e1a724eb752e88c4864e5aaf705b4566ca3afb8ebaeb9a92136ffe.css" />
+<link rel="stylesheet" media="all" href="/assets/project_edit-f474c14e6930357e434e93cd3fc15d51e046cd110b2681585f2e1f0935c43a6d.css" />
+<link rel="stylesheet" media="all" href="/assets/project_contract-ca10de0594aed7e98bd0039feceef05f12612af2feab205f3a9a5a0b6b90fb5d.css" />
+<link rel="stylesheet" media="all" href="/assets/pulldown-5f2db607acb144bc22e87ca1f1031a4626dc8ddc247ef1db42e2aa6d851b49bd.css" />
+<link rel="stylesheet" media="all" href="/assets/tipsy-ae8bc7896d741a5c4134fb0289d302737d1bf5a593fb2d7fff785c0edfa42dd1.css" />
+    <link rel="stylesheet" media="all" href="/assets/evangelion-7e2749340e9ed545c3a021479a8a0ff7ed3197c22dad53e6f8c4b16386ccaac1.css" />
+
+    <!--[if IE 7]><link rel="stylesheet" media="all" href="/stylesheets/ie7.css?v=1445226728" /><![endif]-->
+    <!--[if IE 6]><link rel="stylesheet" media="all" href="/stylesheets/ie6.css?v=1445226728" /><![endif]-->
+
+
+
+    <meta property="fb:app_id" content="188875347802288" />
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@ready_for">
+<meta property="og:type" content="website" />
+
+  <meta property="og:title" content="下関を世界有数の港町に！複合施設ウズハウスで町を元気にする - READYFOR (レディーフォー)" />
+  <meta property="og:url" content="https://readyfor.jp/projects/uzuhouse" />
+    <meta property="og:image" content="https://readyfor-img.s3.amazonaws.com/project_photos/6600/medium/3daeb35190fd6f21838c64abe366b3fb9c424568.png?1451224543" />
+  <meta property="og:description" content="
+本州最西端の港町・下関に
+
+小さな街「ウズハウス」をオープン！
+
+
+ 
+
+はじめまして！ウズハウスプロジェクト実行委員会代表の沖野充和です。私たちは山口県下関市に、2016年5月、ゲストハウス・カフェバー・イベントスペース・シェアオフィスが一つの建物になった複合施設「ウズハウス」をオープンします。
+
+ 
+
+関門海峡が一望できる最高のロケーションのウズハウスは、６階建..." />
+  <link rel="canonical" href="https://readyfor.jp/projects/uzuhouse" />
+  <meta name="description" content="
+本州最西端の港町・下関に
+
+小さな街「ウズハウス」をオープン！
+
+
+ 
+
+はじめまして！ウズハウスプロジェクト実行委員会代表の沖野充和です。私たちは山口県下関市に、2016年5月、ゲストハウス・カフェバー・イベントスペース・シェアオフィスが一つの建物になった複合施設「ウズハウス」をオープンします。
+
+ 
+
+関門海峡が一望できる最高のロケーションのウズハウスは、６階建..." />
+
+
+    <script>
+  function getCookie(name) {
+    var cookieData = document.cookie;
+    var key = name + "=";
+
+    var idx = cookieData.indexOf(key);
+    if (idx == -1) return null;
+    idx += key.length;
+
+    var end = cookieData.indexOf(";", idx);
+    if (end == -1) end = cookieData.length;
+
+    return decodeURIComponent(cookieData.substring(idx, end));
+  }
+
+  var hostnamePattern = new RegExp("^https://readyfor.jp(.*$)");
+  var reportError = function(evt) {
+    var filename = evt.filename;
+    if (hostnamePattern.test(filename)) {
+      filename = filename.match(hostnamePattern)[1];
+    }
+
+    var action = filename + ":" + evt.lineno + "," + evt.colno;
+    var label  =
+      evt.message + ", " +
+      "href: " + location.href + ", " +
+      "rf_uuid: " + getCookie("rf_uuid") + ", " +
+      "userAgent: " + window.navigator.userAgent;
+
+    ga('set', 'nonInteraction', true);
+    ga('send', 'event', {
+      eventCategory: 'JSError',
+      eventAction: action, 
+      eventLabel: label
+    });
+  };
+  if (window.addEventListener) {
+    window.addEventListener("error", reportError);
+  } else {
+    // Compatibility for IE8
+    window.attachEvent("onerror", reportError);
+  }
+</script>
+
+
+    <!--[if (gte IE 6)&(lte IE 8)]>
+      <script src="/assets/selectivizr-min-52522e3d220b0545d2f013e2e731c9eb63be0eebe765f4b2539d247617cb1309.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="/assets/html5shiv.min-e87bcce4761b410d32df511bc602a89913a89bf460d121a7736175817d57552a.js"></script>
+    <![endif]-->
+    <script src="/assets/application-3740f328eeccf8aaecd77ec55055c4728c003b7630ae197e7d075b89891a05cf.js"></script>
+    <script src="/javascripts/back_project.js?v=1445226728" defer="defer"></script>
+<script src="/javascripts/pulldown.js?v=1445226728" defer="defer"></script>
+<script src="/javascripts/tipsy.js?v=1445226728" defer="defer"></script>
+<script src="/javascripts/projects.js?v=1445226728" defer="defer"></script>
+    <script src="/javascripts/jquery-ui.custom.min.js?v=1445226728" defer="defer"></script>
+<script src="/javascripts/authorize.js?v=1446731558" defer="defer"></script>
+    <script src="/assets/lodash-compat-45af24844e05843b9840a10cd95b0f1f93d75193a7ac69a763d11679bcb77b33.js" defer="defer"></script>
+    <script>
+ $( function(){
+   _.templateSettings = {
+     interpolate : /\{\{=(.+?)\}\}/g,
+     escape : /\{\{-(.+?)\}\}/g,
+     evaluate: /\{\{(.+?)\}\}/g,
+   };
+ });
+</script>
+
+    <script src="/javascripts/common.js?v=1445226728"></script>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js" defer="defer"></script>
+
+
+    <script>
+      var fileUploadErrors = {
+        maxFileSize: 'File is too big',
+        minFileSize: 'File is too small',
+        acceptFileTypes: 'Filetype not allowed',
+        maxNumberOfFiles: 'Max number of files exceeded',
+        uploadedBytes: 'Uploaded bytes exceed file size',
+        emptyResult: 'Empty file upload result'
+      };
+    </script>
+    
+
+    
+
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-20164732-1',
+  {
+          cookieDomain: 'readyfor.jp',
+    legacyCookieDomain: 'readyfor.jp'
+  }
+  );
+
+  ga('require', 'linkid');
+  ga('require', 'displayfeatures');
+
+
+  ga('set', 'dimension1',
+    'visitor'
+  );
+
+
+    ga('set', 'dimension3', 'not login');
+
+
+
+
+
+  // ABテスト
+  
+
+
+
+
+    ga('send', 'pageview');
+
+
+
+</script>
+  <script type="text/javascript">
+    var _ga = _ga || {};
+
+    _ga.trackFacebook = function(opt_pagePath) {
+      try {
+        if (FB && FB.Event && FB.Event.subscribe) {
+          FB.Event.subscribe('edge.create', function(opt_target) {
+            ga('send', 'social', 'facebook', 'like', opt_target, opt_pagePath);
+          });
+          FB.Event.subscribe('edge.remove', function(opt_target) {
+            ga('send', 'social', 'facebook', 'unlike',opt_target, opt_pagePath);
+          });
+          FB.Event.subscribe('message.send', function(opt_target) {
+            ga('send', 'social', 'facebook', 'send', opt_target, opt_pagePath);
+          });
+        }
+      } catch (e) {}
+    };
+
+    _ga.trackTwitterHandler_ = function(intent_event, opt_pagePath) {
+      var opt_target; //Default value is undefined
+      if (intent_event && intent_event.type == 'tweet' || intent_event.type == 'click') {
+        if (intent_event.target.nodeName == 'IFRAME') {
+          opt_target = _ga.extractParamFromUri_(intent_event.target.src, 'url');
+        }
+        var socialAction = intent_event.type + ((intent_event.type == 'click') ? '-' + intent_event.region : ''); //append the type of click to action
+        ga('send', 'social', 'twitter', socialAction, opt_target, opt_pagePath);
+      }
+    };
+
+    _ga.trackTwitter = function(opt_pagePath) {
+      intent_handler = function(intent_event) {
+        _ga.trackTwitterHandler_(intent_event, opt_pagePath);
+      };
+
+      //bind twitter Click and Tweet events to Twitter tracking handler
+      twttr.events.bind('click', intent_handler);
+      twttr.events.bind('tweet', intent_handler);
+    };
+
+    _ga.extractParamFromUri_ = function(uri, paramName) {
+      if (!uri) {
+        return;
+      }
+      var regex = new RegExp('[\\?&#]' + paramName + '=([^&#]*)');
+      var params = regex.exec(uri);
+      if (params != null) {
+        return unescape(params[1]);
+      }
+      return;
+    };
+
+  </script>
+
+
+    <script>
+      window.twttr = (function (d,s,id) {
+        var t, js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+        js.src="//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+        return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+      }(document, "script", "twitter-wjs"));
+
+        // Wait for the asynchronous resources to load
+        twttr.ready(function(twttr) {
+          _ga.trackTwitter(); //Google Analytics tracking
+        });
+    </script>
+
+
+    
+    
+    
+    
+
+    <!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '386497394849315');
+fbq('track', "PageView");
+
+
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=386497394849315&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+
+
+    
+
+  </head>
+  <body class="pc c-projects a-show">
+  <script src="//cdn.optimizely.com/js/5103240166.js"></script>
+
+
+      <div class="Site-container">
+      <header class="Site-header">
+  <div class="Site-header__misc">
+    <div class="Container">
+      <p class="Site-header__misc-desc">国内最大のクラウドファンディングREADYFORは、誰もがやりたいことを実現できる世の中を創ります。</p>
+    </div>
+  </div>
+
+    <div class="Site-header__main">
+      <div class="Contaitar u-clrfix">
+          <h1 class="Site-header__ci">
+              <a href="/" class="Site-header__ci-inner">READYFOR</a>
+          </h1>
+
+          <nav class="Site-nav">
+            <ul class="Site-nav__inner">
+                  <li class="Site-nav__item">
+                    <a href="/projects/" class="Site-nav__link">
+                      <div class="Site-nav__link-icon Icon-search"></div>
+                      <div class="Site-nav__link-txt">プロジェクトを探す</div>
+                    </a>
+                  </li>
+                  <li class="Site-nav__item">
+                    <a href="/proposals/intro" class="Site-nav__link" onclick="ga('set', 'nonInteraction', true);ga('send', 'event', { eventCategory: 'introLinkClick', eventAction: 'click', eventLabel:'header_link_click', eventValue:1});">
+                      <div class="Site-nav__link-icon Icon-start"></div>
+                      <div class="Site-nav__link-txt">プロジェクトをはじめる</div>
+                    </a>
+                  </li>
+                  <li class="Site-nav__item">
+                    <a href="/about_more" class="Site-nav__link">
+                      <div class="Site-nav__link-icon Icon-about"></div>
+                      <div class="Site-nav__link-txt">はじめての方へ</div>
+                    </a>
+                  </li>
+
+
+                  <li class="Site-nav__item">
+                    <a class="Site-nav__link loginLink isInHeader">
+                      <div class="Site-nav__link-icon Icon-login"></div>
+                      <div class="Site-nav__link-txt">ログイン</div>
+                    </a>
+                  </li>
+                  <li class="Site-nav__item">
+                    <a class="Site-nav__link signupLink isInHeader">
+                      <div class="Site-nav__link-icon Icon-signin"></div>
+                      <div class="Site-nav__link-txt">新規登録</div>
+                    </a>
+                  </li>
+            </ul>
+          </nav>
+      </div>
+    </div>
+</header>
+
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=188875347802288&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script>
+  if (window.location.hash == '#_=_') {
+    history.replaceState
+      ? history.replaceState(null, null, window.location.href.split('#')[0])
+      : window.location.hash = '';
+  }
+
+</script>
+
+
+
+
+      <article class="Page-body">
+    <div class="Project-visual Container u-mb_20 u-clrfix">
+      <h1 class="Project-visual__title">
+          <a href="/projects/uzuhouse">下関を世界有数の港町に！複合施設ウズハウスで町を元気にする</a>
+      </h1>
+      <div class="Project-visual__main u-clrfix ">
+        <div class="Project-visual__img">
+          <div class="Project-visual__img-mask">
+            <img src="https://readyfor-img.s3.amazonaws.com/project_photos/6600/medium/3daeb35190fd6f21838c64abe366b3fb9c424568.png?1451224543" alt="3daeb35190fd6f21838c64abe366b3fb9c424568" />
+          </div>
+        </div>
+        <div class="Project-visual__body">
+          <div class="Project-promoter__media Media">
+            <div class="Project-promoter__media-img Media__img">
+              <img alt="沖野充和（ウズハウスプロジェクト実行委員会代表）" src="https://readyfor-img.s3.amazonaws.com/user_images/144854/medium/359aed10da3a64061752e7a43dbe7a3ef55255c0.jpeg?1451309361" width="80" height="80" />
+            </div>
+            <div class="Project-promoter__media-body Media__body">
+              <h1 class="u-fs_18 u-font_b">沖野充和（ウズハウスプロジェクト実行委員会代表）</h1>
+            </div>
+          </div>
+
+          <div class="Project-visual__conditions">
+
+            <dl class="Project-visual__condition u-fs_20">
+              <dt class="Project-visual__condition-dt is-sum">
+                支援総額
+              </dt>
+              <dd class="Project-visual__condition-dd is-sum">22,408,000円</dd>
+            </dl>
+
+            <div>
+                <dl class="Project-visual__condition u-fs_16">
+                  <dt class="Project-visual__condition-dt">
+                    <span class="u-valign_m">目標金額</span>
+                  </dt>
+                  <dd class="Project-visual__condition-dd u-font-en">
+                    30,000,000円
+                  </dd>
+                </dl>
+            </div>
+
+            <div class="u-mt_10">
+              <dl class="Project-visual__condition u-fs_16">
+                <dt class="Project-visual__condition-dt">
+                  支援者数
+                </dt>
+                <dd class="Project-visual__condition-dd u-font-en">
+                  221人
+                </dd>
+              </dl>
+              <dl class="Project-visual__condition u-fs_16">
+                <dt class="Project-visual__condition-dt">残り日数</dt>
+                <dd class="Project-visual__condition-dd u-font-en">
+                                      <span id="time-left-to-publish-days" class="num"> 34 </span><span class="degree">日</span>
+
+                </dd>
+              </dl>
+            </div>
+
+          </div>
+
+            <div class="Project-visual__gauge Gauge u-mt_10">
+                <div class="Gauge__obj is-1" style="width:74%"></div>
+<div class="Gauge__txt">74%</div>
+
+            </div>
+          <a class="Btn-1-flat backing-button-wrap is-no-shadow u-fit-w u-mt_20 u-mb_30" href="/projects/uzuhouse/contribution"><div class="Btn-1__inner"><div class="Btn-1__content"><span class="Btn-1__txt u-fs_18">このプロジェクトを支援する</span></div></div></a>
+          <p class="u-align_c">このプロジェクトは4月20日（水）午後11:00までに、<br />30,000,000円以上集まった場合に成立となります。</p>
+        </div>
+      </div>
+            <div class="social-buttons box">
+
+          <ul class="list">
+<!--
+            <li>
+            <a class="fb-share-button shareBtn shareBtn_large" href="http://www.facebook.com/sharer.php?u=`シェアしたいurl`&amp;t=`シェアしたいタイトル`"
+              onClick="window.open(encodeURI(decodeURI(this.href)),
+                    'sharewindow',
+                    'width=550, height=450, personalbar=0, toolbar=0, scrollbars=1, resizable=!'
+                    ); return false;">
+            </a>
+          </li> -->
+            <li class="first">
+              <div class="fb-like-button">
+                  <script type="text/javascript">_ga.trackFacebook();</script>
+                  <fb:like href="https://readyfor.jp/projects/uzuhouse" send="false" width="350" show_faces="false" layout="standard"></fb:like>
+              </div>
+            </li>
+
+            <li class="twitter-tweet-button">
+                <a href="https://twitter.com/share" class="twitter-share-button" data-text="下関を世界有数の港町に！複合施設ウズハウスで町を元気にするは、あと34日で、約759人からの協力がないと支援が届きません。ひとりでも多くの方に広めてください！ - READYFOR?" data-count="" data-via="ready_for" data-lang="ja" data-url="https://readyfor.jp/projects/uzuhouse">Tweet</a>
+            </li>
+
+          </ul>
+        </div>
+        <div class="clear"></div>
+
+      <!-- Tab__menu -->
+      <div class="tab-wrapper">
+        <div class="Tab__menu tabnav-tabs">
+          <nav class="tabnav-tabs">
+              <a class="tabnav-tab selected" href="/projects/uzuhouse">
+                <span class="">プロジェクト概要</span>
+</a>              <a class="tabnav-tab" href="/projects/uzuhouse/announcements">
+                <span class="">新着情報</span>
+                <span class="Tab__menu-icon Icon-num">11</span>
+</a>              <a class="tabnav-tab" href="/projects/uzuhouse/comments">
+                <span class="">応援コメント</span>
+                  <span class="Tab__menu-icon Icon-num">221</span>
+</a>              
+          </nav>
+        </div>
+      </div>
+      <!-- /Tab__menu -->
+
+    </div>
+
+    <div class="Container">
+
+      <div class="Page-main is-type0 u-fl_l Project-main u-mb_30" role="main">
+        <div>
+          
+
+        </div>
+
+        <!-- Tab -->
+        <div class="Project-tab">
+
+          <!-- Tab__contents -->
+          <div class="Tab__contents">
+                        <!-- Tab__contents -->
+          <div class="Tab__contents">
+            <!-- 概要 -->
+            <section class="Project-outline Tab__content">
+              <h1 class="u-d_none">プロジェクト概要</h1>
+              <div style="border: 1px solid #55b9e2; padding: 10px 5px 10px 20px; border-radius: 15px; background-color: #55b9e2">
+<p style="text-align: center;"><strong><font color="#FFFFFF">本州最西端の港町・下関に</font></strong></p>
+
+<p style="text-align: center;"><strong><font color="#FFFFFF">小さな街「ウズハウス」をオープン！</font></strong></p>
+</div>
+
+<p>&nbsp;</p>
+
+<p>はじめまして！ウズハウスプロジェクト実行委員会代表の沖野充和です。私たちは山口県下関市に、2016年5月、ゲストハウス・カフェバー・イベントスペース・シェアオフィスが一つの建物になった複合施設「ウズハウス」をオープンします。</p>
+
+<p>&nbsp;</p>
+
+<p>関門海峡が一望できる最高のロケーションのウズハウスは、６階建て1,000平米の巨大施設で、そこは建物というより「小さな街」と表現するに相応しい空間となります。これまで数多くのリノベーションを担当させていただいてきた中で、某テレビ番組で「匠」として紹介されたこともありました。今回は、以前に安倍昭恵さんが経営する東京・神田の飲食店の設計も手がけたつながりで、昭恵さんにもプロジェクトメンバーに加わっていただきました。</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" height="347" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/142096/content_333db9db826ef57961ae72a114a5dca4fc1d1fe8.png" width="610" /></p>
+
+<p style="text-align: right;">（完成後のウズハウスのイメージ。</p>
+
+<p style="text-align: right;">関門海峡を眺めながらくつろげるカフェバーも設置します）</p>
+
+<p>&nbsp;</p>
+
+<p><iframe allowfullscreen="" frameborder="0" height="343" src="https://www.youtube.com/embed/liZK5krx5x4?rel=0" width="610"></iframe></p>
+
+<p style="text-align: right;">（昭恵夫人からコメントをいただきました！2016年2月10日追加）</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<div style="border: 1px solid #55b9e2; padding: 10px 5px 10px 20px; border-radius: 15px; background-color: #55b9e2">
+<p style="text-align: center;"><font color="#ffffff"><b>ウズハウスってどんなところ？</b></font></p>
+</div>
+
+<p>&nbsp;</p>
+
+<p>「ウズハウス」には、下関に面した関門海峡の大きな渦のように渦巻き、交差する場所になるように、という意味を込めています。フランシスコ・ザビエルが訪れ、明治維新の拠点にもなった歴史の深い街、下関。<strong><span style="background-color:#ffffcc;">地域活性化のために新たに建物をつくるのではなく、歴史ある建物を新しいアイデアでリノベーションし、そこが「渦の目」となる。これは下関にだけ言えることではありません。</span></strong></p>
+
+<p>&nbsp;</p>
+
+<p>人口減少が進む日本で増え続ける空き家や使われていない建物を、いかに工夫して再活用していくか。これは日本が抱える課題として、これからもっと深く考えるべきだと思っています。<strong><span style="background-color:#ffffcc;">「歴史と現在」が交差し渦となり、「住民と旅人」が交差し渦となり、「アイデアとアイデア」が交差し渦となる。</span></strong><span style="background-color:#FFFFFF;">そんな空間を2016年5月、下関にオープンします。</span><br />
+&nbsp;</p>
+
+<p><img alt="" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/139660/content_413764c2dd2f0a3257591bb53af0670c59195f91.png" style="width: 610px; height: 349px;" /></p>
+
+<p style="text-align: right;">（リノベーション後のウズハウス入口のイメージ。</p>
+
+<p style="text-align: right;">誰もが気軽に訪れることができる開放感あふれるデザインに）</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" height="61" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/145345/content_a4f6dce558d76c95265963ecf1bc8dc10e73ef37.png" width="610" /></p>
+
+<p>&nbsp;</p>
+
+<p>コーヒーを片手に関門海峡を眺めながらゆったりくつろぐカフェバー。地方でクリエイティブな事業を考える人たちの語り場になるようなシェアオフィス。そして世界中を旅する人たちが休むゲストハウス。ウズハウスが、下関の魅力発見の場・発信の場となるような仕掛けを沢山詰め込みました。</p>
+
+<p>&nbsp;</p>
+
+<p><strong>６階：</strong>共用ダイニングキッチン</p>
+
+<p><strong>５階：</strong>ゲストハウス（ドミトリー）</p>
+
+<p><strong>４階：</strong>シェアオフィス、ゲストハウス（ドミトリー）</p>
+
+<p><strong>３階：</strong>イベントスペース</p>
+
+<p><strong>２階：</strong>カフェバー</p>
+
+<p><strong>１階：</strong>ゲストハウス受付、カフェバー</p>
+
+<p>&nbsp;</p>
+
+<div style="border: 3px solid #55b9e2; padding: 10px 5px 10px 20px; border-radius: 15px; background-color: #FFFFFF">
+<p style="text-align: center;"><font color="#55b9e2"><b>１階・２階：カフェバー</b></font></p>
+</div>
+
+<p>&nbsp;</p>
+
+<p>１階のカフェは受付の目の前にあり、地元の人がふらっと来たり、宿泊客がくつろぐことができます。２階はゆったり関門海峡を眺めながら落ち着いた時間を過ごしたい方のために。子ども連れも大歓迎です。基本的なメニューの他に、<strong><span style="background-color:#ffffcc;">山口県らしさが感じられる、ふぐヒレ酒や地酒、 食べ物</span></strong>などを取り揃える予定です。散歩がてらに、休日のリラックスしたいときに、ノマドワーカーの作業スポットにと様々な使い方ができると思います。</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/139661/content_76ad8b4dd66a3a75e09ac8190ac2dee2a718390d.png" style="width: 610px; height: 349px;" /></p>
+
+<p style="text-align: right;">（ふらっと寄ってしまいたくなるようなカフェスペースをつくります）</p>
+
+<p>&nbsp;</p>
+
+<div style="border: 3px solid #55b9e2; padding: 10px 5px 10px 20px; border-radius: 15px; background-color: #FFFFFF">
+<p style="text-align: center;"><font color="#55b9e2"><b>３階：イベントスペース</b></font></p>
+</div>
+
+<p>&nbsp;</p>
+
+<p>ウズハウスには色んな価値観や趣味をもった方々に来てほしいので、例えば、おばあちゃんの郷土料理教室やアコースティックライブ、ミニシアター。港町の下関ですから、釣りやBBQ、レンタルサイクルで海沿いの道を走ったりもできるように。若手アーティストの発表の場づくりや泊まれる図書館化など、やりたいことは膨らみます。</p>
+
+<p>&nbsp;</p>
+
+<p>他にも、以下のようなイベントを行えたらいいなと企画中です。沢山の人がウズハウスに訪れる仕掛けを日々みなさんにご提供します。</p>
+
+<p>・中学生や高校生にいろんな職業を知ってもらうためのイベント</p>
+
+<p>・著名人を呼んでのトークイベント</p>
+
+<p>・子どもが楽しめる木のおもちゃを集めるイベント</p>
+
+<p>・日本酒イベント</p>
+
+<p>・朝フェス</p>
+
+<p>・市内総合支援学校からの体験学習の受け入れ</p>
+
+<p>&nbsp;</p>
+
+<div style="border: 3px solid #55b9e2; padding: 10px 5px 10px 20px; border-radius: 15px; background-color: #FFFFFF">
+<p style="text-align: center;"><font color="#55b9e2"><b>４階：シェアオフィス</b></font></p>
+</div>
+
+<p>&nbsp;</p>
+
+<p>デザイナーさんや作家さんなど、いろんな職種の人が集まってお互いに刺激を受け合い、外部にも刺激を与えられるような面白い場所にしたいです。私のように地元のためになにかしたいとずっと考えている人ってきっと多いはずです。ウズハウスでなら働きたい！それくらい思ってもらえるような空間を提供し、UIJターンによって下関がどんどん盛り上がっていったらいいなと思います。</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" height="347" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/142097/content_a7986d4dbc7a20364e81f609fc47d987fe6eb5cc.png" width="610" /></p>
+
+<p style="text-align: right;">（いろんな考えや嗜好をもった人たちが、ウズハウスを通じて交わっていく。</p>
+
+<p style="text-align: right;">そんな場所になるように内装設計にはこだわっていきます）</p>
+
+<p>&nbsp;</p>
+
+<div style="border: 3px solid #55b9e2; padding: 10px 5px 10px 20px; border-radius: 15px; background-color: #FFFFFF">
+<p style="text-align: center;"><font color="#55b9e2"><b>４階・５階：ゲストハウス（ドミトリー）</b></font></p>
+</div>
+
+<p>&nbsp;</p>
+
+<p>生まれ育った自分から見ると、ステキな場所や人、モノに溢れている下関。それなのに、山口県に泊まったことがある人はとても少ないです。そんな人達も一度でいいからココに泊まってほしい。<strong><span style="background-color:#ffffcc;">下関のヒトとモノが集うウズハウスに滞在していただければ、下関で押さえるべき魅力のすべてを網羅することができます。</span></strong></p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" height="404" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/144995/content_4f7d05b6140e714059119c5caca260869770bc90.jpg" width="610" /></p>
+
+<p style="text-align: right;">（晴れた日のウズハウスからの夜景もとても綺麗です）</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<div style="border: 1px solid #55b9e2; padding: 10px 5px 10px 20px; border-radius: 15px; background-color: #55b9e2">
+<p style="text-align: center;"><font color="#ffffff"><b>「変わっていく」下関市を「変えていく」</b></font></p>
+</div>
+
+<p>&nbsp;</p>
+
+<p>私は1995年の春、19歳の時に上京しました。変化の激しい首都圏の生活を日々過ごす中、故郷はずっと変わらないままだと漠然と思っていました。</p>
+
+<p>&nbsp;</p>
+
+<p>でも帰郷するたびに、よく行っていたお店が閉店していたり、他の店に変わっていたり。故郷が徐々に変わっていく姿を目の当たりにしました。実際、私たちがウズハウスをオープンする唐戸エリアの商店街の店舗数は、<strong><span style="background-color:#ffffcc;">1989年の475店舗から309店舗まで減り、３軒に１軒が消えた勘定になります。</span></strong></p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/138847/content_2d5a7b3b1f9bbe6e063fde087fde3f05c97c01a1.jpg" style="width: 610px; height: 406px;" /></p>
+
+<p style="text-align: right;">（地元の商店街も以前のような活気がなくなっているように感じます）</p>
+
+<p>&nbsp;</p>
+
+<p>身内や友達もまだ多く住む故郷に対して、自分なりに何かできないかということは常日頃から考えていたのですが、昨年ふと下関市にゲストハウスがあればと思い立ちました。ゲストハウスがあれば、世界中から今より多くの人に下関に来てもらえるし、まだまだ上手く発信しきれていない下関の魅力に対しても直に接してもらえる。外部からの人の流れが、下関市全体を活性化できるのではないかと思ったのです。</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" height="356" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/139709/content_a788953d6d9c25d0cf249cf8bdca89bb7fb1ec0f.png" width="610" /></p>
+
+<p style="text-align: right;">（ウズハウスプロジェクト実行委員会代表の沖野です）</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<div style="border: 1px solid #55b9e2; padding: 10px 5px 10px 20px; border-radius: 15px; background-color: #55b9e2">
+<p style="text-align: center;"><font color="#ffffff"><b>きっかけは「あの人」とのLINEから。<br />
+東京から拠点を移し、下関のために働くことを決意！</b></font></p>
+</div>
+
+<p>&nbsp;</p>
+
+<p>思い立ってからすぐに連絡したのは、首相夫人である安倍昭恵さんでした。昭恵さんは、山口県に対して特別な思いを持った方であり、常にユニークな発想をお持ちの方だと尊敬をしていました。ゲストハウスも<strong><span style="background-color:#ffffcc;">昭恵さんと一緒につくることが出来れば絶対に魅力的な場所になる</span></strong>と思ったのです。そこで私は一本のLINEメッセージを昭恵さんに送りました。</p>
+
+<p>&nbsp;</p>
+
+<blockquote>
+<p>下関市にゲストハウスを作れないかなと思っています。山口県に観光客を呼ぶために、色々なタイプの宿泊施設が必要かなと思いまして。今度、１、２時間でもお時間をください</p>
+</blockquote>
+
+<p>&nbsp;</p>
+
+<p>忙しい昭恵さんからすぐは返事が来ないだろうと思っていたところ、返事が来たのはなんと３分後。</p>
+
+<p>&nbsp;</p>
+
+<blockquote>
+<p>ちょうど同じようなことを考えていた！</p>
+</blockquote>
+
+<p>&nbsp;</p>
+
+<p>昭恵さんからの返事に「運命」を感じるとともに、ここからまさに「渦」が広まっていきました。昭恵さんが人を巻き込むケースは多いけれど、巻き込まれるのは珍しいそうで、しかも昭恵さんのような方が一泊3,000円からの安宿の運営を、下関の地域活性のためにがっつりコミットして取り組んでくださる本気度に、今度は私が突き動かされ、<strong><span style="background-color:#ffffcc;">東京から拠点を移し、下関市に帰って「ウズハウス」で働くことを決意しました。</span></strong></p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" height="372" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/139708/content_4d8fa47ec429c51516f97d1784220f57bbdf7eb2.png" width="610" /></p>
+
+<p style="text-align: right;">（昭恵さんの力もお借りしながら、ウズハウスプロジェクトは進行しています）</p>
+
+<p>&nbsp;</p>
+
+<p>プロジェクトメンバーには、下関を愛するメンバーが揃いました。昭恵さんも積極的にプロジェクトの運営に参加してくださっています。でも私たちは、この「ウズハウス」をみんなの力でつくっていきたいと考えています。なぜなら、ウズハウスはどんな方にもオープンな場所でありたいと考えているからです。</p>
+
+<p>&nbsp;</p>
+
+<p>下関の魅力が一つに凝縮されたウズハウスは、県外の方には気軽に下関の魅力を知ってもらえる場所に。そして地元・下関の方には、すっかり日常に溶け込み毎日訪れたくなるような場所に。<strong><span style="background-color:#ffffcc;">職業や出身地や国籍を超えて、誰にでもオープンな、まさに「小さな街」を下関という町の中につくります。</span></strong></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="background-color:#FFFFFF;">皆さん、応援よろしくお願いいたします！</span></strong></p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" height="406" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/144981/content_c8038ebfb764df2aa0c8ae6540f6a8f80709785d.jpg" width="610" /></p>
+
+<p style="text-align: right;">（下関出身がほとんどのメンバーに加え、プロジェクトメンバーに昭恵さんも</p>
+
+<p style="text-align: right;">加わってくださり、下関の活性化のために頑張ります！）</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<div style="border: 1px solid #55b9e2; padding: 10px 5px 10px 20px; border-radius: 15px; background-color: #55b9e2">
+<p style="text-align: center;"><font color="#ffffff"><b>プロジェクト詳細</b></font></p>
+</div>
+
+<p>&nbsp;</p>
+
+<p><strong>施設名：</strong>ウズハウス</p>
+
+<p><strong>住所：</strong>山口県下関市阿弥陀寺町7-8</p>
+
+<p><strong>オープン予定日：</strong>平成28年5月</p>
+
+<p><strong>改修・初期費用：</strong>10,915万円（うち3,000万円をクラウドファンディングで募集）</p>
+
+<p><strong>内訳：</strong>・建物の改修費：9,520万円（1,000平米6階分）</p>
+
+<p>　　　・不動産費用　： &nbsp;&nbsp;125万円</p>
+
+<p>　　　・運転資金 　 &nbsp;： &nbsp; 781万円</p>
+
+<p>　　　・備品設備費　： &nbsp; 489万円</p>
+
+<p style="text-align: right;">※その他の資金はクラウドファンディング以外で調達</p>
+
+<p style="text-align: right;">&nbsp;</p>
+
+<p><img alt="" height="429" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/139663/content_8d032447e4c6ca4c436d7e6a30cb5b4370fc5c2e.png" width="610" /></p>
+
+<p style="text-align: right;">（リノベーション前のウズハウス）</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/138195/content_3cba5513bb1da3d24e80a0bb5c313d09de7c7cee.png" style="width: 610px; height: 404px;" /></p>
+
+<p style="text-align: right;">（建物の中はほとんど何もない状態で、</p>
+
+<p style="text-align: right;">6フロア1,000平米分の総リノベーションが必要です）</p>
+
+<p>&nbsp;</p>
+
+<p>この「ウズハウス」が渦の中心となり、下関に、そして日本中に「渦」を巻き起こしていきます。<strong><span style="background-color:#ffffcc;">いただいた資金はすべて、これらの設備を「ウズハウス」に取り入れるための建物の改修費用に充てさせていただきます。</span></strong>今回のクラウドファンディングでは、6階建て1,000平米の建物の改修費用約9,000万円のうち、3,000万円の応援を皆様にお願いしたいです<strong>。</strong></p>
+
+<p>&nbsp;</p>
+
+<p><br />
+<img alt="" height="64" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/145430/content_673eb14f22d9d77de6649bea11f28641861cca5a.png" width="610" /></p>
+
+<p>&nbsp;</p>
+
+<p>リターンには、地元・下関の方々にも沢山のご協力をいただきました。<strong><span style="background-color:#ffffcc;">リターンを購入していただくだけで、ウズハウス設立の協力メンバーになれることはもちろん、下関の活性化にもつながります！</span></strong></p>
+
+<p>&nbsp;</p>
+
+<p>そして<strong><span style="background-color:#ffffcc;">下関を満喫できる体験型リターンも沢山盛り込みました。</span></strong>ぜひ下関に遊びにきてください。ウズハウスメンバー一同、心よりお待ちしております。</p>
+
+<p>&nbsp;</p>
+
+<p><strong>◼︎下関在住のデザイナーによる下関モチーフポストカード３枚セット</strong></p>
+
+<p><img alt="" height="216" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/145511/content_dcdfd41cb6e96e78736deb5f5add6f6311da8e80." width="350" /></p>
+
+<section>
+<p>&nbsp;</p>
+
+<p><strong>◼︎しものせきみくじ付き缶バッジ</strong></p>
+
+<p><a href="https://readyfor.jp/admin/projects/update/6600" onclick="return false;"><span style="color:#000000;"><img alt="" height="226" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/145123/content_b1b14e0b05a676c015eed14d5cd89b27a0469b56.png" width="350" /></span></a><br />
+&nbsp;</p>
+
+<p><strong>◼︎ステッカー</strong></p>
+
+<p>&nbsp;</p>
+
+<p><strong>◼︎サンクスレター</strong></p>
+
+<p><span style="color:#000000;">50万円以上の支援者の方には、ウズハウスメンバーの昭恵さんが直筆でお手紙を書かせていただきます。</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong>◼︎HPにお名前＆顔写真掲載（希望者のみ）</strong></p>
+
+<p>&nbsp;</p>
+
+<p><strong>◼︎【READYFOR支援者限定】ウズハウスTシャツ</strong></p>
+</section>
+
+<section>
+<p><span style="color:#000000;">READYFORで支援した方しか手に入らない限定グッズです。</span></p>
+
+<p><font color="#000000">※写真はイメージです。</font></p>
+
+<p><span style="color:#000000;"><img alt="" height="216" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/145510/content_dcdfd41cb6e96e78736deb5f5add6f6311da8e80." width="350" /></span></p>
+
+<p>&nbsp;</p>
+
+<p><strong>◼︎ウズパス（宿泊代20%オフや周辺施設割引券など、その他特典あり）</strong></p>
+
+<p>30万円以上の支援者の方にはウズシルバーパス、100万円の支援者の方にはウズゴールドパスをお届けします。特典も豪華になります。どんな特典がつくかはお楽しみに！</p>
+
+<p>&nbsp;</p>
+
+<p><strong>◼︎ウズハウスで使える3,000円分、10,000円分のチケット</strong><br />
+<span style="color:#000000;"><img alt="" height="216" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/145512/content_801dc5c3610d303d73c37e27b3d6f5ac9f7661dc." width="350" /></span></p>
+</section>
+
+<section>
+<p>&nbsp;</p>
+
+<p><strong>◼︎下記①〜⑤より２つ選択</strong><br />
+①しものせき水族館「海響館」ペアチケット</p>
+
+<p><img alt="" height="234" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/145145/content_21327575f595003ec7d319c5e5e41f96deab52fd.jpg" width="350" /></p>
+
+<p>&nbsp;</p>
+
+<p>②川棚グランドホテルご入浴お食事セット（温泉＆名物瓦そば）ペアチケット</p>
+
+<p><img alt="" height="233" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/145921/content_95c4d297619c8adae4a3f8e86e0eb6dbf1ec0733.jpg" width="350" /></p>
+
+<p><img alt="" height="282" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/145925/content_b386a18e9decdd97ef5bbc0f35e7baba3acfe11d.jpg" width="350" /></p>
+
+<p>※GWの5月3日～5月5日、お盆の8月13日～8月15日、年末年始の12月31日～1月3日、こちらの特別日はご利用除外日とさせていただきます。</p>
+
+<p>&nbsp;</p>
+
+<p>③ウズハウスオリジナル冷酒器</p>
+
+<p>&nbsp;</p>
+
+<p>④下関名産詰め合わせ土産袋「おふくわけ」（ふく・うに・くじら＆うまいもん名人編）</p>
+
+<p>&nbsp;</p>
+
+<p>⑤下関名産詰め合わせ土産袋「おふくわけ」（老舗逸品＆おやつ編）</p>
+
+<p><a href="https://readyfor.jp/admin/projects/update/6600" onclick="return false;"><span style="color:#000000;"><img alt="" height="198" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/145109/content_17a88c8d77718c27ae4e84557f06039f201e4fd7.jpg" width="450" /></span></a><br />
+&nbsp;</p>
+
+<p><strong>◼︎昭恵農場での田植え・稲刈り体験に参加（限定20名）</strong></p>
+</section>
+
+<section>
+<p>場所：長門市油谷町<br />
+<span style="color:#000000;"><img alt="" height="216" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/145509/content_dcdfd41cb6e96e78736deb5f5add6f6311da8e80." width="350" /></span></p>
+
+<p>&nbsp;</p>
+
+<p><strong>◼︎「地酒のまえつる」チョイス！山口県の豪華地酒３本セット</strong><br />
+<span style="color:#000000;"><img alt="" height="216" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/145508/content_dcdfd41cb6e96e78736deb5f5add6f6311da8e80." width="350" /></span></p>
+</section>
+
+<section>
+<p>&nbsp;</p>
+
+<p><strong>◼︎山口県住みます芸人どさけんと行く、大爆笑下関観光案内ツアー（６時間程度）</strong></p>
+
+<p><span style="color:#000000;"><img alt="" height="216" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/145507/content_dcdfd41cb6e96e78736deb5f5add6f6311da8e80." width="350" /></span></p>
+
+<p>&nbsp;</p>
+
+<p><strong>◼︎ウズハウスオリジナル一合枡</strong></p>
+
+<p><strong><span style="color:#000000;"><img alt="" height="233" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/145479/content_9e98191c845334baba51ac6a645b0ea339a718dd.jpg" width="350" /></span></strong></p>
+
+<p>&nbsp;</p>
+
+<p><strong>◼︎下関産ソース（カギ印ソース本舗・中濃カレー味）</strong></p>
+
+<p>&nbsp;</p>
+</section>
+
+<section>
+<p><strong>◼︎吉田水産ふぐ刺しセット、ふぐフルコースセット</strong><br />
+※写真はイメージです。</p>
+
+<p><strong><span style="color:#000000;"><img alt="" height="289" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/145506/content_dcdfd41cb6e96e78736deb5f5add6f6311da8e80." width="350" /></span></strong><br />
+&nbsp;</p>
+
+<p><strong>◼︎エントランスに用いるブロック１個の色決め、および名前を入れられる権利​</strong></p>
+
+<p><img alt="" height="216" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/145505/content_dcdfd41cb6e96e78736deb5f5add6f6311da8e80." width="350" /></p>
+
+<p><br />
+<strong>◼︎昭恵さんと見る海峡花火大会屋上観覧チケット（２時間程度）</strong><br />
+日時：2016年8月13日</p>
+
+<p><img alt="" height="216" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/145502/content_339f5868588cfc8fda4a1ec94ead8f737c5fcfc0." width="350" /></p>
+
+<p><br />
+<strong>◼︎プレオープンのシークレットイベントにご招待</strong></p>
+
+<p>&nbsp;</p>
+
+<p><strong>◼︎吉田水産のふぐ職人によるケータリングサービスを受けられる権利</strong></p>
+
+<p>&nbsp;</p>
+
+<p><strong>◼︎企業名（もしくは個人名）とロゴをウズハウスに記載</strong></p>
+
+<p>&nbsp;</p>
+
+<p><strong>◼︎企業研修でウズハウスを利用できる権利（10名様まで宿泊無料）</strong></p>
+</section>
+
+
+            </section>
+            <!-- /概要 -->
+            <hr>
+            <section class="Project-update Tab__content">
+                <h2>最新の新着情報</h2>
+                <aside class="Project-update__related">
+                  <article class="Project-update__related-item Media">
+  <div class="Project-update__related-item-main Media__body docs-area">
+    <header class="Project-update__related-item-header">
+
+
+        <time pubdate="2016-03-15" class="Project-update__related-item-header-date">2016年03月15日</time>
+
+
+      <h1 class="Project-update__related-item-header-h">
+        <a class="u-font_b" href="/projects/uzuhouse/announcements/36144">【下関の魅力を伝えるリターンのご紹介 file.02】</a>
+      </h1>
+
+
+
+
+    </header>
+    <div  class="Project-update__related-item-body">
+      <p>こんばんは、ウズハウスプロジェクト実行委員です。 いつも沢山の応援とご支援、ありがとうございます！ 前にご紹介しました『関の乙女吟味品 ふるさとおふくわけ』 に続いて、今回はちょっと変わったリターンの紹介です。 題して『山口県住みます芸人どさけんと行く、大爆笑下関観光案内ツアーコ...</p>
+    </div>
+    <footer class="Project-update__related-item-footer">
+      <a href="/projects/uzuhouse/announcements/36144">続きを見る</a>
+       /
+      <a href="/projects/uzuhouse/announcements/36144">コメントする</a>
+    </footer>
+  </div>
+</article>
+
+                </aside>
+            </section>
+
+
+            <a class="Btn-1-flat backing-button-wrap is-no-shadow u-fit-w u-mt_20 u-mb_30" href="/projects/uzuhouse/contribution"><div class="Btn-1__inner"><div class="Btn-1__content"><span class="Btn-1__txt u-fs_18">このプロジェクトを支援する</span></div></div></a>
+            <div class="fb-page-box u-mt_30">
+              <span>Facebookページでおすすめプロジェクトを毎日配信しています</span>
+              <div class="fb-page" data-href="https://www.facebook.com/readyfor" data-width="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" data-show-posts="false">
+                <div class="fb-xfbml-parse-ignore">
+                  <blockquote cite="https://www.facebook.com/readyfor">
+                    <a href="https://www.facebook.com/readyfor">Ready for?</a>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /Tab__contents -->
+
+
+
+
+
+
+          </div>
+          <!-- /Tab__contents -->
+
+        </div>
+        <!-- /Tab -->
+
+      </div>
+
+      <div class="Sidebar is-type0 u-fl_r">
+        <div class="u-em u-fs_18 u-font_b u-align_c u-mt_20 u-mb_20">
+            <a rel="nofollow" data-method="post" href="/projects/uzuhouse/watch">    <span class="Icon-plus u-mr_5"></span>
+    <span class="u-valign_m tooltipped tooltipped-n" aria-label="マイページに追加され、新着情報を受け取れます。">
+      気になるリストに追加する
+    </span>
+
+</a>
+        </div>
+                      <section class="Project-return Side-area-1 u-mb_20">
+              <a class="is-no-shadow u-fit-w u-mt_20 Side-area-1-txt" href="/projects/uzuhouse/contribution?select_id=26552">              <b><p class="Project-return__title u-fs_16 u-mb_15">
+                  お気軽に支援できるコース
+              </p></b>
+              <h1 class="u-mb_15">
+                <b class="u-fs_20 u-font-en u-font_b">&yen;
+                  <span class="Project-return__price">
+                    3,000
+                  </span>
+                </b>
+                  <span class="u-fs_16">のリターン</span>
+              </h1>
+              <div class="Project-return__img u-mb_15">
+                <img src="https://readyfor-img.s3.amazonaws.com/reward_images/26552/medium/5a5e70cbe52dc9a3e86b1f4dcff42ae6189bc08c.jpg?1451274390" alt="5a5e70cbe52dc9a3e86b1f4dcff42ae6189bc08c" width="280" height="173" />
+              </div>
+              <p class="Project-return__description u-mb_30">
+                ◼︎下関在住のデザイナーによる下関モチーフポストカード３枚セット<br />◼︎しものせきみくじ付き缶バッジ＆ステッカー<br />◼︎サンクスレター＆HPにお名前掲載（希望者のみ）
+              </p>
+              <ul class="Project-return__condition">
+                <li class="u-mb_10">
+                  <span class="Icon-supporter u-mr_10"></span>
+                  <span class="u-valign_m">
+                    76人が支援中／
+                    <span class="Project-return__condition-limit">
+                        在庫制限無し
+                    </span>
+                  </span>
+                </li>
+                <li class="u-mb_10">
+                    <span class="Icon-shipment u-mr_10"></span>
+                    <span class="u-valign_m">
+                      2016年05月までにお届け予定です。
+                    </span>
+                </li>
+              </ul>
+              <a class="Btn-1-flat is-no-shadow u-fit-w u-mt_20" href="/projects/uzuhouse/contribution?select_id=26552">                <div class="Btn-1__inner-flat">
+                  <div class="Btn-1__content">
+                    <div class="Btn-1__txt">このリターンを購入する</div>
+                  </div>
+                </div>
+</a></a>            </section>
+
+                      <section class="Project-return Side-area-1 u-mb_20">
+              <a class="is-no-shadow u-fit-w u-mt_20 Side-area-1-txt" href="/projects/uzuhouse/contribution?select_id=26626">              <b><p class="Project-return__title u-fs_16 u-mb_15">
+                  【READYFOR支援者限定】ウズハウスオリジナルTシャツセット
+              </p></b>
+              <h1 class="u-mb_15">
+                <b class="u-fs_20 u-font-en u-font_b">&yen;
+                  <span class="Project-return__price">
+                    10,000
+                  </span>
+                </b>
+                  <span class="u-fs_16">のリターン</span>
+              </h1>
+              <div class="Project-return__img u-mb_15">
+                <img src="https://readyfor-img.s3.amazonaws.com/reward_images/26626/medium/c46da6966b643a00b4760861b89dea36edd01182.jpg?1451219298" alt="C46da6966b643a00b4760861b89dea36edd01182" width="280" height="173" />
+              </div>
+              <p class="Project-return__description u-mb_30">
+                ◼︎【READYFOR支援者限定】ウズハウスTシャツ<br />◼︎ウズパス（宿泊代20%オフや周辺施設割引券など、その他特典あり）<br />◼︎下関在住のデザイナーによる下関モチーフポストカード３枚セット<br />◼︎しものせきみくじ付き缶バッジ＆ステッカー<br />◼︎サンクスレター＆HPにお名前掲載（希望者のみ）
+              </p>
+              <ul class="Project-return__condition">
+                <li class="u-mb_10">
+                  <span class="Icon-supporter u-mr_10"></span>
+                  <span class="u-valign_m">
+                    20人が支援中／
+                    <span class="Project-return__condition-limit">
+                        在庫制限無し
+                    </span>
+                  </span>
+                </li>
+                <li class="u-mb_10">
+                    <span class="Icon-shipment u-mr_10"></span>
+                    <span class="u-valign_m">
+                      2016年05月までにお届け予定です。
+                    </span>
+                </li>
+              </ul>
+              <a class="Btn-1-flat is-no-shadow u-fit-w u-mt_20" href="/projects/uzuhouse/contribution?select_id=26626">                <div class="Btn-1__inner-flat">
+                  <div class="Btn-1__content">
+                    <div class="Btn-1__txt">このリターンを購入する</div>
+                  </div>
+                </div>
+</a></a>            </section>
+
+                      <section class="Project-return Side-area-1 u-mb_20">
+              <a class="is-no-shadow u-fit-w u-mt_20 Side-area-1-txt" href="/projects/uzuhouse/contribution?select_id=26627">              <b><p class="Project-return__title u-fs_16 u-mb_15">
+                  ウズパスをゲットして、あなたもウズハウス設立メンバーの一員に！
+              </p></b>
+              <h1 class="u-mb_15">
+                <b class="u-fs_20 u-font-en u-font_b">&yen;
+                  <span class="Project-return__price">
+                    10,000
+                  </span>
+                </b>
+                  <span class="u-fs_16">のリターン</span>
+              </h1>
+              <div class="Project-return__img u-mb_15">
+                <img src="https://readyfor-img.s3.amazonaws.com/reward_images/26627/medium/484ccdc40bc04b0e6bad554d52203d7f99f42828.JPG?1451291208" alt="484ccdc40bc04b0e6bad554d52203d7f99f42828" width="280" height="173" />
+              </div>
+              <p class="Project-return__description u-mb_30">
+                ◼︎ウズハウスで使える3,000円分のチケット<br />◼︎ウズパス（宿泊代20%オフや周辺施設割引券など、その他特典あり）<br />◼︎しものせきみくじ付き缶バッジ＆ステッカー<br />◼︎サンクスレター＆HPにお名前掲載（希望者のみ）
+              </p>
+              <ul class="Project-return__condition">
+                <li class="u-mb_10">
+                  <span class="Icon-supporter u-mr_10"></span>
+                  <span class="u-valign_m">
+                    62人が支援中／
+                    <span class="Project-return__condition-limit">
+                        在庫制限無し
+                    </span>
+                  </span>
+                </li>
+                <li class="u-mb_10">
+                    <span class="Icon-shipment u-mr_10"></span>
+                    <span class="u-valign_m">
+                      2016年05月までにお届け予定です。
+                    </span>
+                </li>
+              </ul>
+              <a class="Btn-1-flat is-no-shadow u-fit-w u-mt_20" href="/projects/uzuhouse/contribution?select_id=26627">                <div class="Btn-1__inner-flat">
+                  <div class="Btn-1__content">
+                    <div class="Btn-1__txt">このリターンを購入する</div>
+                  </div>
+                </div>
+</a></a>            </section>
+
+                      <section class="Project-return Side-area-1 u-mb_20">
+              <a class="is-no-shadow u-fit-w u-mt_20 Side-area-1-txt" href="/projects/uzuhouse/contribution?select_id=31278">              <b><p class="Project-return__title u-fs_16 u-mb_15">
+                  山口県住みます芸人どさけんと行く、大爆笑下関観光案内ツアーコース
+              </p></b>
+              <h1 class="u-mb_15">
+                <b class="u-fs_20 u-font-en u-font_b">&yen;
+                  <span class="Project-return__price">
+                    10,000
+                  </span>
+                </b>
+                  <span class="u-fs_16">のリターン</span>
+              </h1>
+              <div class="Project-return__img u-mb_15">
+                <img src="https://readyfor-img.s3.amazonaws.com/reward_images/31278/medium/07ca58b08b22b4a2d925d70cce56c3f3bd7e2307.png?1457996953" alt="07ca58b08b22b4a2d925d70cce56c3f3bd7e2307" width="280" height="173" />
+              </div>
+              <p class="Project-return__description u-mb_30">
+                ◼︎山口県住みます芸人どさけんと行く、ワゴンで大爆笑下関観光案内ツアー（６時間程度） <br />◼︎【READYFOR支援者限定】どさけんTシャツ<br />◼︎下関産ソース（カギ印ソース本舗・中濃カレー味）<br />◼︎ウズパス（宿泊代20%オフや周辺施設割引券など、その他特典あり）<br />◼︎しものせきみくじ付き缶バッジ＆ステッカー<br />◼︎サンクスレター＆HPにお名前掲載（希望者のみ）
+              </p>
+              <ul class="Project-return__condition">
+                <li class="u-mb_10">
+                  <span class="Icon-supporter u-mr_10"></span>
+                  <span class="u-valign_m">
+                    0人が支援中／
+                    <span class="Project-return__condition-limit">
+                        在庫制限無し
+                    </span>
+                  </span>
+                </li>
+                <li class="u-mb_10">
+                    <span class="Icon-shipment u-mr_10"></span>
+                    <span class="u-valign_m">
+                      2016年05月までにお届け予定です。
+                    </span>
+                </li>
+              </ul>
+              <a class="Btn-1-flat is-no-shadow u-fit-w u-mt_20" href="/projects/uzuhouse/contribution?select_id=31278">                <div class="Btn-1__inner-flat">
+                  <div class="Btn-1__content">
+                    <div class="Btn-1__txt">このリターンを購入する</div>
+                  </div>
+                </div>
+</a></a>            </section>
+
+                      <section class="Project-return Side-area-1 u-mb_20">
+              <a class="is-no-shadow u-fit-w u-mt_20 Side-area-1-txt" href="/projects/uzuhouse/contribution?select_id=26628">              <b><p class="Project-return__title u-fs_16 u-mb_15">
+                  港町・下関をたっぷり堪能できるコース
+              </p></b>
+              <h1 class="u-mb_15">
+                <b class="u-fs_20 u-font-en u-font_b">&yen;
+                  <span class="Project-return__price">
+                    30,000
+                  </span>
+                </b>
+                  <span class="u-fs_16">のリターン</span>
+              </h1>
+              <div class="Project-return__img u-mb_15">
+                <img src="https://readyfor-img.s3.amazonaws.com/reward_images/26628/medium/88c37295b1b85e70ac5f3f41d65ce4c26fcc809b.jpg?1453473060" alt="88c37295b1b85e70ac5f3f41d65ce4c26fcc809b" width="280" height="173" />
+              </div>
+              <p class="Project-return__description u-mb_30">
+                ◼︎下記①〜⑤より２つ選択<br />①しものせき水族館「海響館」ペアチケット<br />②川棚グランドホテルご入浴お食事セット（温泉＆名物瓦そば）ペアチケット<br />③ウズハウスオリジナル冷酒器<br />④下関名産詰め合わせ土産袋「おふくわけ」（ふく・うに・くじら＆うまいもん名人編）<br />⑤下関名産詰め合わせ土産袋「おふくわけ」（老舗逸品＆おやつ編）<br />◼︎ウズパス（宿泊代20%オフや周辺施設割引券など、その他特典あり）<br />◼︎しものせきみくじ付き缶バッジ＆ステッカー<br />◼︎サンクスレター＆HPにお名前＆顔写真掲載（希望者のみ）<br />
+              </p>
+              <ul class="Project-return__condition">
+                <li class="u-mb_10">
+                  <span class="Icon-supporter u-mr_10"></span>
+                  <span class="u-valign_m">
+                    17人が支援中／
+                    <span class="Project-return__condition-limit">
+                        在庫制限無し
+                    </span>
+                  </span>
+                </li>
+                <li class="u-mb_10">
+                    <span class="Icon-shipment u-mr_10"></span>
+                    <span class="u-valign_m">
+                      2016年05月までにお届け予定です。
+                    </span>
+                </li>
+              </ul>
+              <a class="Btn-1-flat is-no-shadow u-fit-w u-mt_20" href="/projects/uzuhouse/contribution?select_id=26628">                <div class="Btn-1__inner-flat">
+                  <div class="Btn-1__content">
+                    <div class="Btn-1__txt">このリターンを購入する</div>
+                  </div>
+                </div>
+</a></a>            </section>
+
+                      <section class="Project-return Side-area-1 u-mb_20">
+              <a class="is-no-shadow u-fit-w u-mt_20 Side-area-1-txt" href="/projects/uzuhouse/contribution?select_id=26633">              <b><p class="Project-return__title u-fs_16 u-mb_15">
+                  ウズハウスで使える10,000円分のチケット付き！
+              </p></b>
+              <h1 class="u-mb_15">
+                <b class="u-fs_20 u-font-en u-font_b">&yen;
+                  <span class="Project-return__price">
+                    30,000
+                  </span>
+                </b>
+                  <span class="u-fs_16">のリターン</span>
+              </h1>
+              <div class="Project-return__img u-mb_15">
+                <img src="https://readyfor-img.s3.amazonaws.com/reward_images/26633/medium/048f468620e4134efbea86aefc01a320bd6a83ef.JPG?1451291225" alt="048f468620e4134efbea86aefc01a320bd6a83ef" width="280" height="173" />
+              </div>
+              <p class="Project-return__description u-mb_30">
+                ◼︎ウズハウスで使える10,000円分のチケット<br />◼︎ウズパス（宿泊代20%オフや周辺施設割引券など、その他特典あり）<br />◼︎しものせきみくじ付き缶バッジ＆ステッカー<br />◼︎サンクスレター＆HPにお名前＆顔写真掲載（希望者のみ）<br />
+              </p>
+              <ul class="Project-return__condition">
+                <li class="u-mb_10">
+                  <span class="Icon-supporter u-mr_10"></span>
+                  <span class="u-valign_m">
+                    11人が支援中／
+                    <span class="Project-return__condition-limit">
+                        在庫制限無し
+                    </span>
+                  </span>
+                </li>
+                <li class="u-mb_10">
+                    <span class="Icon-shipment u-mr_10"></span>
+                    <span class="u-valign_m">
+                      2016年05月までにお届け予定です。
+                    </span>
+                </li>
+              </ul>
+              <a class="Btn-1-flat is-no-shadow u-fit-w u-mt_20" href="/projects/uzuhouse/contribution?select_id=26633">                <div class="Btn-1__inner-flat">
+                  <div class="Btn-1__content">
+                    <div class="Btn-1__txt">このリターンを購入する</div>
+                  </div>
+                </div>
+</a></a>            </section>
+
+                      <section class="Project-return Side-area-1 u-mb_20">
+              <a class="is-no-shadow u-fit-w u-mt_20 Side-area-1-txt" href="/projects/uzuhouse/contribution?select_id=27316">              <b><p class="Project-return__title u-fs_16 u-mb_15">
+                  【限定20名】昭恵農場での田植え・稲刈り体験に参加できます
+              </p></b>
+              <h1 class="u-mb_15">
+                <b class="u-fs_20 u-font-en u-font_b">&yen;
+                  <span class="Project-return__price">
+                    30,000
+                  </span>
+                </b>
+                  <span class="u-fs_16">のリターン</span>
+              </h1>
+              <div class="Project-return__img u-mb_15">
+                <img src="https://readyfor-img.s3.amazonaws.com/reward_images/27316/medium/fa3f290df1b633c1c48d61a3eaf7b2f36c767121.jpg?1451194111" alt="Fa3f290df1b633c1c48d61a3eaf7b2f36c767121" width="280" height="173" />
+              </div>
+              <p class="Project-return__description u-mb_30">
+                ◼︎昭恵農場での田植え・稲刈り体験に参加<br />◼︎【READYFOR支援者限定】ウズハウスTシャツ<br />◼︎ウズパス（宿泊代20%オフや周辺施設割引券など、その他特典あり）<br />◼︎しものせきみくじ付き缶バッジ＆ステッカー<br />◼︎サンクスレター＆HPにお名前＆顔写真掲載（希望者のみ）
+              </p>
+              <ul class="Project-return__condition">
+                <li class="u-mb_10">
+                  <span class="Icon-supporter u-mr_10"></span>
+                  <span class="u-valign_m">
+                    15人が支援中／
+                    <span class="Project-return__condition-limit">
+                          数量限定
+                        &nbsp; &nbsp;
+                        残り 5
+                    </span>
+                  </span>
+                </li>
+                <li class="u-mb_10">
+                    <span class="Icon-shipment u-mr_10"></span>
+                    <span class="u-valign_m">
+                      2016年05月までにお届け予定です。
+                    </span>
+                </li>
+              </ul>
+              <a class="Btn-1-flat is-no-shadow u-fit-w u-mt_20" href="/projects/uzuhouse/contribution?select_id=27316">                <div class="Btn-1__inner-flat">
+                  <div class="Btn-1__content">
+                    <div class="Btn-1__txt">このリターンを購入する</div>
+                  </div>
+                </div>
+</a></a>            </section>
+
+                      <section class="Project-return Side-area-1 u-mb_20">
+              <a class="is-no-shadow u-fit-w u-mt_20 Side-area-1-txt" href="/projects/uzuhouse/contribution?select_id=26630">              <b><p class="Project-return__title u-fs_16 u-mb_15">
+                  「地酒のまえつる」チョイス！山口県の豪華地酒３本セットコース
+              </p></b>
+              <h1 class="u-mb_15">
+                <b class="u-fs_20 u-font-en u-font_b">&yen;
+                  <span class="Project-return__price">
+                    50,000
+                  </span>
+                </b>
+                  <span class="u-fs_16">のリターン</span>
+              </h1>
+              <div class="Project-return__img u-mb_15">
+                <img src="https://readyfor-img.s3.amazonaws.com/reward_images/26630/medium/8a21bc890455d3e4d6d5825b8c79282aef0f1dfc.jpg?1451291571" alt="8a21bc890455d3e4d6d5825b8c79282aef0f1dfc" width="280" height="173" />
+              </div>
+              <p class="Project-return__description u-mb_30">
+                ◼︎「地酒のまえつる」チョイス！山口県の豪華地酒３本セット<br />◼︎下記①〜⑤より２つ選択<br />①しものせき水族館「海響館」ペアチケット<br />②川棚グランドホテルご入浴お食事セット（温泉＆名物瓦そば）ペアチケット<br />③ウズハウスオリジナル冷酒器<br />④下関名産詰め合わせ「おふくわけ」（ふく・うに・くじら＆うまいもん名人編）<br />⑤「おふくわけ」（老舗逸品＆おやつ編）<br />◼︎ウズハウスオリジナル一合枡<br />◼︎ウズパス（宿泊代20%オフや周辺施設割引券など、その他特典あり）<br />◼︎しものせきみくじ付き缶バッジ＆ステッカー<br />◼︎サンクスレター＆HPにお名前＆顔写真掲載（希望者のみ）
+              </p>
+              <ul class="Project-return__condition">
+                <li class="u-mb_10">
+                  <span class="Icon-supporter u-mr_10"></span>
+                  <span class="u-valign_m">
+                    12人が支援中／
+                    <span class="Project-return__condition-limit">
+                        在庫制限無し
+                    </span>
+                  </span>
+                </li>
+                <li class="u-mb_10">
+                    <span class="Icon-shipment u-mr_10"></span>
+                    <span class="u-valign_m">
+                      2016年05月までにお届け予定です。
+                    </span>
+                </li>
+              </ul>
+              <a class="Btn-1-flat is-no-shadow u-fit-w u-mt_20" href="/projects/uzuhouse/contribution?select_id=26630">                <div class="Btn-1__inner-flat">
+                  <div class="Btn-1__content">
+                    <div class="Btn-1__txt">このリターンを購入する</div>
+                  </div>
+                </div>
+</a></a>            </section>
+
+                      <section class="Project-return Side-area-1 u-mb_20">
+              <a class="is-no-shadow u-fit-w u-mt_20 Side-area-1-txt" href="/projects/uzuhouse/contribution?select_id=26632">              <b><p class="Project-return__title u-fs_16 u-mb_15">
+                  ウズハウスオリジナル一合枡と一緒にふぐ刺しを楽しめるコース
+              </p></b>
+              <h1 class="u-mb_15">
+                <b class="u-fs_20 u-font-en u-font_b">&yen;
+                  <span class="Project-return__price">
+                    50,000
+                  </span>
+                </b>
+                  <span class="u-fs_16">のリターン</span>
+              </h1>
+              <div class="Project-return__img u-mb_15">
+                <img src="https://readyfor-img.s3.amazonaws.com/reward_images/26632/medium/7c4eec810991c756f12d0f42557f8fab65982cc5.jpg?1453970712" alt="7c4eec810991c756f12d0f42557f8fab65982cc5" width="280" height="173" />
+              </div>
+              <p class="Project-return__description u-mb_30">
+                ◼︎吉田水産ふぐ刺しセット<br />◼︎ウズハウスオリジナル一合枡<br />◼︎下関産ソース（カギ印ソース本舗・中濃カレー味）<br />◼︎ウズパス（宿泊代20%オフや周辺施設割引券など、その他特典あり）<br />◼︎しものせきみくじ付き缶バッジ＆ステッカー<br />◼︎サンクスレター＆HPにお名前＆顔写真掲載（希望者のみ）
+              </p>
+              <ul class="Project-return__condition">
+                <li class="u-mb_10">
+                  <span class="Icon-supporter u-mr_10"></span>
+                  <span class="u-valign_m">
+                    7人が支援中／
+                    <span class="Project-return__condition-limit">
+                          数量限定
+                        &nbsp; &nbsp;
+                        残り 43
+                    </span>
+                  </span>
+                </li>
+                <li class="u-mb_10">
+                    <span class="Icon-shipment u-mr_10"></span>
+                    <span class="u-valign_m">
+                      2016年05月までにお届け予定です。
+                    </span>
+                </li>
+              </ul>
+              <a class="Btn-1-flat is-no-shadow u-fit-w u-mt_20" href="/projects/uzuhouse/contribution?select_id=26632">                <div class="Btn-1__inner-flat">
+                  <div class="Btn-1__content">
+                    <div class="Btn-1__txt">このリターンを購入する</div>
+                  </div>
+                </div>
+</a></a>            </section>
+
+                      <section class="Project-return Side-area-1 u-mb_20">
+              <a class="is-no-shadow u-fit-w u-mt_20 Side-area-1-txt" href="/projects/uzuhouse/contribution?select_id=26629">              <b><p class="Project-return__title u-fs_16 u-mb_15">
+                  【限定10名】昭恵さんも参加するウズハウスメンバーと海峡花火大会を屋上で観覧できます！
+              </p></b>
+              <h1 class="u-mb_15">
+                <b class="u-fs_20 u-font-en u-font_b">&yen;
+                  <span class="Project-return__price">
+                    100,000
+                  </span>
+                </b>
+                  <span class="u-fs_16">のリターン</span>
+              </h1>
+              <div class="Project-return__img u-mb_15">
+                <img src="https://readyfor-img.s3.amazonaws.com/reward_images/26629/medium/bc0faf4e8363777fce7fa3e0e0fbc87ff06e6afb.png?1450405862" alt="Bc0faf4e8363777fce7fa3e0e0fbc87ff06e6afb" width="280" height="173" />
+              </div>
+              <p class="Project-return__description u-mb_30">
+                ◼︎エントランスに用いるブロックにご支援者様のお名前を入れさせていただきます（ブロックの色もご指定いただけます）<br />◼︎昭恵さんも参加するウズハウスメンバーと見る海峡花火大会屋上観覧チケット（２時間程度）<br />◼︎下関産ソース（カギ印ソース本舗・中濃カレー味）<br />◼︎ウズパス（宿泊代20%オフや周辺施設割引券など、その他特典あり）<br />◼︎しものせきみくじ付き缶バッジ＆ステッカー<br />◼︎サンクスレター＆HPにお名前＆顔写真掲載（希望者のみ）
+              </p>
+              <ul class="Project-return__condition">
+                <li class="u-mb_10">
+                  <span class="Icon-supporter u-mr_10"></span>
+                  <span class="u-valign_m">
+                    10人が支援中／
+                    <span class="Project-return__condition-limit">
+                          数量限定
+                        &nbsp; &nbsp;
+                        残り 1
+                    </span>
+                  </span>
+                </li>
+                <li class="u-mb_10">
+                    <span class="Icon-shipment u-mr_10"></span>
+                    <span class="u-valign_m">
+                      2016年05月までにお届け予定です。
+                    </span>
+                </li>
+              </ul>
+              <a class="Btn-1-flat is-no-shadow u-fit-w u-mt_20" href="/projects/uzuhouse/contribution?select_id=26629">                <div class="Btn-1__inner-flat">
+                  <div class="Btn-1__content">
+                    <div class="Btn-1__txt">このリターンを購入する</div>
+                  </div>
+                </div>
+</a></a>            </section>
+
+                      <section class="Project-return Side-area-1 u-mb_20">
+              <a class="is-no-shadow u-fit-w u-mt_20 Side-area-1-txt" href="/projects/uzuhouse/contribution?select_id=27317">              <b><p class="Project-return__title u-fs_16 u-mb_15">
+                  エントランスに用いるブロックに支援者様の名前を入れさせていただきます
+              </p></b>
+              <h1 class="u-mb_15">
+                <b class="u-fs_20 u-font-en u-font_b">&yen;
+                  <span class="Project-return__price">
+                    100,000
+                  </span>
+                </b>
+                  <span class="u-fs_16">のリターン</span>
+              </h1>
+              <div class="Project-return__img u-mb_15">
+                <img src="https://readyfor-img.s3.amazonaws.com/reward_images/27317/medium/7ad70326244e3549dccc76cf5b82062a934c5af6.jpg?1451223490" alt="7ad70326244e3549dccc76cf5b82062a934c5af6" width="280" height="173" />
+              </div>
+              <p class="Project-return__description u-mb_30">
+                ◼︎吉田水産ふぐフルコースセット<br />◼︎エントランスに用いるブロックにご支援者様のお名前を入れさせていただきます（ブロックの色もご指定いただけます）<br />◼︎下関産ソース（カギ印ソース本舗・中濃カレー味）<br />◼︎ウズパス（宿泊代20%オフや周辺施設割引券など、その他特典あり）<br />◼︎しものせきみくじ付き缶バッジ＆ステッカー<br />◼︎サンクスレター＆HPにお名前＆顔写真掲載（希望者のみ）
+              </p>
+              <ul class="Project-return__condition">
+                <li class="u-mb_10">
+                  <span class="Icon-supporter u-mr_10"></span>
+                  <span class="u-valign_m">
+                    22人が支援中／
+                    <span class="Project-return__condition-limit">
+                          数量限定
+                        &nbsp; &nbsp;
+                        残り 8
+                    </span>
+                  </span>
+                </li>
+                <li class="u-mb_10">
+                    <span class="Icon-shipment u-mr_10"></span>
+                    <span class="u-valign_m">
+                      2016年05月までにお届け予定です。
+                    </span>
+                </li>
+              </ul>
+              <a class="Btn-1-flat is-no-shadow u-fit-w u-mt_20" href="/projects/uzuhouse/contribution?select_id=27317">                <div class="Btn-1__inner-flat">
+                  <div class="Btn-1__content">
+                    <div class="Btn-1__txt">このリターンを購入する</div>
+                  </div>
+                </div>
+</a></a>            </section>
+
+                      <section class="Project-return Side-area-1 u-mb_20">
+              <a class="is-no-shadow u-fit-w u-mt_20 Side-area-1-txt" href="/projects/uzuhouse/contribution?select_id=26634">              <b><p class="Project-return__title u-fs_16 u-mb_15">
+                  【30万以上の支援者限定】ウズシルバーパスを手に入れて、プレオープンのシークレットイベントに参加
+              </p></b>
+              <h1 class="u-mb_15">
+                <b class="u-fs_20 u-font-en u-font_b">&yen;
+                  <span class="Project-return__price">
+                    300,000
+                  </span>
+                </b>
+                  <span class="u-fs_16">のリターン</span>
+              </h1>
+              <div class="Project-return__img u-mb_15">
+                <img src="https://readyfor-img.s3.amazonaws.com/reward_images/26634/medium/5b124d1cf8f8707d102ed3be41ac8e0880a9214d.jpg?1451208779" alt="5b124d1cf8f8707d102ed3be41ac8e0880a9214d" width="280" height="173" />
+              </div>
+              <p class="Project-return__description u-mb_30">
+                ◼︎プレオープンのシークレットイベントにご招待<br />◼︎ウズシルバーパス（宿泊代無料回数券や周辺施設割引券など、その他特典あり）<br />◼︎エントランスに用いるブロックにご支援者様のお名前を入れさせていただきます（ブロックの色もご指定いただけます）<br />◼︎下関産ソース（カギ印ソース本舗・中濃カレー味）<br />◼︎しものせきみくじ付き缶バッジ＆ステッカー<br />◼︎サンクスレター＆HPにお名前＆顔写真掲載（希望者のみ）<br />
+              </p>
+              <ul class="Project-return__condition">
+                <li class="u-mb_10">
+                  <span class="Icon-supporter u-mr_10"></span>
+                  <span class="u-valign_m">
+                    8人が支援中／
+                    <span class="Project-return__condition-limit">
+                        在庫制限無し
+                    </span>
+                  </span>
+                </li>
+                <li class="u-mb_10">
+                    <span class="Icon-shipment u-mr_10"></span>
+                    <span class="u-valign_m">
+                      2016年05月までにお届け予定です。
+                    </span>
+                </li>
+              </ul>
+              <a class="Btn-1-flat is-no-shadow u-fit-w u-mt_20" href="/projects/uzuhouse/contribution?select_id=26634">                <div class="Btn-1__inner-flat">
+                  <div class="Btn-1__content">
+                    <div class="Btn-1__txt">このリターンを購入する</div>
+                  </div>
+                </div>
+</a></a>            </section>
+
+                      <section class="Project-return Side-area-1 u-mb_20">
+              <a class="is-no-shadow u-fit-w u-mt_20 Side-area-1-txt" href="/projects/uzuhouse/contribution?select_id=26635">              <b><p class="Project-return__title u-fs_16 u-mb_15">
+                  地元「吉田水産」のふぐ職人があなたのもとでふぐを捌きます
+              </p></b>
+              <h1 class="u-mb_15">
+                <b class="u-fs_20 u-font-en u-font_b">&yen;
+                  <span class="Project-return__price">
+                    500,000
+                  </span>
+                </b>
+                  <span class="u-fs_16">のリターン</span>
+              </h1>
+              <div class="Project-return__img u-mb_15">
+                <img src="https://readyfor-img.s3.amazonaws.com/reward_images/26635/medium/2bba115edc2eadd3f16e4524916846b2408da841.jpg?1453970712" alt="2bba115edc2eadd3f16e4524916846b2408da841" width="280" height="173" />
+              </div>
+              <p class="Project-return__description u-mb_30">
+                ◼︎吉田水産のふぐ職人によるケータリングサービスを受けられる権利<br />◼︎プレオープンのシークレットイベントにご招待<br />◼︎ウズシルバーパス（宿泊代無料回数券や周辺施設割引券など、その他特典あり）<br />◼︎エントランスに用いるブロックにご支援者様のお名前を入れさせていただきます（ブロックの色もご指定いただけます）<br />◼︎サンクスレター（昭恵さん直筆）<br />◼︎HPにお名前＆顔写真掲載（希望者のみ）
+              </p>
+              <ul class="Project-return__condition">
+                <li class="u-mb_10">
+                  <span class="Icon-supporter u-mr_10"></span>
+                  <span class="u-valign_m">
+                    6人が支援中／
+                    <span class="Project-return__condition-limit">
+                          数量限定
+                        &nbsp; &nbsp;
+                        残り 4
+                    </span>
+                  </span>
+                </li>
+                <li class="u-mb_10">
+                    <span class="Icon-shipment u-mr_10"></span>
+                    <span class="u-valign_m">
+                      2016年05月までにお届け予定です。
+                    </span>
+                </li>
+              </ul>
+              <a class="Btn-1-flat is-no-shadow u-fit-w u-mt_20" href="/projects/uzuhouse/contribution?select_id=26635">                <div class="Btn-1__inner-flat">
+                  <div class="Btn-1__content">
+                    <div class="Btn-1__txt">このリターンを購入する</div>
+                  </div>
+                </div>
+</a></a>            </section>
+
+                      <section class="Project-return Side-area-1 u-mb_20">
+              <a class="is-no-shadow u-fit-w u-mt_20 Side-area-1-txt" href="/projects/uzuhouse/contribution?select_id=26636">              <b><p class="Project-return__title u-fs_16 u-mb_15">
+                  【100万円支援者限定】ウズゴールドパス＆企業向けリターンセット
+              </p></b>
+              <h1 class="u-mb_15">
+                <b class="u-fs_20 u-font-en u-font_b">&yen;
+                  <span class="Project-return__price">
+                    1,000,000
+                  </span>
+                </b>
+                  <span class="u-fs_16">のリターン</span>
+              </h1>
+              <div class="Project-return__img u-mb_15">
+                <img src="https://readyfor-img.s3.amazonaws.com/reward_images/26636/medium/b282655782debb1cf90f080a4c2ac9df323d270d.jpg?1451196036" alt="B282655782debb1cf90f080a4c2ac9df323d270d" width="280" height="173" />
+              </div>
+              <p class="Project-return__description u-mb_30">
+                ◼︎企業名（もしくは個人名）とロゴをウズハウスに記載<br />◼︎企業研修でウズハウスを利用できる権利（10名様まで宿泊無料）<br />◼︎ウズゴールドパス（宿泊代無料回数券や周辺施設割引券など、その他特典あり）<br />◼︎プレオープンのシークレットイベントにご招待<br />◼︎エントランスに用いるブロックにご支援者様のお名前を入れさせていただきます（ブロックの色もご指定いただけます）<br />◼︎サンクスレター（昭恵さん直筆）<br />◼︎HPにお名前＆顔写真掲載（希望者のみ）
+              </p>
+              <ul class="Project-return__condition">
+                <li class="u-mb_10">
+                  <span class="Icon-supporter u-mr_10"></span>
+                  <span class="u-valign_m">
+                    12人が支援中／
+                    <span class="Project-return__condition-limit">
+                        在庫制限無し
+                    </span>
+                  </span>
+                </li>
+                <li class="u-mb_10">
+                    <span class="Icon-shipment u-mr_10"></span>
+                    <span class="u-valign_m">
+                      2016年05月までにお届け予定です。
+                    </span>
+                </li>
+              </ul>
+              <a class="Btn-1-flat is-no-shadow u-fit-w u-mt_20" href="/projects/uzuhouse/contribution?select_id=26636">                <div class="Btn-1__inner-flat">
+                  <div class="Btn-1__content">
+                    <div class="Btn-1__txt">このリターンを購入する</div>
+                  </div>
+                </div>
+</a></a>            </section>
+
+        <div class="u-em u-fs_18 u-font_b u-align_c u-mt_20 u-mb_20">
+            <a rel="nofollow" data-method="post" href="/projects/uzuhouse/watch">    <span class="Icon-plus u-mr_5"></span>
+    <span class="u-valign_m tooltipped tooltipped-n" aria-label="マイページに追加され、新着情報を受け取れます。">
+      気になるリストに追加する
+    </span>
+
+</a>
+        </div>
+        <aside class="Project-promoter Side-area-0 u-mb_20">
+          <h1 class="u-d_none">実行者</h1>
+          <div class="Project-promoter__media Media">
+            <div class="Project-promoter__media-img Media__img">
+              <img alt="沖野充和（ウズハウスプロジェクト実行委員会代表）" src="https://readyfor-img.s3.amazonaws.com/user_images/144854/medium/359aed10da3a64061752e7a43dbe7a3ef55255c0.jpeg?1451309361" width="110" height="110" />
+            </div>
+            <div class="Project-promoter__media-body Media__body">
+              <h1 class="u-fs_18 u-font_b">沖野充和（ウズハウスプロジェクト実行委員会代表）</h1>
+            </div>
+          </div>
+          <p class="Project-promoter__outline">
+            ウズハウスプロジェクト実行委員会代表。「NPO法人ふるさと山口経営者フォーラム」理事、「長州友の会」運営委員。
+          </p>
+        </aside>
+
+
+      </div>
+
+    </div>
+
+  </article>
+
+
+
+    <div id="page-top">
+      <p><a id="move-page-top"></a></p>
+    </div>
+
+      <div id="to-intro">
+    <a id="move-to-intro" class="c" onclick="ga(&#39;set&#39;, &#39;nonInteraction&#39;, true);ga(&#39;send&#39;, &#39;event&#39;, { eventCategory: &#39;introLinkClick&#39;, eventAction: &#39;click&#39;, eventLable: &#39;sidebar_link_click&#39;, eventValue: 1});" href="/proposals/intro"></a>
+  </div>
+
+
+
+
+       <footer class="Site-footer">
+    <div class="Site-footer__inner u-clrfix">
+
+      <div class="Site-footer__content-l">
+
+        <div class="Site-footer__sections u-clrfix">
+
+          <section class="Site-footer__section">
+            <h1 class="Site-footer__section-h">会社情報</h1>
+            <ul class="Site-footer__section-list">
+              <li><a href="/about_more">READYFORとは</a></li>
+              <li><a href="/corp#anc03">運営会社</a></li>
+              <li><a href="/staff">開発チーム</a></li>
+              <li><a href="/corp#anc04">採用情報</a></li>
+              <li><a href="/4th_anniversary">4th Anniversary</a></li>
+              <li><a href="/matching_gift">マッチングギフト</a></li>
+            </ul>
+          </section>
+
+          <section class="Site-footer__section">
+            <h1 class="Site-footer__section-h">はじめる</h1>
+            <ul class="Site-footer__section-list">
+              <li><a href="/proposals/intro">プロジェクトを始める</a></li>
+                <li><a href="/feature/region_power/campaign">キャンペーン企画</a> </li>
+              <!--<li><a href="/tips">READYFORの教科書</a></li>-->
+              <li><a href="/readyforoftheyear2015">READYFOR OF THE YEAR</a></li>
+              <!--<li><a href="https://docs.google.com/forms/d/1m2Bp_2xQxUhZJI-9Jv0EnKkUsYvE_PHDawpSsb27-uw/viewform">セミナー情報</a></li>-->
+            </ul>
+          </section>
+
+          <section class="Site-footer__section">
+            <h1 class="Site-footer__section-h">みつける</h1>
+            <ul class="Site-footer__section-list">
+              <li><a href="/projects">募集中のプロジェクト</a></li>
+              <li><a href="/projects/successful">成功したプロジェクト</a></li>
+              <li><a href="/feature/medical_care">特集企画</a></li>
+              <li><a href="/media">メディア掲載一覧</a></li>
+
+            </ul>
+          </section>
+
+        </div>
+
+        <div class="Site-footer__aside">
+          <aside class="Site-footer__sns">
+            <h1 class="u-d_none">SNS</h1>
+            <div class="Site-footer__sns-inner u-clrfix">
+              <div class="Site-footer__sns-tw">
+                <a href="https://twitter.com/share" class="twitter-share-button" data-text="READYFOR?（レディーフォー）は実行者を支援する日本初のクラウドファンディングです。" data-url="https://readyfor.jp/" data-count="vertical" data-via="ready_for" data-lang="ja">Tweet</a>
+              </div>
+              <div class="Site-footer__sns-tw">
+                <fb:like href="http://www.facebook.com/readyfor" send="false" layout="box_count" width="77" show_faces="false"></fb:like>
+              </div>
+
+                  <script type="text/javascript">_ga.trackFacebook();</script>
+                <aside class="Site-footer__mail u-clrfix">
+                  <h1 class="u-d_none">メールサービス</h1>
+                  <div class="Site-footer__mail-form" id="anchor_register_mailing_list">
+                   <p class="Site-footer__mail-txt">READYFORの最新情報をお届け！メールマガジン登録はこちら！</p>
+                      <form class="new_mailing_list_user" id="new_mailing_list_user" action="/mailing_list_user/register_visitor" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/59oEXWqBjJoELE88msNweMIgWEvaC8yDm4XsK0xBeuRSWjthlUryMZlRo7BqYsxMwAe+r31q4t2jHu+/CT7xQ==" />
+                        <input type="hidden" name="mailing_list_user[user_id]" id="mailing_list_user_user_id" />
+                        <input type="email" class="Site-footer__mail-input" placeholder="メールアドレス" size="40" name="mailing_list_user[email]" id="mailing_list_user_email" />
+                        <input type="submit" name="commit" value="登録" class="Site-footer__mail-btn" />
+</form>                  </div>
+                </aside>
+            </div>
+          </aside>
+
+
+        </div>
+
+        <ul class="Site-footer__nav">
+          <li><a href="/privacypolicy">プライバシーポリシー</a></li>
+          <li><a href="/terms">利用規約</a></li>
+          <li><a href="/about_more#faq">よくある質問</a></li>
+          <li><a href="/guidelines">ガイドライン</a></li>
+          <li><a href="/commercial_transactions">特定商取引法に基づく表記</a></li>
+        </ul>
+      </div>
+
+      <div class="Site-footer__content-r">
+
+        <section class="Site-footer__section Site-footer__news">
+          <div class="Site-footer__news-inner">
+            <h1 class="Site-footer__section-h">最新ニュース一覧</h1>
+
+              <article class="Site-footer__news-entry">
+                <a target="_blank" class="u-link-area" href="https://mofmo.jp/article/2458">
+                  <footer class="Site-footer__news-entry-footer">
+                    <span>mofmo：</span><time>2016年3月7日</time>
+                  </footer>
+                  <div class="Site-footer__news-entry-body Media">
+                    <div class="Media__img u-mr_14">
+                      <img class="u-link-area" width="70" height="70" src="https://readyfor-img.s3.amazonaws.com/publicannouncement_images/677/original/55ef7297341c1f6c5dc2ee796e605e58e42f1fdb.png" alt="55ef7297341c1f6c5dc2ee796e605e58e42f1fdb" />
+                    </div>
+                    <div class="Media__body">
+                      <h1 class="Site-footer__news-entry-h Media__h">劣悪な環境に閉じ込められていた１４匹の猫のために。みんなで協力して救おう。</h1>
+                      <article class="Site-footer__news-entry-txt Media__txt"><p>mofmoにプロジェクトが掲載されました！</p>
+</article>
+                    </div>
+                  </div>
+</a>              </article>
+              <article class="Site-footer__news-entry">
+                <a target="_blank" class="u-link-area" href="https://hyakkei.me/articles-245">
+                  <footer class="Site-footer__news-entry-footer">
+                    <span> .HYAKKEI：</span><time>2016年3月7日</time>
+                  </footer>
+                  <div class="Site-footer__news-entry-body Media">
+                    <div class="Media__img u-mr_14">
+                      <img class="u-link-area" width="70" height="70" src="https://readyfor-img.s3.amazonaws.com/publicannouncement_images/676/original/3749fd23993af9238ee40d772099b0d106a51972.png" alt="3749fd23993af9238ee40d772099b0d106a51972" />
+                    </div>
+                    <div class="Media__body">
+                      <h1 class="Site-footer__news-entry-h Media__h">山でも街でも！相棒カメラを365日持ち運べる、3WAYバッグの使い勝手が抜群にいい！</h1>
+                      <article class="Site-footer__news-entry-txt Media__txt"><p>&nbsp;</p>
+
+<p>.HYAKKEIにプロジェクトが掲載されました！</p>
+</article>
+                    </div>
+                  </div>
+</a>              </article>
+              <article class="Site-footer__news-entry">
+                <a target="_blank" class="u-link-area" href="http://www.asahi.com/articles/CMTW1603071300003.html">
+                  <footer class="Site-footer__news-entry-footer">
+                    <span>朝日新聞：</span><time>2016年3月7日</time>
+                  </footer>
+                  <div class="Site-footer__news-entry-body Media">
+                    <div class="Media__img u-mr_14">
+                      <img class="u-link-area" width="70" height="70" src="https://readyfor-img.s3.amazonaws.com/publicannouncement_images/675/original/d15be76a78ba8c8685bc44a0f30d26869484b709.png" alt="D15be76a78ba8c8685bc44a0f30d26869484b709" />
+                    </div>
+                    <div class="Media__body">
+                      <h1 class="Site-footer__news-entry-h Media__h">東京）唱歌翻訳　シリア難民応援</h1>
+                      <article class="Site-footer__news-entry-txt Media__txt"><p>朝日新聞にプロジェクトが掲載されました！</p>
+</article>
+                    </div>
+                  </div>
+</a>              </article>
+          </div>
+        </section>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+    <!-- footer Area -->
+
+
+
+        <div class="overlay"></div>
+
+
+
+
+
+
+
+
+    <script>
+  
+  $(function() {
+    var cookieNyoro = $.cookie("nyoro-content");
+    if (typeof cookieNyoro !== "undefined") {
+      $.removeCookie("nyoro-content");
+      playNyoro(cookieNyoro);
+    }
+  });
+</script>
+
+
+    
+    <script type="text/javascript" language="javascript">
+/* <![CDATA[ */
+var yahoo_retargeting_id = 'HTWPF0K8YH';
+var yahoo_retargeting_label = '';
+/* ]]> */
+</script>
+<script type="text/javascript" language="javascript" src="//b92.yahoo.co.jp/js/s_retargeting.js"></script>
+
+  </div>
+  </body>
+</html>
+

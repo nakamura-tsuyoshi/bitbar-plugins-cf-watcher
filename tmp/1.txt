@@ -1,0 +1,1923 @@
+
+<!DOCTYPE html>
+<html lang="ja" xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+  <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"622215dfc5","applicationID":"4160698","transactionName":"ellbREQJXgkHRU1GS1ZcUFNCFR0WClgV","queueTime":0,"applicationTime":240,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"XAYEVlFVGwcBUlFUDgk="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(){}function r(t){function e(t){return t&&t instanceof n?t:t?a(t,i,o):o()}function u(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),s=a.length,f=0;s>f;f++)a[f].apply(i,r);var u=c[v[n]];return u&&u.push([w,n,r,i]),i}function d(t,e){m[t]=l(t).concat(e)}function l(t){return m[t]||[]}function p(t){return f[t]=f[t]||r(u)}function h(t,e){s(t,function(t,n){e=e||"feature",v[n]=e,e in c||(c[e]=[])})}var m={},v={},w={on:d,emit:u,get:p,listeners:l,context:e,buffer:h};return w}function o(){return new n}var i="nr@context",a=t("gos"),s=t(1),c={},f={},u=e.exports=r();u.backlog=c},{1:24,gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:24,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,a){try{f?f-=1:r("err",[a||new UncaughtException(t,e,n)])}catch(c){try{r("ierr",[c,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof s?s.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=t("loader"),s=window.onerror,c=!1,f=0;a.features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(u){"stack"in u&&(t(1),t(2),"addEventListener"in window&&t(3),a.xhrWrappable&&t(4),c=!0)}i.on("fn-start",function(){c&&(f+=1)}),i.on("fn-err",function(t,e,r){c&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){c&&!this.thrown&&f>0&&(f-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:10,2:9,3:7,4:11,5:3,6:25,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],6:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=NREUM.o.EV;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.clearResourceTimings?window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1):window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:10,2:9,3:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],7:[function(t,e){function n(t){for(var e=t;e&&!e.hasOwnProperty("addEventListener");)e=Object.getPrototypeOf(e);e&&r(e)}function r(t){a.inPlace(t,["addEventListener","removeEventListener"],"-",o)}function o(t){return t[1]}var i=t("ee").get("events"),a=t(1)(i),s=t("gos");e.exports=i,r(window),"getPrototypeOf"in Object?(n(document),n(XMLHttpRequest.prototype)):XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&r(XMLHttpRequest.prototype),i.on("addEventListener-start",function(t){if(t[1]){var e=t[1];if("function"==typeof e){var n=s(e,"nr@wrapped",function(){return a(e,"fn-",null,e.name||"anonymous")});this.wrapped=t[1]=n}else"function"==typeof e.handleEvent&&a.inPlace(e,["handleEvent"],"fn-")}}),i.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:26,ee:"QJf3ax",gos:"7eSDFh"}],8:[function(t,e){var n=t("ee").get("history"),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:26,ee:"QJf3ax"}],9:[function(t,e){var n=t("ee").get("raf"),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:26,ee:"QJf3ax"}],10:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=i(t[0],"fn-",this,n)}var o=t("ee").get("timer"),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:26,ee:"QJf3ax"}],11:[function(t,e){function n(t,e){e=e||this;var n=i.context(e);e.readyState>3&&!n.resolved&&(n.resolved=!0,i.emit("xhr-resolved",[],e));try{c.inPlace(e,l,"fn-",r)}catch(o){}}function r(t,e){return e}function o(t,e){for(var n in t)e[n]=t[n];return e}var i=t("ee").get("xhr"),a=t(1),s=t(2),c=s(i),f=s(a),u=NREUM.o,d=u.XHR,l=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout","onreadystatechange"];e.exports=i,window.XMLHttpRequest=function(t){var e=new d(t);try{i.emit("new-xhr",[e],e),e.hasOwnProperty("addEventListener")&&f.inPlace(e,["addEventListener","removeEventListener"],"-",r),e.addEventListener("readystatechange",n,!1)}catch(o){try{i.emit("internal-error",[o])}catch(a){}}return e},o(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,c.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",r),i.on("send-xhr-start",n),i.on("open-xhr-start",n)},{1:7,2:26,ee:"QJf3ax"}],12:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var o=0;u>o;o++)t.removeEventListener(f[o],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=n(t,this.lastSize);if(i&&(r.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,c.emit("xhr-done",[t],t),a("xhr",[e,r,this.startTime])}}}function n(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var o="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return r(o)}function r(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function o(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var i=t("loader");if(i.xhrWrappable){var a=t("handle"),s=t(2),c=t("ee"),f=["load","error","abort","timeout"],u=f.length,d=t(1),l=t(3),p=window.XMLHttpRequest;i.features.xhr=!0,t(5),t(4),c.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=e,n.ended=!1,n.xhrGuids={},n.lastSize=null,l&&(l>34||10>l)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),c.on("open-xhr-start",function(t){this.params={method:t[0]},o(this,t[1]),this.metrics={}}),c.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),c.on("send-xhr-start",function(t,e){var n=this.metrics,o=t[0],i=this;if(n&&o){var a=r(o);a&&(n.txSize=a)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{c.emit("internal-error",[n])}catch(r){}}};for(var s=0;u>s;s++)e.addEventListener(f[s],this.listener,!1)}),c.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),c.on("xhr-load-added",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),c.on("xhr-load-removed",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),c.on("addEventListener-end",function(t,e){e instanceof p&&"load"===t[0]&&c.emit("xhr-load-added",[t[1],t[2]],e)}),c.on("removeEventListener-end",function(t,e){e instanceof p&&"load"===t[0]&&c.emit("xhr-load-removed",[t[1],t[2]],e)}),c.on("fn-start",function(t,e,n){e instanceof p&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),c.on("fn-end",function(t,e){this.xhrCbStart&&c.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:13,3:15,4:11,5:7,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],13:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],14:[function(t,e){function n(t,e){return function(){r(t,[(new Date).getTime()].concat(i(arguments)),null,e)}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit"],s=["addPageAction"],c="api-";o(a,function(t,e){newrelic[e]=n(c+e,"api")}),o(s,function(t,e){newrelic[e]=n(c+e)}),e.exports=newrelic,newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),r("err",[t,(new Date).getTime()])}},{1:24,2:25,handle:"D5DuLP"}],15:[function(t,e){var n=0,r=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);r&&(n=+r[1]),e.exports=n},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],D5DuLP:[function(t,e){function n(t,e,n,o){r.buffer([t],o),r.emit(t,e,n)}var r=t("ee").get("handle");e.exports=n,n.ee=r},{ee:"QJf3ax"}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){if(!h++){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){t[e]||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()],null,"api");var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()],null,"api")}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;NREUM.o={ST:setTimeout,XHR:c.XMLHttpRequest,REQ:c.Request,EV:c.Event,PR:c.Promise,MO:c.MutationObserver},t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-885.min.js"},l=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),p=e.exports={offset:i(),origin:u,features:{},xhrWrappable:l};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()],null,"api");var h=0},{1:24,2:14,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],24:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],25:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],26:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,c;try{i=this,n=o(arguments),s="function"==typeof r?r(n,i):r||{}}catch(u){d([u,"",[n,i,a],s])}f(e+"start",[n,i,a],s);try{return c=t.apply(i,n)}catch(l){throw f(e+"err",[n,i,l],s),l}finally{f(e+"end",[n,i,c],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,u(t,nrWrapper),nrWrapper)}function c(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!s){s=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}s=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=c,e.flag=i,e}},{1:25,ee:"QJf3ax"}]},{},["G9z0Bl",4,12,6,5]);</script>
+      <meta name="keywords" content="READYFOR, レディーフォー, クラウドファンディング, ソーシャルファンディング, 資金調達, 米良はるか, クリエーター" />
+    <meta name="msvalidate.01" content="16AD99A6ADD3644D5417B889AACFD4DD" />
+    <!-- meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" -->
+
+    <title>
+    国立科学博物館新たな冒険！3万年前の航海 徹底再現プロジェクト（海部陽介（国立科学博物館 人類史研究グループ長）） - READYFOR (レディーフォー)
+</title>
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="44w2SQKr4fP4DsjyTQoYDmwbsj+YUdcMW5rUIdDkueSxZl8k3TTPJKbbAR1640jiVey1zmstKQVqmWNrLEYHAw==" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicon.png?v=20150507">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+    <script type="application/ld+json">
+  {  "@context" : "http://schema.org",
+     "@type" : "WebSite",
+     "name" : "READYFOR",
+     "url" : "https://readyfor.jp/",
+     "producer" : {
+       "@type" : "Person",
+       "familyName" : "Mera",
+       "givenName" : "Haruka",
+       "name" : "米良はるか"    
+     }
+  }
+</script>
+
+
+    <link rel="stylesheet" media="all" href="/assets/common-ce55dabcaa4855e6687e3768ca68c49fc63456c2d2e4a538bcc3566d7ed1c6b6.css" />
+    <link rel="stylesheet" media="all" href="/assets/application-562ac4bc589339231973656687b6848805bf814d3e9d1953571d605761b69caf.css" />
+<link rel="stylesheet" media="all" href="/assets/eyecatch-707ac2c566e1a724eb752e88c4864e5aaf705b4566ca3afb8ebaeb9a92136ffe.css" />
+<link rel="stylesheet" media="all" href="/assets/project_edit-f474c14e6930357e434e93cd3fc15d51e046cd110b2681585f2e1f0935c43a6d.css" />
+<link rel="stylesheet" media="all" href="/assets/project_contract-ca10de0594aed7e98bd0039feceef05f12612af2feab205f3a9a5a0b6b90fb5d.css" />
+<link rel="stylesheet" media="all" href="/assets/pulldown-5f2db607acb144bc22e87ca1f1031a4626dc8ddc247ef1db42e2aa6d851b49bd.css" />
+<link rel="stylesheet" media="all" href="/assets/tipsy-ae8bc7896d741a5c4134fb0289d302737d1bf5a593fb2d7fff785c0edfa42dd1.css" />
+    <link rel="stylesheet" media="all" href="/assets/evangelion-7e2749340e9ed545c3a021479a8a0ff7ed3197c22dad53e6f8c4b16386ccaac1.css" />
+
+    <!--[if IE 7]><link rel="stylesheet" media="all" href="/stylesheets/ie7.css?v=1445226730" /><![endif]-->
+    <!--[if IE 6]><link rel="stylesheet" media="all" href="/stylesheets/ie6.css?v=1445226730" /><![endif]-->
+
+
+
+    <meta property="fb:app_id" content="188875347802288" />
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@ready_for">
+<meta property="og:type" content="website" />
+
+  <meta property="og:title" content="国立科学博物館新たな冒険！3万年前の航海 徹底再現プロジェクト - READYFOR (レディーフォー)" />
+  <meta property="og:url" content="https://readyfor.jp/projects/koukai" />
+    <meta property="og:image" content="https://readyfor-img.s3.amazonaws.com/project_photos/7089/medium/9722447aba244cb096bb270e86f6def416f529a8.png?1453624206" />
+  <meta property="og:description" content="▶︎【Q and A】よくあるご質問と回答は「こちら」
+
+
+祖先たちのすごい過去を解き明かそう！
+
+「日本人はどこから来たのか？」
+
+国立科学博物館「３万年前の航海 徹底再現プロジェクト」
+
+
+協力：
+
+　与那国町　
+
+沖縄県立博物館・美術館
+
+特定非営利活動法人国境地域研究センター
+
+ 
+
+後援：
+
+沖縄県
+
+沖縄県教育委員会
+
+ 
+..." />
+  <link rel="canonical" href="https://readyfor.jp/projects/koukai" />
+  <meta name="description" content="▶︎【Q and A】よくあるご質問と回答は「こちら」
+
+
+祖先たちのすごい過去を解き明かそう！
+
+「日本人はどこから来たのか？」
+
+国立科学博物館「３万年前の航海 徹底再現プロジェクト」
+
+
+協力：
+
+　与那国町　
+
+沖縄県立博物館・美術館
+
+特定非営利活動法人国境地域研究センター
+
+ 
+
+後援：
+
+沖縄県
+
+沖縄県教育委員会
+
+ 
+..." />
+
+
+    <script>
+  function getCookie(name) {
+    var cookieData = document.cookie;
+    var key = name + "=";
+
+    var idx = cookieData.indexOf(key);
+    if (idx == -1) return null;
+    idx += key.length;
+
+    var end = cookieData.indexOf(";", idx);
+    if (end == -1) end = cookieData.length;
+
+    return decodeURIComponent(cookieData.substring(idx, end));
+  }
+
+  var hostnamePattern = new RegExp("^https://readyfor.jp(.*$)");
+  var reportError = function(evt) {
+    var filename = evt.filename;
+    if (hostnamePattern.test(filename)) {
+      filename = filename.match(hostnamePattern)[1];
+    }
+
+    var action = filename + ":" + evt.lineno + "," + evt.colno;
+    var label  =
+      evt.message + ", " +
+      "href: " + location.href + ", " +
+      "rf_uuid: " + getCookie("rf_uuid") + ", " +
+      "userAgent: " + window.navigator.userAgent;
+
+    ga('set', 'nonInteraction', true);
+    ga('send', 'event', {
+      eventCategory: 'JSError',
+      eventAction: action, 
+      eventLabel: label
+    });
+  };
+  if (window.addEventListener) {
+    window.addEventListener("error", reportError);
+  } else {
+    // Compatibility for IE8
+    window.attachEvent("onerror", reportError);
+  }
+</script>
+
+
+    <!--[if (gte IE 6)&(lte IE 8)]>
+      <script src="/assets/selectivizr-min-52522e3d220b0545d2f013e2e731c9eb63be0eebe765f4b2539d247617cb1309.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="/assets/html5shiv.min-e87bcce4761b410d32df511bc602a89913a89bf460d121a7736175817d57552a.js"></script>
+    <![endif]-->
+    <script src="/assets/application-3740f328eeccf8aaecd77ec55055c4728c003b7630ae197e7d075b89891a05cf.js"></script>
+    <script src="/javascripts/back_project.js?v=1445226730" defer="defer"></script>
+<script src="/javascripts/pulldown.js?v=1445226730" defer="defer"></script>
+<script src="/javascripts/tipsy.js?v=1445226730" defer="defer"></script>
+<script src="/javascripts/projects.js?v=1445226730" defer="defer"></script>
+    <script src="/javascripts/jquery-ui.custom.min.js?v=1445226730" defer="defer"></script>
+<script src="/javascripts/authorize.js?v=1446731675" defer="defer"></script>
+    <script src="/assets/lodash-compat-45af24844e05843b9840a10cd95b0f1f93d75193a7ac69a763d11679bcb77b33.js" defer="defer"></script>
+    <script>
+ $( function(){
+   _.templateSettings = {
+     interpolate : /\{\{=(.+?)\}\}/g,
+     escape : /\{\{-(.+?)\}\}/g,
+     evaluate: /\{\{(.+?)\}\}/g,
+   };
+ });
+</script>
+
+    <script src="/javascripts/common.js?v=1445226730"></script>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js" defer="defer"></script>
+
+
+    <script>
+      var fileUploadErrors = {
+        maxFileSize: 'File is too big',
+        minFileSize: 'File is too small',
+        acceptFileTypes: 'Filetype not allowed',
+        maxNumberOfFiles: 'Max number of files exceeded',
+        uploadedBytes: 'Uploaded bytes exceed file size',
+        emptyResult: 'Empty file upload result'
+      };
+    </script>
+    
+
+    
+
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-20164732-1',
+  {
+          cookieDomain: 'readyfor.jp',
+    legacyCookieDomain: 'readyfor.jp'
+  }
+  );
+
+  ga('require', 'linkid');
+  ga('require', 'displayfeatures');
+
+
+  ga('set', 'dimension1',
+    'visitor'
+  );
+
+
+    ga('set', 'dimension3', 'not login');
+
+
+
+
+
+  // ABテスト
+  
+
+
+
+
+    ga('send', 'pageview');
+
+
+
+</script>
+  <script type="text/javascript">
+    var _ga = _ga || {};
+
+    _ga.trackFacebook = function(opt_pagePath) {
+      try {
+        if (FB && FB.Event && FB.Event.subscribe) {
+          FB.Event.subscribe('edge.create', function(opt_target) {
+            ga('send', 'social', 'facebook', 'like', opt_target, opt_pagePath);
+          });
+          FB.Event.subscribe('edge.remove', function(opt_target) {
+            ga('send', 'social', 'facebook', 'unlike',opt_target, opt_pagePath);
+          });
+          FB.Event.subscribe('message.send', function(opt_target) {
+            ga('send', 'social', 'facebook', 'send', opt_target, opt_pagePath);
+          });
+        }
+      } catch (e) {}
+    };
+
+    _ga.trackTwitterHandler_ = function(intent_event, opt_pagePath) {
+      var opt_target; //Default value is undefined
+      if (intent_event && intent_event.type == 'tweet' || intent_event.type == 'click') {
+        if (intent_event.target.nodeName == 'IFRAME') {
+          opt_target = _ga.extractParamFromUri_(intent_event.target.src, 'url');
+        }
+        var socialAction = intent_event.type + ((intent_event.type == 'click') ? '-' + intent_event.region : ''); //append the type of click to action
+        ga('send', 'social', 'twitter', socialAction, opt_target, opt_pagePath);
+      }
+    };
+
+    _ga.trackTwitter = function(opt_pagePath) {
+      intent_handler = function(intent_event) {
+        _ga.trackTwitterHandler_(intent_event, opt_pagePath);
+      };
+
+      //bind twitter Click and Tweet events to Twitter tracking handler
+      twttr.events.bind('click', intent_handler);
+      twttr.events.bind('tweet', intent_handler);
+    };
+
+    _ga.extractParamFromUri_ = function(uri, paramName) {
+      if (!uri) {
+        return;
+      }
+      var regex = new RegExp('[\\?&#]' + paramName + '=([^&#]*)');
+      var params = regex.exec(uri);
+      if (params != null) {
+        return unescape(params[1]);
+      }
+      return;
+    };
+
+  </script>
+
+
+    <script>
+      window.twttr = (function (d,s,id) {
+        var t, js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+        js.src="//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+        return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+      }(document, "script", "twitter-wjs"));
+
+        // Wait for the asynchronous resources to load
+        twttr.ready(function(twttr) {
+          _ga.trackTwitter(); //Google Analytics tracking
+        });
+    </script>
+
+
+    
+    
+    
+    
+
+    <!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '386497394849315');
+fbq('track', "PageView");
+
+
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=386497394849315&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+
+
+    
+
+  </head>
+  <body class="pc c-projects a-show">
+  <script src="//cdn.optimizely.com/js/5103240166.js"></script>
+
+
+      <div class="Site-container">
+      <header class="Site-header">
+  <div class="Site-header__misc">
+    <div class="Container">
+      <p class="Site-header__misc-desc">国内最大のクラウドファンディングREADYFORは、誰もがやりたいことを実現できる世の中を創ります。</p>
+    </div>
+  </div>
+
+    <div class="Site-header__main">
+      <div class="Contaitar u-clrfix">
+          <h1 class="Site-header__ci">
+              <a href="/" class="Site-header__ci-inner">READYFOR</a>
+          </h1>
+
+          <nav class="Site-nav">
+            <ul class="Site-nav__inner">
+                  <li class="Site-nav__item">
+                    <a href="/projects/" class="Site-nav__link">
+                      <div class="Site-nav__link-icon Icon-search"></div>
+                      <div class="Site-nav__link-txt">プロジェクトを探す</div>
+                    </a>
+                  </li>
+                  <li class="Site-nav__item">
+                    <a href="/proposals/intro" class="Site-nav__link" onclick="ga('set', 'nonInteraction', true);ga('send', 'event', { eventCategory: 'introLinkClick', eventAction: 'click', eventLabel:'header_link_click', eventValue:1});">
+                      <div class="Site-nav__link-icon Icon-start"></div>
+                      <div class="Site-nav__link-txt">プロジェクトをはじめる</div>
+                    </a>
+                  </li>
+                  <li class="Site-nav__item">
+                    <a href="/about_more" class="Site-nav__link">
+                      <div class="Site-nav__link-icon Icon-about"></div>
+                      <div class="Site-nav__link-txt">はじめての方へ</div>
+                    </a>
+                  </li>
+
+
+                  <li class="Site-nav__item">
+                    <a class="Site-nav__link loginLink isInHeader">
+                      <div class="Site-nav__link-icon Icon-login"></div>
+                      <div class="Site-nav__link-txt">ログイン</div>
+                    </a>
+                  </li>
+                  <li class="Site-nav__item">
+                    <a class="Site-nav__link signupLink isInHeader">
+                      <div class="Site-nav__link-icon Icon-signin"></div>
+                      <div class="Site-nav__link-txt">新規登録</div>
+                    </a>
+                  </li>
+            </ul>
+          </nav>
+      </div>
+    </div>
+</header>
+
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=188875347802288&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script>
+  if (window.location.hash == '#_=_') {
+    history.replaceState
+      ? history.replaceState(null, null, window.location.href.split('#')[0])
+      : window.location.hash = '';
+  }
+
+</script>
+
+
+
+
+      <article class="Page-body">
+    <div class="Project-visual Container u-mb_20 u-clrfix">
+      <h1 class="Project-visual__title">
+          <a href="/projects/koukai">国立科学博物館新たな冒険！3万年前の航海 徹底再現プロジェクト</a>
+      </h1>
+      <div class="Project-visual__main u-clrfix ">
+        <div class="Project-visual__img">
+          <div class="Project-visual__img-mask">
+            <img src="https://readyfor-img.s3.amazonaws.com/project_photos/7089/medium/9722447aba244cb096bb270e86f6def416f529a8.png?1453624206" alt="9722447aba244cb096bb270e86f6def416f529a8" />
+          </div>
+        </div>
+        <div class="Project-visual__body">
+          <div class="Project-promoter__media Media">
+            <div class="Project-promoter__media-img Media__img">
+              <img alt="海部陽介（国立科学博物館 人類史研究グループ長）" src="https://readyfor-img.s3.amazonaws.com/user_images/158163/medium/137cb8888c302d9b7b0dc673a6e6bb5d60e9215b.jpg?1453712037" width="80" height="80" />
+            </div>
+            <div class="Project-promoter__media-body Media__body">
+              <h1 class="u-fs_18 u-font_b">海部陽介（国立科学博物館 人類史研究グループ長）</h1>
+            </div>
+          </div>
+
+          <div class="Project-visual__conditions">
+
+            <dl class="Project-visual__condition u-fs_20">
+              <dt class="Project-visual__condition-dt is-sum">
+                支援総額
+              </dt>
+              <dd class="Project-visual__condition-dd is-sum">11,680,000円</dd>
+            </dl>
+
+            <div>
+                <dl class="Project-visual__condition u-fs_16">
+                  <dt class="Project-visual__condition-dt">
+                    <span class="u-valign_m">目標金額</span>
+                  </dt>
+                  <dd class="Project-visual__condition-dd u-font-en">
+                    20,000,000円
+                  </dd>
+                </dl>
+            </div>
+
+            <div class="u-mt_10">
+              <dl class="Project-visual__condition u-fs_16">
+                <dt class="Project-visual__condition-dt">
+                  支援者数
+                </dt>
+                <dd class="Project-visual__condition-dd u-font-en">
+                  353人
+                </dd>
+              </dl>
+              <dl class="Project-visual__condition u-fs_16">
+                <dt class="Project-visual__condition-dt">残り日数</dt>
+                <dd class="Project-visual__condition-dd u-font-en">
+                                      <span id="time-left-to-publish-days" class="num"> 26 </span><span class="degree">日</span>
+
+                </dd>
+              </dl>
+            </div>
+
+          </div>
+
+            <div class="Project-visual__gauge Gauge u-mt_10">
+                <div class="Gauge__obj is-1" style="width:58%"></div>
+<div class="Gauge__txt">58%</div>
+
+            </div>
+          <a class="Btn-1-flat backing-button-wrap is-no-shadow u-fit-w u-mt_20 u-mb_30" href="/projects/koukai/contribution"><div class="Btn-1__inner"><div class="Btn-1__content"><span class="Btn-1__txt u-fs_18">このプロジェクトを支援する</span></div></div></a>
+          <p class="u-align_c">このプロジェクトは4月12日（火）午後11:00までに、<br />20,000,000円以上集まった場合に成立となります。</p>
+        </div>
+      </div>
+            <div class="social-buttons box">
+
+          <ul class="list">
+<!--
+            <li>
+            <a class="fb-share-button shareBtn shareBtn_large" href="http://www.facebook.com/sharer.php?u=`シェアしたいurl`&amp;t=`シェアしたいタイトル`"
+              onClick="window.open(encodeURI(decodeURI(this.href)),
+                    'sharewindow',
+                    'width=550, height=450, personalbar=0, toolbar=0, scrollbars=1, resizable=!'
+                    ); return false;">
+            </a>
+          </li> -->
+            <li class="first">
+              <div class="fb-like-button">
+                  <script type="text/javascript">_ga.trackFacebook();</script>
+                  <fb:like href="https://readyfor.jp/projects/koukai" send="false" width="350" show_faces="false" layout="standard"></fb:like>
+              </div>
+            </li>
+
+            <li class="twitter-tweet-button">
+                <a href="https://twitter.com/share" class="twitter-share-button" data-text="国立科学博物館新たな冒険！3万年前の航海 徹底再現プロジェクトは、あと26日で、約832人からの協力がないと支援が届きません。ひとりでも多くの方に広めてください！ - READYFOR?" data-count="" data-via="ready_for" data-lang="ja" data-url="https://readyfor.jp/projects/koukai">Tweet</a>
+            </li>
+
+          </ul>
+        </div>
+        <div class="clear"></div>
+
+      <!-- Tab__menu -->
+      <div class="tab-wrapper">
+        <div class="Tab__menu tabnav-tabs">
+          <nav class="tabnav-tabs">
+              <a class="tabnav-tab selected" href="/projects/koukai">
+                <span class="">プロジェクト概要</span>
+</a>              <a class="tabnav-tab" href="/projects/koukai/announcements">
+                <span class="">新着情報</span>
+                <span class="Tab__menu-icon Icon-num">15</span>
+</a>              <a class="tabnav-tab" href="/projects/koukai/comments">
+                <span class="">応援コメント</span>
+                  <span class="Tab__menu-icon Icon-num">353</span>
+</a>              
+          </nav>
+        </div>
+      </div>
+      <!-- /Tab__menu -->
+
+    </div>
+
+    <div class="Container">
+
+      <div class="Page-main is-type0 u-fl_l Project-main u-mb_30" role="main">
+        <div>
+          
+
+        </div>
+
+        <!-- Tab -->
+        <div class="Project-tab">
+
+          <!-- Tab__contents -->
+          <div class="Tab__contents">
+                        <!-- Tab__contents -->
+          <div class="Tab__contents">
+            <!-- 概要 -->
+            <section class="Project-outline Tab__content">
+              <h1 class="u-d_none">プロジェクト概要</h1>
+              <p><strong>▶︎【Q and A】よくあるご質問と回答は「<a href="https://readyfor.jp/projects/koukai/announcements/35517">こちら</a>」</strong></p>
+
+<div style="margin: 10px; padding: 10px 5px; border-radius: 5px; border: 1px solid rgb(229, 234, 238); border-image: none; background-color: rgb(229, 234, 238);">
+<p style="text-align: center;"><font color="#b40404">祖先たちのすごい過去を解き明かそう！</font></p>
+
+<p style="text-align: center;"><font color="#b40404">「日本人はどこから来たのか？」</font></p>
+
+<p style="text-align: center;"><font color="#b40404"><span style="font-family: comic sans ms,cursive;"><font color="#000000"><strong><font color="#000000">国立科学博物館</font></strong></font></span></font><font color="#b40404"><span style="font-family: comic sans ms,cursive;"><font color="#000000"><strong><font color="#000000">「３万年前の航海 徹底再現プロジェクト」</font></strong></font></span></font></p>
+</div>
+
+<p style="text-align: center;"><strong>協力：</strong></p>
+
+<p style="text-align: center;">　与那国町　</p>
+
+<p style="text-align: center;">沖縄県立博物館・美術館</p>
+
+<p style="text-align: center;">特定非営利活動法人国境地域研究センター</p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p style="text-align: center;"><strong>後援：</strong></p>
+
+<p style="text-align: center;">沖縄県</p>
+
+<p style="text-align: center;">沖縄県教育委員会</p>
+
+<p>&nbsp;</p>
+
+<p>　「日本人のルーツ」という大きな謎。これまでに蓄積されてきた膨大な遺跡データから、新たに見えてきたことがあります。５～３万年前に起こった、アフリカから日本列島までの祖先たち（ホモ・サピエンス）の大移動。そこには専門家もこれまで認識できていなかった、凄い過去があったことがわかってきました。</p>
+
+<p>&nbsp;</p>
+
+<p>　それは人類が海を越えて島に進出しはじめた最古段階の重要な証拠が、この日本列島にあったということ。最初の日本列島人は3万8000年前頃に対馬の海を渡って来ました。つまり<strong>日本人は最初から航海者だった</strong>のです！　</p>
+
+<p>&nbsp;</p>
+
+<p>　そして近年、沖縄の遺跡調査が進んだことから、<strong>琉球列島には「３万年前のハイレベルな航海」があった</strong>ことがわかってきました。当時の台湾はアジア大陸と陸続きでしたが、祖先たちはそこからなんらかの舟を出し、100 km 以上先の見えない琉球列島へ向かう航海に出たのです。それはおそらく世界最大の海流である黒潮越えを要する、たいへん困難な航海であったはず。</p>
+
+<p>&nbsp;</p>
+
+<p>　祖先たちはどうやってそれを成し遂げたのか。そもそもなぜそんなことに挑戦したのか──。こうした問いに答えて私たちの祖先の本当の姿に迫りたい。そのためにできる限りのことをしたい。そこで私、海部陽介（国立科学博物館&nbsp;人類史研究グループ長）と、24名の多彩な分野の一流研究者・エキスパートたちが集結し、<strong>「３万年前の事実」を追求する実証実験プロジェクト</strong>が始動しました。<strong>皆さんも大航海の&rdquo;クルー&rdquo;となって、この厚いベールに包まれた 大きな謎解きに一緒に挑みましょう</strong>。</p>
+
+<p>&nbsp;</p>
+
+<figure class="image"><img alt="" height="443" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/147784/content_f4d276294c0646139dc187116f52a40d66395ad6.jpg" width="610" />
+<figcaption>（実行者の海部陽介。アジアを舞台に人類進化・拡散史の解明に挑む）</figcaption>
+</figure>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<div style="margin: 10px; padding: 10px 5px; border-radius: 5px; border: 1px solid rgb(229, 234, 238); border-image: none; background-color: rgb(229, 234, 238);">
+<p style="text-align: center;"><font color="#b40404">日本列島は、人類の海洋進出のフロンティアだった</font></p>
+
+<p style="text-align: center;"><font color="#b40404"><span style="font-family: comic sans ms,cursive;"><font color="#000000"><strong><font color="#000000">「人類史に刻まれるべき偉大な航海」 の発見</font></strong></font></span></font></p>
+</div>
+
+<p>&nbsp;</p>
+
+<p>　私は、研究者である父親（海部宣男。国立天文台名誉教授。ハワイの「すばる望遠鏡」計画リーダー）からの影響もあり、幼い頃から自然科学、特に「<span style="line-height: 1.6;">人間の過去と成り立ち」に興味がありました</span>。今は<span style="line-height: 1.6;">その夢かなって、国立科学博物館で人類進化の研究者に。これまでジャワ原人やフローレス原人の研究などで成果を上げてきましたが、最近では「アジア大陸におけるホモ・サピエンスの大移動と現代アジア人の成り立ち」をテーマにした調査をしています。そうした中、<strong>興味深い、知られざる事実</strong>に行き当たったのです。</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="line-height: 1.6;">　それが前述の「日本人の祖先は海を渡ってやってきた」ということ。とりわけ琉球への航海は、当時の世界で最も困難なものであったはずで、<strong>人類の歴史の一幕として教科書にも記されるべきこと</strong>だと思います。航海術の発達は、アフリカ生まれの<strong>ホモ・サピエンスが全世界へ広がることができた原動力の１つ</strong>でした。その謎を解き明かす重要な証拠が、私たちの足元の日本列島にもあったのです。</span></p>
+
+<p>&nbsp;</p>
+
+<div data-oembed-url="https://www.youtube.com/watch?v=c6X2jmCtapE&amp;feature=youtu.be">
+<div style="left: 0px; width: 100%; height: 0px; padding-bottom: 56.24%; position: relative;"><iframe allowfullscreen="true" frameborder="0" mozallowfullscreen="true" src="https://www.youtube.com/embed/c6X2jmCtapE?wmode=transparent&amp;rel=0&amp;autohide=1&amp;showinfo=0&amp;enablejsapi=1" style="left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;" webkitallowfullscreen="true"></iframe></div>
+</div>
+
+<p style="text-align: right;">（▲ プロジェクト紹介動画）</p>
+
+<p>&nbsp;</p>
+
+<div style="margin: 10px; padding: 10px 5px; border-radius: 5px; border: 1px solid rgb(229, 234, 238); border-image: none; background-color: rgb(229, 234, 238);">
+<p style="text-align: center;"><font color="#b40404">「定説」への違和感。語られてこなかった祖先の本当の旅路。</font></p>
+
+<p style="text-align: center;"><span style="font-family: comic sans ms,cursive;"><font color="#000000"><b>祖先たちは海を越えてきた</b></font></span></p>
+</div>
+
+<p>&nbsp;</p>
+
+<p>　今回のプロジェクトの発端の１つは、多くの研究者が採用している「海岸移住説」への私の違和感。この説では、最初のアジア人は海岸をつたってアフリカから東進したと考えます。一部の欧米研究者は、この海岸沿いの移動は日本列島付近にまで達したと、さしたる根拠もなしに述べています。</p>
+
+<p>&nbsp;</p>
+
+<p>　しかし私が遺跡データを厳選し、初期のホモ・サピエンスの遺跡の信頼できる年代だけを地図に落としてみたところ、海岸移住説とは異なる、もっとダイナミックなシナリオが浮かび上がってきたのです。祖先たちは沿岸部に限らず内陸部にも爆発的に広がり、寒冷地を含む多様な自然環境に素早く適応していったようなのです。そうした文化的な適応能力を持つ集団が、北（サハリン&rarr;北海道）、西（朝鮮半島&rarr;九州）、南（台湾&rarr;沖縄）の３方から日本列島へ渡って来たはずです（図１）。</p>
+
+<p>&nbsp;</p>
+
+<figure class="image"><img alt="" height="449" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/154415/content_accf102caaa970ce65d217b9ae9a8e9a57caa67c.jpg" width="610" />
+<figcaption>（図１ 想定されるホモ・サピエンスの拡散ルート。日本列島へ入る３つのルートのうち、<br />
+本プロジェクトでは沖縄ルートに注目する。背景地図： based on GeoMapApp）</figcaption>
+</figure>
+
+<p>&nbsp;</p>
+
+<p>　このプロジェクトでは、その中で南の<strong>沖縄ルート</strong>に注目します。全長 1200 km におよぶ琉球列島には、その全域に３万年前頃までさかのぼる遺跡があるのです（図２）。偶然の漂流でこのような事態が説明できるでしょうか？　列島全域に広がっていたこと、子孫を増やして島に定着していた証拠があること、そして本州などで見つかっている他の証拠も合わせると、<strong>祖先たちはこの航海にあえて挑戦した</strong>と考えるしかないでしょう。</p>
+
+<p>&nbsp;</p>
+
+<figure class="image"><img alt="" height="457" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/146292/content_dcdfd41cb6e96e78736deb5f5add6f6311da8e80." width="610" />
+<figcaption>（図２ 琉球列島の主な旧石器時代遺跡。<br />
+当時これらの島は台湾と地続きだったという説があるが、様々な証拠から否定されている）<br />
+背景地図の製作：菅 浩伸 based on Gebco 08 Grid</figcaption>
+</figure>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<div style="margin: 10px; padding: 10px 5px; border-radius: 5px; border: 1px solid rgb(229, 234, 238); border-image: none; background-color: rgb(229, 234, 238);">
+<p style="text-align: center;"><font color="#b40404">台湾から黒潮を横断する100 km 以上の航海は本当に可能か？</font></p>
+
+<p style="text-align: center;"><span style="font-family: comic sans ms,cursive;"><font color="#000000"><b>沖縄ルート、難関の大航海の再現実験</b></font></span></p>
+</div>
+
+<p><br />
+　琉球の島々にたどりつくには、数十kmの航海を繰返す必要があります。その一部は100～200 km あるいはそれ以上の距離があり、<strong>水平線の向こうの見えない世界へ向かう冒険</strong>でした。さらに当時も<strong>世界最大規模の海流である黒潮</strong>が、今と同じ台湾－与那国島間を流れていたのであれば、それを横断する必要がありました（※当時の黒潮の流路については現在チームメンバーの研究者が調査中です）。</p>
+
+<p>&nbsp;</p>
+
+<p>　このチャレンジは実際にどれだけ困難だったのか、この3万年前の事実を徹底的に追求するため、<strong>多彩な分野の一流研究者と探検家が力を合わせる壮大なプロジェクト</strong>が、2013年に始動しました（図３）。実験によって古代技術を検証し、海峡横断に必要だった海についての知識と経験を知り、そして知られざる我々の祖先の本当の姿に迫ります。</p>
+
+<p>&nbsp;</p>
+
+<figure class="image"><img alt="" height="405" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/146479/content_af92715c4ce31098e97f68c0f45df965fdc530ee.jpg" width="610" />
+<figcaption>（図３ 実験航海で検証するという突飛なアイディアに共感し、<br />
+実現しようとする一流の専門家たちが多数集まってくれました）</figcaption>
+</figure>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<div style="margin: 10px; padding: 10px 5px; border-radius: 5px; border: 1px solid rgb(229, 234, 238); border-image: none; background-color: rgb(229, 234, 238);">
+<p style="text-align: center;"><font color="#b40404">総費用およそ5,000万円の大型プロジェクト開始！</font></p>
+
+<p style="text-align: center;"><span style="font-family: comic sans ms,cursive;"><font color="#000000"><b>【第一弾の冒険】与那国島&rarr;西表島に挑戦</b></font></span></p>
+</div>
+
+<p>&nbsp;</p>
+
+<p>　まずは、当時の 舟を学術的な証拠に基づいて復元し、2016年夏に第一弾（与那国島 &rarr; 西表島）、そして2017年夏に第二弾（台湾 &rarr; 与那国島） の実験航海を行い、祖先たちが挑んだ困難を自ら体験して検証します（図４・５）。成果はもちろん国内だけでなく世界に向けて発信。総費用およそ5,000万円の大型プロジェクト。今回は、主に第一弾の実施にかかる費用として<strong>2,000万円を目標に支援を募集</strong>します。</p>
+
+<p>&nbsp;</p>
+
+<figure class="image"><img alt="" height="464" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/149665/content_dcdfd41cb6e96e78736deb5f5add6f6311da8e80." width="610" />
+<figcaption>（図４ 予定している実験公開の航路）</figcaption>
+</figure>
+
+<figure class="image"><img alt="" height="457" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/146477/content_2692d2c7c3b77099c89f671f77a87ccfa2239844.jpg" width="610" />
+<figcaption>（図５&nbsp;与那国島から台湾方面を臨む。2014年8月９日)</figcaption>
+</figure>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<div style="margin: 10px; padding: 10px 5px; border-radius: 5px; border: 1px solid rgb(229, 234, 238); border-image: none; background-color: rgb(229, 234, 238);">
+<p style="text-align: center;"><font color="#b40404">「３万年前の航海 徹底再現プロジェクト」について&nbsp;①</font></p>
+
+<p style="text-align: center;"><span style="font-family: comic sans ms,cursive;"><font color="#000000"><b>これまでの準備とプロジェクト実施計画</b></font></span></p>
+</div>
+
+<p><br />
+<strong>■ これまで３回の研究会と現地調査を重ね、候補となっている古代舟の試験製作も行って、実験航海の方向性を練ってきました</strong><br />
+2013年3月　&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第１回研究会（与那国町）<br />
+2013年8月　&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;台湾の竹筏調査（台東県）<br />
+2013年11月　&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第２回研究会（南山大学）<br />
+2014年8月　 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;古代舟試験製作（与那国町）<br />
+2015年3月　&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第３回研究会（南山大学）<br />
+2015年10月 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;古代舟試験製作・航行テスト（与那国町）<br />
+&nbsp;<br />
+<strong>■ 今後の実施計画</strong><br />
+2016年4月 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;プロジェクト始動<br />
+2016年7月　&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第１回　長距離実験航海（与那国島 &rarr; 西表島）<br />
+2016年8月 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;台湾現地調査<br />
+2016年8～12月 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;成果報告会（東京・与那国など）<br />
+2017年7月　&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第２回　長距離実験航海（台湾 &rarr; 与那国島）<br />
+2017年8～12月 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;成果報告会（東京・与那国など）</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<div style="margin: 10px; padding: 10px 5px; border-radius: 5px; border: 1px solid rgb(229, 234, 238); border-image: none; background-color: rgb(229, 234, 238);">
+<p style="text-align: center;"><font color="#b40404">「３万年前の航海 徹底再現プロジェクト」について ②</font></p>
+
+<p style="text-align: center;"><span style="font-family: comic sans ms,cursive;"><font color="#000000"><b>強力なチームで挑む、かつてないプロジェクトを推進</b></font></span></p>
+</div>
+
+<p><br />
+　<strong>最高の成果を得るために素晴らしいチーム</strong>をつくりました。現在、20名以上の専門家が（文末の表を参照）、関連する様々な個別研究を進めています。それらの成果を適用して、今回の航海プロジェクトを実施します（図６・７）。<br />
+&nbsp;<br />
+　一部の研究はまだ進行中ですが、プロジェクトに合わせて結論を出していきます。例えば、舟のサイズや乗船する人数についても、研究と航行テストの結果から判断していきます。</p>
+
+<figure class="image"><img alt="" height="457" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/146481/content_dcdfd41cb6e96e78736deb5f5add6f6311da8e80." width="610" />
+<figcaption>（図６ プロジェクトの流れ）</figcaption>
+</figure>
+
+<figure class="image"><img alt="" height="430" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/146482/content_dcdfd41cb6e96e78736deb5f5add6f6311da8e80." width="610" />
+<figcaption>（図７ 予想される３万年前の地形。海面が現在より80mほど低かったため灰色の部分は当時陸地だった）</figcaption>
+</figure>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<div style="margin: 10px; padding: 10px 5px; border-radius: 5px; border: 1px solid rgb(229, 234, 238); border-image: none; background-color: rgb(229, 234, 238);">
+<p style="text-align: center;"><font color="#b40404">「３万年前の航海 徹底再現プロジェクト」について ③</font></p>
+
+<p style="text-align: center;"><span style="font-family: comic sans ms,cursive;"><font color="#000000"><b>３万年前の古代舟を復元</b></font></span></p>
+</div>
+
+<p><br />
+　主に植物素材で作られる舟は、ふつう遺跡に残りません。日本では縄文時代の丸木舟（カヌー）が比較的多く発掘されていますが、その最古の例は7500年前です。誰も直接見ていない３万年前の古代舟を、厳密に復元することはできません。<br />
+&nbsp;<br />
+　しかし、そこであきらめることはないでしょう。舟を作るには、<strong>①地元で手に入る素材</strong>、<strong>②当時あった道具で作れるもの</strong>、という制約がありますので、まずこれらの観点から、世界各地の民族事例も参考にして、可能なタイプを絞っていきます。そして航海実験により、現地の海の条件に耐えられるかを実証します。<br />
+&nbsp;<br />
+　例えば、この時期の沖縄地方の遺跡からは斧が出てこないので、丸太をくり抜くタイプのカヌー（丸木舟）は作れなかったでしょう。一方、水に浮くバナナのようなバショウ科植物の太い茎を束ねれば、たいした道具を使わなくても簡単に筏（いかだ）をつくることができます（図８）。しかしこの舟では浮力も推進力も頑丈性も足りず、とても人類の大移動には使えません。こうした制約を検証し、現時点で私たちが<strong>有力候補と考えているのは、竹筏か草舟</strong>です（図９・１０）。</p>
+
+<p>&nbsp;</p>
+
+<figure class="image"><img alt="" height="457" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/146487/content_7f841333f7793766f2241d010ca2b31a58c68ba3.jpg" width="610" />
+<figcaption>（図８ バショウ筏（いかだ）の機能テスト。2014年8月：与那国島）</figcaption>
+</figure>
+
+<figure class="image"><img alt="" height="382" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/146488/content_5cd1a35839ea93302d8948ccd6ff24c5e1306b59.jpg" width="610" />
+<figcaption>（図9&nbsp;与那国島に自生するヒメガマを材料にした、「チチカカ湖型草舟」によるテスト。<br />
+地元中高生を含む沢山の方々が舟製作を手伝ってくれました。2014年8月：与那国島）</figcaption>
+</figure>
+
+<figure class="image"><img alt="" height="457" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/146489/content_3229a02c0a998041e2740db4835c5c1f0b0af629.jpg" width="610" />
+<figcaption>（図１０ 台湾原住民のアミ族が作る伝統竹筏の調査。2013年8月：台東）</figcaption>
+</figure>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<div style="margin: 10px; padding: 10px 5px; border-radius: 5px; border: 1px solid rgb(229, 234, 238); border-image: none; background-color: rgb(229, 234, 238);">
+<p style="text-align: center;"><font color="#b40404">大きな謎解きの体験を皆でシェアしたい</font></p>
+
+<p style="text-align: center;"><span style="font-family: comic sans ms,cursive;"><font color="#000000"><b>人類学の研究を通じて「今を生きる私たち自身」を知る</b></font></span></p>
+</div>
+
+<p><br />
+　研究して見えてくる祖先たちの本当の姿、それに加えて研究の過程で目にする現代日本とアジアの自然・人・文化。その全てが本当に刺激的なのです。しょせん私たち人間は知能が高いと言っても、基本的に自分の経験したことしか知らないから、その範囲でしかものを考えられない。しかし、人類学の研究をすることで、それと異質な過去があったのだと、意識するようになりました。</p>
+
+<p>&nbsp;</p>
+
+<p>　私は、人間そのものを探究したい、進化を軸にして人間のことを探りたい、そう思っていました。それは探偵のような作業でもあります。<strong>残った断片的な証拠を見つけ、１つ１つを適切に解釈し、それらをつなぎ合わせ全体像を復元していく</strong>のです。３万年前の航海という事実も、そうして個々の遺跡証拠を統合することで見えてきました。</p>
+
+<p>&nbsp;</p>
+
+<p>　有難いことに今回、実験航海で検証するなんていう私の突飛なアイディアに共感し、それを一緒に実現しようとする一流の専門家たちが多数集まってくれました。狭い意味での私自身の専門は、化石骨の形態を研究して人類進化を考察すること。しかしそれだけでは、人類がこれまで何をしてきたのか全体像は分かりません。考古遺物の解釈や、過去の地理、気候、海洋環境、動物や植物など・・・<strong>いろいろな研究分野が複合して、本当に意味のある学術的成果が得られる</strong>のです。今回はそれに海洋探検家たちが加わり、さらにパワーアップしました。</p>
+
+<p>&nbsp;</p>
+
+<p>　そして、このチームが共鳴して構想がどんどん現実的になっていったとき、さらに思いが膨らんだのです――このプロジェクトはもっと大勢の方々と共有できるのではないかと。祖先たちはどうやって海を渡って来られたのか、さあ私たちと一緒にいろいろな仮説を考えてみましょう。<strong>&rdquo;原始人&rdquo;というイメージで見られる祖先たちの違う側面について知ったとき、私たちは今までと違う人間観を手に入れることができるようになるはず</strong>です。<br />
+&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<div style="margin: 10px; padding: 10px 5px; border-radius: 5px; border: 1px solid rgb(229, 234, 238); border-image: none; background-color: rgb(229, 234, 238);">
+<p style="text-align: center;"><font color="#b40404">社会貢献・国際交流にもつながるチャレンジを応援してください！</font></p>
+
+<p style="text-align: center;"><font color="#000000" face="comic sans ms, cursive"><b>様々な潜在力と資金の使い途</b></font></p>
+</div>
+
+<p>&nbsp;</p>
+
+<p>　このプロジェクトには、祖先の謎解き以外にも、いろいろな潜在力があると考えています。私たちは、地域にあった知られざる歴史的価値を掘り起こしてその活性化に貢献したいと思っています（そのために関連NPO法人と協力します）。近隣でありながら日本人がよく知っているとは言えない、台湾の人々と文化について理解し交流する機会をつくります。そして博物館の立場から言えば、これはその活動の幅を広げる新たなチャレンジです。これは博物館がその人的・組織的資源を生かして野外にその活動を広げるチャレンジであり、クラウドファンディングについて言えば国立の博物館としては国内初です。</p>
+
+<p>&nbsp;</p>
+
+<p>　成功すれば将来のよい先例となるはず。そのためにも、是非皆様のご支援をお願い致します！ご支援頂いた資金は、実験航海の準備・調査・運営・映像記録・情報公開に利用させて頂く予定です。目標より多くの支援が集まった場合は、翌年度以降の活動資金に振り替えさせて頂きます。</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<div style="margin: 10px; padding: 10px 5px; border-radius: 5px; border: 1px solid rgb(229, 234, 238); border-image: none; background-color: rgb(229, 234, 238);">
+<p style="text-align: center;"><font color="#b40404">国立科学博物館</font></p>
+
+<p style="text-align: center;"><font color="#000000" face="comic sans ms, cursive"><b>科博の歴代館長からのご挨拶</b></font></p>
+</div>
+
+<p>&nbsp;</p>
+
+<p><img alt="" height="258" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/151376/content_accf102caaa970ce65d217b9ae9a8e9a57caa67c.jpg" width="200" /></p>
+
+<p>&nbsp;</p>
+
+<p>佐々木正峰 ／元・国立科学博物館長 元・文化庁長官</p>
+
+<p>&nbsp;</p>
+
+<p>　国立科学博物館は、日本で唯一の自然史系の国立博物館として、これまで研究や展示に貢献してきました。近年で言えば、ダイオウイカの生態を初めて記録し、そのブームの火付け役になったことが記憶に新しいと思います。その博物館が、今回、日本人のルーツに関連する、科博らしい夢のある構想を発表しました。本プロジェクトが実現し、成功することを、前任者として心より祈願しております。</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" height="254" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/151377/content_08fda0244b5397e030ee401fd2bea5b24f78a72b.jpg" width="200" /></p>
+
+<p>&nbsp;</p>
+
+<p>近藤信司 ／&nbsp;前・国立科学博物館長 元・文化庁長官 &nbsp;&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp; 昨夏、アメリカのスミソニアン国立航空宇宙博物館が、クラウドファンディングで大成功を収めたニュースが流れました。1969年の月面着陸（アポロ計画）で使われた、ニール・アームストロング船長の宇宙服を修繕・展示をするプロジェクトに対し、9477人から約8300万円が集まったというのです。このように一般の方々のご理解とご支援のもとに、博物館が価値ある挑戦を行うというのは、日本にもあってよいかたちだと思います。今回の構想がそうした新たな潮流の火付け役になることを願いつつ、本プロジェクトを応援しています。</p>
+
+<p><br />
+&nbsp;</p>
+
+<p><img alt="" height="256" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/151378/content_6896a8696b8038f4fc8989ab005e4fccc3b90047.jpg" width="200" /></p>
+
+<p>&nbsp;</p>
+
+<p>林 良博 ／&nbsp;現・国立科学博物館長 元・東京大学教授、東京大学総合研究博物館長、東京大学副学長</p>
+
+<p>&nbsp;</p>
+
+<p>　歴代館長のもと、国立科学博物館は2004年に地球館を新設し、2007年には日本館を全面改装、そして2015年には新型展示の「地球史ナビゲーター」や「親と子のたんけんひろば コンパス」をオープンさせました。それぞれご好評を頂いてきましたが、科博の挑戦はそれに留まりません。今回発表したのは、科博がそこに所属する研究者という人的資源を活かし、外部とも協力して野外で実践する、新しいプロジェクトです。どうか皆様の温かいご理解とご協力を賜りますよう、よろしくお願い申し上げます。</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<div style="margin: 10px; padding: 10px 5px; border-radius: 5px; border: 1px solid rgb(229, 234, 238); border-image: none; background-color: rgb(229, 234, 238);">
+<p style="text-align: center;"><font color="#b40404">航海プロジェクト・チーム</font></p>
+
+<p style="text-align: center;"><font color="#000000" face="comic sans ms, cursive"><b>現時点での研究会参加メンバー</b></font></p>
+</div>
+
+<p>&nbsp;</p>
+
+<p style="text-align:center"><img alt="" height="333" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/149718/content_accf102caaa970ce65d217b9ae9a8e9a57caa67c.jpg" width="610" /></p>
+
+<p>&nbsp;</p>
+
+<p style="text-align:center"><img alt="" height="333" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/149719/content_08fda0244b5397e030ee401fd2bea5b24f78a72b.jpg" width="610" /></p>
+
+<p>&nbsp;</p>
+
+<p style="text-align:center"><img alt="" height="333" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/149720/content_6896a8696b8038f4fc8989ab005e4fccc3b90047.jpg" width="610" /></p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" height="333" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/149722/content_c7c2d6650fe8dd3125b1541cb39af56649bd56fa.jpg" width="610" /></p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" height="333" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/149721/content_0ed1686442ac630326a48ddcef43684fa02b904b.jpg" width="610" /></p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" height="333" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/149723/content_b30ff17d14b759c017197570526ff51b33cc83c5.jpg" width="610" /></p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" height="333" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/149724/content_fc9956ee2f4201e204a5532c68850c6715ed24e0.jpg" width="610" /></p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" height="333" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/149725/content_6caf85fa09e0642959e62c753d9a2f18236eb1da.jpg" width="610" /></p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" height="333" src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/149726/content_c0c954a3a268bfc515e88839a41a25de5bd1b194.jpg" width="610" /></p>
+
+<p><br />
+<br />
+<strong>総括　</strong>　</p>
+
+<p>　海部陽介（代表）（国立科学博物館研究グループ長　人類学）<br />
+　後藤　明　（南山大学教授　海洋人類学・天文人類学）<br />
+　村松　稔　（与那国町教育委員会主事）<br />
+<strong>事務局</strong><br />
+　三浦くみの　（国立科学博物館非常勤職員）<br />
+<strong>人類・考古学</strong><br />
+　池谷信之　（沼津市文化財センター　考古学）<br />
+　小野林太郎　（東海大学准教授　海洋考古学）<br />
+　片桐千亜紀　（沖縄県立博物館・美術館主任学芸員　考古学）<br />
+　河野礼子　（国立科学博物館研究主幹　人類学）<br />
+　篠田謙一　（国立科学博物館研究部長　人類学）<br />
+　野林厚志　（国立民族学博物館教授　台湾民族学）<br />
+　藤田祐樹　（沖縄県立博物館・美術館主任　人類学）<br />
+　山崎真治　（沖縄県立博物館・美術館主任　考古学）<br />
+　米田　穣　（東京大学博物館教授　人類学）<br />
+<strong>古地理・黒潮動態研究</strong><br />
+　菅 浩伸　（九州大学大学院教授　海底地形学）<br />
+　久保田好美　（国立科学博物館研究員　古環境学）<br />
+　横山祐典　（東京大学・大気海洋研教授　古環境学）<br />
+<strong>植物資源調査</strong></p>
+
+<p>　國府方吾郎　（国立科学博物館研究主幹　植物学）<br />
+<strong>古代舟研究・航海シミュレーション</strong><br />
+　石川　仁　（㈳ONE OCEAN 代表理事　冒険家、草舟職人）<br />
+　井原泰雄　（東京大学大学院理学系研究科講師　人類学）<br />
+　内田正洋　（海洋ジャーナリスト　シーカヤック航海者）<br />
+　洲澤育範　（喜多風屋代表　カヤック大工）<br />
+　関野吉晴　（武蔵野美術大学教授　探検家（グレートジャーニー）・医師）<br />
+　門田　修　（海工房代表　海洋文化ドキュメンタリー製作）<br />
+<strong>教育普及</strong><br />
+　田村祐司　（東京海洋大学海洋政策文化学部門准教授　海洋スポーツ健康科学）<br />
+　小池康仁　（与那国町役場嘱託員　地域研究）<br />
+　大西広之　（NPO法人国境地域研究センター　地域研究）</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<div style="margin: 10px; padding: 10px 5px; border-radius: 5px; border: 1px solid rgb(229, 234, 238); border-image: none; background-color: rgb(229, 234, 238);">
+<p style="text-align: center;"><font color="#b40404">あなたも「クルー」認定証をもらおう！</font></p>
+
+<p style="text-align: center;"><font color="#b40404"><span style="font-family: comic sans ms,cursive;"><font color="#000000"><strong><font color="#000000">リターンについて</font></strong></font></span></font></p>
+</div>
+
+<p>&nbsp;</p>
+
+<p><strong>※ リターン表（PDF）【<a href="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/attachments/151634/5fbc6de45f91afe24f59153e4ca23f3b02472fa6." target="”_blank”">ここをクリック</a>】でご覧いただけます。</strong></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<div style="margin: 10px; padding: 10px 5px; border-radius: 5px; border: 1px solid rgb(229, 234, 238); border-image: none; background-color: rgb(229, 234, 238);">
+<p style="text-align: center;"><font color="#b40404">よくあるご質問と回答</font></p>
+
+<p style="text-align: center;"><font color="#b40404"><span style="font-family: comic sans ms,cursive;"><font color="#000000"><strong><font color="#000000">Q and A</font></strong></font></span></font></p>
+</div>
+
+<p>&nbsp;</p>
+
+<p><strong>※【Q and A】よくあるご質問と回答は【<a href="https://readyfor.jp/projects/koukai/announcements/35517">ここをクリック</a>】でご覧いただけます。</strong></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+
+            </section>
+            <!-- /概要 -->
+            <hr>
+            <section class="Project-update Tab__content">
+                <h2>最新の新着情報</h2>
+                <aside class="Project-update__related">
+                  <article class="Project-update__related-item Media">
+  <div class="Project-update__related-item-img Media__img">
+    <a href="/projects/koukai/announcements/36149">
+      <img src="https://readyfor-img.s3.amazonaws.com/ckeditor_assets/pictures/158075/thumb_dcdfd41cb6e96e78736deb5f5add6f6311da8e80." alt="Thumb dcdfd41cb6e96e78736deb5f5add6f6311da8e80" width="120" height="120" />
+</a>  </div>
+  <div class="Project-update__related-item-main Media__body docs-area">
+    <header class="Project-update__related-item-header">
+
+
+        <time pubdate="2016-03-15" class="Project-update__related-item-header-date">2016年03月15日</time>
+
+
+      <h1 class="Project-update__related-item-header-h">
+        <a class="u-font_b" href="/projects/koukai/announcements/36149">関根勤さん、宮崎美子さん、三浦しをんさんからの応援メッセージ</a>
+      </h1>
+
+
+
+
+    </header>
+    <div  class="Project-update__related-item-body">
+      <p>  国立科学博物館「３万年前の航海 徹底再現プロジェクト」に、まだまだ著名人の方々から、続々と応援メッセージが届いています！   今回は、関根勤さん、宮崎美子さん、三浦しをんさんからのメッセージを紹介させていただきます。   このURL（https://readyfor.jp/p...</p>
+    </div>
+    <footer class="Project-update__related-item-footer">
+      <a href="/projects/koukai/announcements/36149">続きを見る</a>
+       /
+      <a href="/projects/koukai/announcements/36149">コメントする</a>
+    </footer>
+  </div>
+</article>
+
+                </aside>
+            </section>
+
+
+            <a class="Btn-1-flat backing-button-wrap is-no-shadow u-fit-w u-mt_20 u-mb_30" href="/projects/koukai/contribution"><div class="Btn-1__inner"><div class="Btn-1__content"><span class="Btn-1__txt u-fs_18">このプロジェクトを支援する</span></div></div></a>
+            <div class="fb-page-box u-mt_30">
+              <span>Facebookページでおすすめプロジェクトを毎日配信しています</span>
+              <div class="fb-page" data-href="https://www.facebook.com/readyfor" data-width="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" data-show-posts="false">
+                <div class="fb-xfbml-parse-ignore">
+                  <blockquote cite="https://www.facebook.com/readyfor">
+                    <a href="https://www.facebook.com/readyfor">Ready for?</a>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /Tab__contents -->
+
+
+
+
+
+
+          </div>
+          <!-- /Tab__contents -->
+
+        </div>
+        <!-- /Tab -->
+
+      </div>
+
+      <div class="Sidebar is-type0 u-fl_r">
+        <div class="u-em u-fs_18 u-font_b u-align_c u-mt_20 u-mb_20">
+            <a rel="nofollow" data-method="post" href="/projects/koukai/watch">    <span class="Icon-plus u-mr_5"></span>
+    <span class="u-valign_m tooltipped tooltipped-n" aria-label="マイページに追加され、新着情報を受け取れます。">
+      気になるリストに追加する
+    </span>
+
+</a>
+        </div>
+                      <section class="Project-return Side-area-1 u-mb_20">
+              <a class="is-no-shadow u-fit-w u-mt_20 Side-area-1-txt" href="/projects/koukai/contribution?select_id=28484">              <b><p class="Project-return__title u-fs_16 u-mb_15">
+                  科博に行こう！常設展チケット2枚
+              </p></b>
+              <h1 class="u-mb_15">
+                <b class="u-fs_20 u-font-en u-font_b">&yen;
+                  <span class="Project-return__price">
+                    5,000
+                  </span>
+                </b>
+                  <span class="u-fs_16">のリターン</span>
+              </h1>
+              <div class="Project-return__img u-mb_15">
+                <img src="/images/noimage_project.jpg" alt="Noimage project" width="0" height="0" />
+              </div>
+              <p class="Project-return__description u-mb_30">
+                ① お礼メール（感謝の気持ちを送信します）<br />② PC壁紙（与那国で撮影したプロジェクトのロゴ入りアイコン画像です）<br />③ 常設展チケット（2枚）
+              </p>
+              <ul class="Project-return__condition">
+                <li class="u-mb_10">
+                  <span class="Icon-supporter u-mr_10"></span>
+                  <span class="u-valign_m">
+                    100人が支援中／
+                    <span class="Project-return__condition-limit">
+                        在庫制限無し
+                    </span>
+                  </span>
+                </li>
+                <li class="u-mb_10">
+                    <span class="Icon-shipment u-mr_10"></span>
+                    <span class="u-valign_m">
+                      2016年05月までにお届け予定です。
+                    </span>
+                </li>
+              </ul>
+              <a class="Btn-1-flat is-no-shadow u-fit-w u-mt_20" href="/projects/koukai/contribution?select_id=28484">                <div class="Btn-1__inner-flat">
+                  <div class="Btn-1__content">
+                    <div class="Btn-1__txt">このリターンを購入する</div>
+                  </div>
+                </div>
+</a></a>            </section>
+
+                      <section class="Project-return Side-area-1 u-mb_20">
+              <a class="is-no-shadow u-fit-w u-mt_20 Side-area-1-txt" href="/projects/koukai/contribution?select_id=28485">              <b><p class="Project-return__title u-fs_16 u-mb_15">
+                  冒険のクルーに認定！ 本を片手に謎解きに挑戦しよう
+              </p></b>
+              <h1 class="u-mb_15">
+                <b class="u-fs_20 u-font-en u-font_b">&yen;
+                  <span class="Project-return__price">
+                    15,000
+                  </span>
+                </b>
+                  <span class="u-fs_16">のリターン</span>
+              </h1>
+              <div class="Project-return__img u-mb_15">
+                <img src="https://readyfor-img.s3.amazonaws.com/reward_images/28485/medium/7596741b21583f0ecb5d7c82ac280fd11b390e96.jpg?1454762032" alt="7596741b21583f0ecb5d7c82ac280fd11b390e96" width="280" height="173" />
+              </div>
+              <p class="Project-return__description u-mb_30">
+                　5,000円のリターン内容に加えて<br />④ 舟員番号入り「クルー認定証」<br /> ★プロジェクト最新メールNEWS配信<br /> ★航海で使う櫂にあなたのお名前を記し、漕ぎ手と一緒に海を渡ります!<br /> ★科博の特別スペースにお名前を表示<br />⑤ 海部陽介著『日本人はどこから来たのか？』（文芸春秋　2月10日発売）<br />★このプロジェクトの全てが深く詰め込まれた新刊本です。ロゴ入り
+              </p>
+              <ul class="Project-return__condition">
+                <li class="u-mb_10">
+                  <span class="Icon-supporter u-mr_10"></span>
+                  <span class="u-valign_m">
+                    138人が支援中／
+                    <span class="Project-return__condition-limit">
+                        在庫制限無し
+                    </span>
+                  </span>
+                </li>
+                <li class="u-mb_10">
+                    <span class="Icon-shipment u-mr_10"></span>
+                    <span class="u-valign_m">
+                      2016年05月までにお届け予定です。
+                    </span>
+                </li>
+              </ul>
+              <a class="Btn-1-flat is-no-shadow u-fit-w u-mt_20" href="/projects/koukai/contribution?select_id=28485">                <div class="Btn-1__inner-flat">
+                  <div class="Btn-1__content">
+                    <div class="Btn-1__txt">このリターンを購入する</div>
+                  </div>
+                </div>
+</a></a>            </section>
+
+                      <section class="Project-return Side-area-1 u-mb_20">
+              <a class="is-no-shadow u-fit-w u-mt_20 Side-area-1-txt" href="/projects/koukai/contribution?select_id=28486">              <b><p class="Project-return__title u-fs_16 u-mb_15">
+                  冒険のクルーに認定！ 役に立つ科博トランプと野帳を手に入れよう
+              </p></b>
+              <h1 class="u-mb_15">
+                <b class="u-fs_20 u-font-en u-font_b">&yen;
+                  <span class="Project-return__price">
+                    20,000
+                  </span>
+                </b>
+                  <span class="u-fs_16">のリターン</span>
+              </h1>
+              <div class="Project-return__img u-mb_15">
+                <img src="https://readyfor-img.s3.amazonaws.com/reward_images/28486/medium/df651b69d948b3ddfe55525a2838952b956d9dfc.jpg?1454804159" alt="Df651b69d948b3ddfe55525a2838952b956d9dfc" width="280" height="173" />
+              </div>
+              <p class="Project-return__description u-mb_30">
+                　5,000円のリターン内容に加えて<br />④ 舟員番号入り「クルー認定証」<br /> ★プロジェクト最新メールNEWS配信<br /> ★航海で使う櫂にあなたのお名前を記し、漕ぎ手と一緒に海を渡ります!<br /> ★科博の特別スペースにお名前を表示<br />⑤ 科博オリジナル・フィールドノート<br />★野外観察でも日常でも利用できる携帯ノート（165×96×6mm　3mm方眼罫）<br />⑥ 科博オリジナル・トランプ<br />★１枚１枚が生き物カードになっている、なんとも科博らしいユニークなトランプ。研究者による解説書つき
+              </p>
+              <ul class="Project-return__condition">
+                <li class="u-mb_10">
+                  <span class="Icon-supporter u-mr_10"></span>
+                  <span class="u-valign_m">
+                    23人が支援中／
+                    <span class="Project-return__condition-limit">
+                        在庫制限無し
+                    </span>
+                  </span>
+                </li>
+                <li class="u-mb_10">
+                    <span class="Icon-shipment u-mr_10"></span>
+                    <span class="u-valign_m">
+                      2016年05月までにお届け予定です。
+                    </span>
+                </li>
+              </ul>
+              <a class="Btn-1-flat is-no-shadow u-fit-w u-mt_20" href="/projects/koukai/contribution?select_id=28486">                <div class="Btn-1__inner-flat">
+                  <div class="Btn-1__content">
+                    <div class="Btn-1__txt">このリターンを購入する</div>
+                  </div>
+                </div>
+</a></a>            </section>
+
+                      <section class="Project-return Side-area-1 u-mb_20">
+              <a class="is-no-shadow u-fit-w u-mt_20 Side-area-1-txt" onclick="return false;" href="">              <b><p class="Project-return__title u-fs_16 u-mb_15">
+                  冒険のクルーに認定！ 科博で大人気の「コンパス」入場予約権
+              </p></b>
+              <h1 class="u-mb_15">
+                <b class="u-fs_20 u-font-en u-font_b">&yen;
+                  <span class="Project-return__price">
+                    20,000
+                  </span>
+                </b>
+                  <span class="u-fs_16">のリターン</span>
+              </h1>
+              <div class="Project-return__img u-mb_15">
+                <img src="https://readyfor-img.s3.amazonaws.com/reward_images/29227/medium/e638d2f0ae368318499c8dd0ebe6bf2f7283000c.jpg?1454755961" alt="E638d2f0ae368318499c8dd0ebe6bf2f7283000c" width="280" height="173" />
+              </div>
+              <p class="Project-return__description u-mb_30">
+                　5,000円のリターン内容に加えて<br />④ 舟員番号入り「クルー認定証」<br /> ★プロジェクト最新メールNEWS配信<br /> ★航海で使う櫂にあなたのお名前を記し、漕ぎ手と一緒に海を渡ります!<br /> ★科博の特別スペースにお名前を表示<br />⑤ 科博オリジナル・フィールドノート<br />⑥ 今大人気の、2015年夏にオープンした「親と子のたんけんひろば コンパス」に待ち時間なく入場できる優先予約権<br />★1組6名まで。2016年6月1日（水）～ 9月19日（月）の間の希望日
+              </p>
+              <ul class="Project-return__condition">
+                <li class="u-mb_10">
+                  <span class="Icon-supporter u-mr_10"></span>
+                  <span class="u-valign_m">
+                    10人が支援中／
+                    <span class="Project-return__condition-limit">
+                          <span class="sold-out">完売！</span>
+                        &nbsp; &nbsp;
+                        残り 0
+                    </span>
+                  </span>
+                </li>
+                <li class="u-mb_10">
+                    <span class="Icon-shipment u-mr_10"></span>
+                    <span class="u-valign_m">
+                      2016年05月までにお届け予定です。
+                    </span>
+                </li>
+              </ul>
+              <a class="Btn-1 is-no-shadow u-fit-w u-mt_20 unbuyable u-d_none" onclick="return false;" href="">                <div class="Btn-1__inner-flat">
+                  <div class="Btn-1__content">
+                    <div class="Btn-1__txt">このリターンを購入する</div>
+                  </div>
+                </div>
+</a></a>            </section>
+
+                      <section class="Project-return Side-area-1 u-mb_20">
+              <a class="is-no-shadow u-fit-w u-mt_20 Side-area-1-txt" onclick="return false;" href="">              <b><p class="Project-return__title u-fs_16 u-mb_15">
+                  冒険のクルーに認定！【グループツアー】金曜夜のナイトミュージアム
+              </p></b>
+              <h1 class="u-mb_15">
+                <b class="u-fs_20 u-font-en u-font_b">&yen;
+                  <span class="Project-return__price">
+                    20,000
+                  </span>
+                </b>
+                  <span class="u-fs_16">のリターン</span>
+              </h1>
+              <div class="Project-return__img u-mb_15">
+                <img src="https://readyfor-img.s3.amazonaws.com/reward_images/29228/medium/9d786b857c5de091df81d9e37b2198ef6e2e4208.jpg?1454756312" alt="9d786b857c5de091df81d9e37b2198ef6e2e4208" width="280" height="173" />
+              </div>
+              <p class="Project-return__description u-mb_30">
+                　5,000円のリターン内容に加えて<br />④ 舟員番号入り「クルー認定証」<br /> ★プロジェクト最新メールNEWS配信<br /> ★航海で使う櫂にあなたのお名前を記し、漕ぎ手と一緒に海を渡ります!<br /> ★科博の特別スペースにお名前を表示<br />⑤ 科博オリジナル・フィールドノート<br />⑥ 【グループツアー】夜の展示ツアー（１人同伴可）<br />★チーム代表の海部が人類進化の謎について解説。お仕事帰りにもどうぞ！ 雰囲気を盛り上げるためツアー前のお食事には博物館レストランのご利用もお勧め（展示場側の席がお得）（2016年6月10日（金）・6月17日（金）のどちらかを選択。ツアーは19：45～21：00。開始前から入館し展示を自由にご覧頂けます）
+              </p>
+              <ul class="Project-return__condition">
+                <li class="u-mb_10">
+                  <span class="Icon-supporter u-mr_10"></span>
+                  <span class="u-valign_m">
+                    40人が支援中／
+                    <span class="Project-return__condition-limit">
+                          <span class="sold-out">完売！</span>
+                        &nbsp; &nbsp;
+                        残り 0
+                    </span>
+                  </span>
+                </li>
+                <li class="u-mb_10">
+                    <span class="Icon-shipment u-mr_10"></span>
+                    <span class="u-valign_m">
+                      2016年05月までにお届け予定です。
+                    </span>
+                </li>
+              </ul>
+              <a class="Btn-1 is-no-shadow u-fit-w u-mt_20 unbuyable u-d_none" onclick="return false;" href="">                <div class="Btn-1__inner-flat">
+                  <div class="Btn-1__content">
+                    <div class="Btn-1__txt">このリターンを購入する</div>
+                  </div>
+                </div>
+</a></a>            </section>
+
+                      <section class="Project-return Side-area-1 u-mb_20">
+              <a class="is-no-shadow u-fit-w u-mt_20 Side-area-1-txt" href="/projects/koukai/contribution?select_id=29229">              <b><p class="Project-return__title u-fs_16 u-mb_15">
+                  常設展が無料の特別クルーに認定！ 本とトランプも入手できてお得
+              </p></b>
+              <h1 class="u-mb_15">
+                <b class="u-fs_20 u-font-en u-font_b">&yen;
+                  <span class="Project-return__price">
+                    30,000
+                  </span>
+                </b>
+                  <span class="u-fs_16">のリターン</span>
+              </h1>
+              <div class="Project-return__img u-mb_15">
+                <img src="https://readyfor-img.s3.amazonaws.com/reward_images/29229/medium/a715feb29558f5bdf514a51618b540cb8e063df6.jpg?1454822503" alt="A715feb29558f5bdf514a51618b540cb8e063df6" width="280" height="173" />
+              </div>
+              <p class="Project-return__description u-mb_30">
+                ① お礼メール<br />② PC壁紙<br />③ 舟員番号入り「特別クルー認定証」<br /> ★22ヶ月間の科博（上野）常設展示フリーパス<br /> ★プロジェクト最新メールNEWS配信<br /> ★航海で使う櫂にあなたのお名前を記し、漕ぎ手と一緒に海を渡ります!<br /> ★科博の特別スペースにお名前を表示<br />④ 海部陽介著『日本人はどこから来たのか？』（文芸春秋　2月10日発売）<br />★このプロジェクトの全てが深く詰め込まれた新刊本です。サイン・ロゴ入り<br />⑤ 科博オリジナル・フィールドノート<br />⑥ 科博オリジナル・トランプ
+              </p>
+              <ul class="Project-return__condition">
+                <li class="u-mb_10">
+                  <span class="Icon-supporter u-mr_10"></span>
+                  <span class="u-valign_m">
+                    31人が支援中／
+                    <span class="Project-return__condition-limit">
+                        在庫制限無し
+                    </span>
+                  </span>
+                </li>
+                <li class="u-mb_10">
+                    <span class="Icon-shipment u-mr_10"></span>
+                    <span class="u-valign_m">
+                      2016年05月までにお届け予定です。
+                    </span>
+                </li>
+              </ul>
+              <a class="Btn-1-flat is-no-shadow u-fit-w u-mt_20" href="/projects/koukai/contribution?select_id=29229">                <div class="Btn-1__inner-flat">
+                  <div class="Btn-1__content">
+                    <div class="Btn-1__txt">このリターンを購入する</div>
+                  </div>
+                </div>
+</a></a>            </section>
+
+                      <section class="Project-return Side-area-1 u-mb_20">
+              <a class="is-no-shadow u-fit-w u-mt_20 Side-area-1-txt" href="/projects/koukai/contribution?select_id=29230">              <b><p class="Project-return__title u-fs_16 u-mb_15">
+                  メンバーが集結する講座でプロジェクトを理解する。与那国名産つき
+              </p></b>
+              <h1 class="u-mb_15">
+                <b class="u-fs_20 u-font-en u-font_b">&yen;
+                  <span class="Project-return__price">
+                    50,000
+                  </span>
+                </b>
+                  <span class="u-fs_16">のリターン</span>
+              </h1>
+              <div class="Project-return__img u-mb_15">
+                <img src="https://readyfor-img.s3.amazonaws.com/reward_images/29230/medium/49bb6857545b8b69fb9a7fe5a570d77e6f15f9ac.JPG?1454758063" alt="49bb6857545b8b69fb9a7fe5a570d77e6f15f9ac" width="280" height="173" />
+              </div>
+              <p class="Project-return__description u-mb_30">
+                　30,000円のリターン内容に加えて<br />⑦ 与那国の美しい花織りブックカバー<br />★綿（注文生産 2017年配送）<br />⑧ プロジェクト博士講座（会場：科博）<br />★プロジェクトメンバーの研究者たちが科博で行う、おもしろ講座にご参加ください。皆で直接議論する場にしましょう！（2016年6月12日に科博で開催、2017年も開催予定）
+              </p>
+              <ul class="Project-return__condition">
+                <li class="u-mb_10">
+                  <span class="Icon-supporter u-mr_10"></span>
+                  <span class="u-valign_m">
+                    6人が支援中／
+                    <span class="Project-return__condition-limit">
+                        在庫制限無し
+                    </span>
+                  </span>
+                </li>
+                <li class="u-mb_10">
+                    <span class="Icon-shipment u-mr_10"></span>
+                    <span class="u-valign_m">
+                      2016年05月までにお届け予定です。
+                    </span>
+                </li>
+              </ul>
+              <a class="Btn-1-flat is-no-shadow u-fit-w u-mt_20" href="/projects/koukai/contribution?select_id=29230">                <div class="Btn-1__inner-flat">
+                  <div class="Btn-1__content">
+                    <div class="Btn-1__txt">このリターンを購入する</div>
+                  </div>
+                </div>
+</a></a>            </section>
+
+                      <section class="Project-return Side-area-1 u-mb_20">
+              <a class="is-no-shadow u-fit-w u-mt_20 Side-area-1-txt" href="/projects/koukai/contribution?select_id=29231">              <b><p class="Project-return__title u-fs_16 u-mb_15">
+                  通常は非公開の科博標本庫で人骨から祖先たちのことを知るツアー
+              </p></b>
+              <h1 class="u-mb_15">
+                <b class="u-fs_20 u-font-en u-font_b">&yen;
+                  <span class="Project-return__price">
+                    50,000
+                  </span>
+                </b>
+                  <span class="u-fs_16">のリターン</span>
+              </h1>
+              <div class="Project-return__img u-mb_15">
+                <img src="https://readyfor-img.s3.amazonaws.com/reward_images/29231/medium/159e7603293044fd52a1e4bb537d128966a828b8.JPG?1454759692" alt="159e7603293044fd52a1e4bb537d128966a828b8" width="280" height="173" />
+              </div>
+              <p class="Project-return__description u-mb_30">
+                　30,000円のリターン内容に加えて<br />⑦ 与那国の美しい花織りブックカバー<br />★綿（注文生産 2017年配送）<br />⑧ 縄文～江戸時代の人骨が１万体分保管されている科博・人類研究部の収蔵庫ツアー（茨城県つくば市）（１人同伴可）<br />★研究者専用のスペースで、研究部スタッフが人類学について特別レクチャー（2016年10月１日（土）・10月２日（日）のどちらかを選択　13：00～16：30）
+              </p>
+              <ul class="Project-return__condition">
+                <li class="u-mb_10">
+                  <span class="Icon-supporter u-mr_10"></span>
+                  <span class="u-valign_m">
+                    13人が支援中／
+                    <span class="Project-return__condition-limit">
+                          数量限定
+                        &nbsp; &nbsp;
+                        残り 17
+                    </span>
+                  </span>
+                </li>
+                <li class="u-mb_10">
+                    <span class="Icon-shipment u-mr_10"></span>
+                    <span class="u-valign_m">
+                      2016年05月までにお届け予定です。
+                    </span>
+                </li>
+              </ul>
+              <a class="Btn-1-flat is-no-shadow u-fit-w u-mt_20" href="/projects/koukai/contribution?select_id=29231">                <div class="Btn-1__inner-flat">
+                  <div class="Btn-1__content">
+                    <div class="Btn-1__txt">このリターンを購入する</div>
+                  </div>
+                </div>
+</a></a>            </section>
+
+                      <section class="Project-return Side-area-1 u-mb_20">
+              <a class="is-no-shadow u-fit-w u-mt_20 Side-area-1-txt" href="/projects/koukai/contribution?select_id=29232">              <b><p class="Project-return__title u-fs_16 u-mb_15">
+                  メンバーと一緒に楽しい時間を！ 打ち上げ参加権。与那国グッズも充実
+              </p></b>
+              <h1 class="u-mb_15">
+                <b class="u-fs_20 u-font-en u-font_b">&yen;
+                  <span class="Project-return__price">
+                    100,000
+                  </span>
+                </b>
+                  <span class="u-fs_16">のリターン</span>
+              </h1>
+              <div class="Project-return__img u-mb_15">
+                <img src="https://readyfor-img.s3.amazonaws.com/reward_images/29232/medium/5a4e96d1de0a6b28ec24cc27f83bb92be06e67f3.JPG?1454774681" alt="5a4e96d1de0a6b28ec24cc27f83bb92be06e67f3" width="280" height="173" />
+              </div>
+              <p class="Project-return__description u-mb_30">
+                　30,000円のリターン内容に加えて<br />⑦ 与那国名産 花織りブックカバー<br />★絹（注文生産 2017年配送）<br />⑧ レアな島の生き物図鑑「よなかま図鑑」（村松稔著）★サイン入り<br />⑨ 成果報告会（2016年8月27日：科博）と、実験航海（2016年7月：西表島）の後で開催する打ち上げパーティにご招待。１人同伴可（同伴者の飲食代はお支払い願います）<br />※旅費自己負担。7月の開催日は気象条件に左右される出航日に合わせるため未定。2017年も同様の予定
+              </p>
+              <ul class="Project-return__condition">
+                <li class="u-mb_10">
+                  <span class="Icon-supporter u-mr_10"></span>
+                  <span class="u-valign_m">
+                    7人が支援中／
+                    <span class="Project-return__condition-limit">
+                        在庫制限無し
+                    </span>
+                  </span>
+                </li>
+                <li class="u-mb_10">
+                    <span class="Icon-shipment u-mr_10"></span>
+                    <span class="u-valign_m">
+                      2016年05月までにお届け予定です。
+                    </span>
+                </li>
+              </ul>
+              <a class="Btn-1-flat is-no-shadow u-fit-w u-mt_20" href="/projects/koukai/contribution?select_id=29232">                <div class="Btn-1__inner-flat">
+                  <div class="Btn-1__content">
+                    <div class="Btn-1__txt">このリターンを購入する</div>
+                  </div>
+                </div>
+</a></a>            </section>
+
+                      <section class="Project-return Side-area-1 u-mb_20">
+              <a class="is-no-shadow u-fit-w u-mt_20 Side-area-1-txt" href="/projects/koukai/contribution?select_id=29233">              <b><p class="Project-return__title u-fs_16 u-mb_15">
+                  あなたが博物館を独占！ 研究者とめぐる贅沢な展示ツアー。夕食つき
+              </p></b>
+              <h1 class="u-mb_15">
+                <b class="u-fs_20 u-font-en u-font_b">&yen;
+                  <span class="Project-return__price">
+                    300,000
+                  </span>
+                </b>
+                  <span class="u-fs_16">のリターン</span>
+              </h1>
+              <div class="Project-return__img u-mb_15">
+                <img src="https://readyfor-img.s3.amazonaws.com/reward_images/29233/medium/a8683912374579971e28c59e468c9d525311fca1.jpg?1454774736" alt="A8683912374579971e28c59e468c9d525311fca1" width="280" height="173" />
+              </div>
+              <p class="Project-return__description u-mb_30">
+                　100,000円のリターン内容に加えて<br />⑩ 【少人数ツアー】閉館後の展示場で、アジアの人類進化研究の第一人者でもある海部が、科博の人類進化コーナーを特別バージョンで解説。ツアー後の食事会にはスペシャルゲストを招きます。１人同伴可（同伴者の飲食代はお支払い願います）<br />（2016年10月12日（水）・10月15日（土）・10月26日（水）・10月29日（土）の中から選択。16：45～18：45のツアー後に食事）
+              </p>
+              <ul class="Project-return__condition">
+                <li class="u-mb_10">
+                  <span class="Icon-supporter u-mr_10"></span>
+                  <span class="u-valign_m">
+                    1人が支援中／
+                    <span class="Project-return__condition-limit">
+                          数量限定
+                        &nbsp; &nbsp;
+                        残り 19
+                    </span>
+                  </span>
+                </li>
+                <li class="u-mb_10">
+                    <span class="Icon-shipment u-mr_10"></span>
+                    <span class="u-valign_m">
+                      2016年05月までにお届け予定です。
+                    </span>
+                </li>
+              </ul>
+              <a class="Btn-1-flat is-no-shadow u-fit-w u-mt_20" href="/projects/koukai/contribution?select_id=29233">                <div class="Btn-1__inner-flat">
+                  <div class="Btn-1__content">
+                    <div class="Btn-1__txt">このリターンを購入する</div>
+                  </div>
+                </div>
+</a></a>            </section>
+
+                      <section class="Project-return Side-area-1 u-mb_20">
+              <a class="is-no-shadow u-fit-w u-mt_20 Side-area-1-txt" href="/projects/koukai/contribution?select_id=29234">              <b><p class="Project-return__title u-fs_16 u-mb_15">
+                  クロマニョン人の至宝が初来日する特別展「ラスコー展」を 独占案内（夕食付き）
+              </p></b>
+              <h1 class="u-mb_15">
+                <b class="u-fs_20 u-font-en u-font_b">&yen;
+                  <span class="Project-return__price">
+                    300,000
+                  </span>
+                </b>
+                  <span class="u-fs_16">のリターン</span>
+              </h1>
+              <div class="Project-return__img u-mb_15">
+                <img src="https://readyfor-img.s3.amazonaws.com/reward_images/29234/medium/6ad3da5f1d9718897df60d42061ccc79eae80696.jpg?1454774723" alt="6ad3da5f1d9718897df60d42061ccc79eae80696" width="280" height="173" />
+              </div>
+              <p class="Project-return__description u-mb_30">
+                　100,000円のリターン内容に加えて<br />⑩ 【少人数ツアー】２万年前のフランスの洞窟壁画をテーマにした注目の特別展示を、責任者の海部がガイドツアー。夕食つき。１人同伴可（同伴者の飲食代はお支払い願います）<br />一般閉館後なので展示場を独占してゆっくり見られます。日本コーナーでは本プロジェクトについても紹介。ツアー後の食事会にはスペシャルゲストを招きます。<br />（2016年11月2日（水）・11月5日（土）・11月16日（水）・11月19日（土）の中から選択。17：00～19：00のツアー後に食事）※画像はイメージ
+              </p>
+              <ul class="Project-return__condition">
+                <li class="u-mb_10">
+                  <span class="Icon-supporter u-mr_10"></span>
+                  <span class="u-valign_m">
+                    3人が支援中／
+                    <span class="Project-return__condition-limit">
+                          数量限定
+                        &nbsp; &nbsp;
+                        残り 17
+                    </span>
+                  </span>
+                </li>
+                <li class="u-mb_10">
+                    <span class="Icon-shipment u-mr_10"></span>
+                    <span class="u-valign_m">
+                      2016年05月までにお届け予定です。
+                    </span>
+                </li>
+              </ul>
+              <a class="Btn-1-flat is-no-shadow u-fit-w u-mt_20" href="/projects/koukai/contribution?select_id=29234">                <div class="Btn-1__inner-flat">
+                  <div class="Btn-1__content">
+                    <div class="Btn-1__txt">このリターンを購入する</div>
+                  </div>
+                </div>
+</a></a>            </section>
+
+                      <section class="Project-return Side-area-1 u-mb_20">
+              <a class="is-no-shadow u-fit-w u-mt_20 Side-area-1-txt" href="/projects/koukai/contribution?select_id=29235">              <b><p class="Project-return__title u-fs_16 u-mb_15">
+                  代表の海部が出張講演。全国どこでも、団体でもプライベートでも
+              </p></b>
+              <h1 class="u-mb_15">
+                <b class="u-fs_20 u-font-en u-font_b">&yen;
+                  <span class="Project-return__price">
+                    300,000
+                  </span>
+                </b>
+                  <span class="u-fs_16">のリターン</span>
+              </h1>
+              <div class="Project-return__img u-mb_15">
+                <img src="https://readyfor-img.s3.amazonaws.com/reward_images/29235/medium/58602694170fe925f9274ed3cb41be2382117388.JPG?1454774748" alt="58602694170fe925f9274ed3cb41be2382117388" width="280" height="173" />
+              </div>
+              <p class="Project-return__description u-mb_30">
+                　100,000円のリターン内容に加えて<br />⑩ ご希望に合わせて海部が出張講演。<br />※話題も選択できます。日程は相談の上。講師の旅費・宿泊費は別途ご負担願います。
+              </p>
+              <ul class="Project-return__condition">
+                <li class="u-mb_10">
+                  <span class="Icon-supporter u-mr_10"></span>
+                  <span class="u-valign_m">
+                    3人が支援中／
+                    <span class="Project-return__condition-limit">
+                          数量限定
+                        &nbsp; &nbsp;
+                        残り 2
+                    </span>
+                  </span>
+                </li>
+                <li class="u-mb_10">
+                    <span class="Icon-shipment u-mr_10"></span>
+                    <span class="u-valign_m">
+                      2016年05月までにお届け予定です。
+                    </span>
+                </li>
+              </ul>
+              <a class="Btn-1-flat is-no-shadow u-fit-w u-mt_20" href="/projects/koukai/contribution?select_id=29235">                <div class="Btn-1__inner-flat">
+                  <div class="Btn-1__content">
+                    <div class="Btn-1__txt">このリターンを購入する</div>
+                  </div>
+                </div>
+</a></a>            </section>
+
+                      <section class="Project-return Side-area-1 u-mb_20">
+              <a class="is-no-shadow u-fit-w u-mt_20 Side-area-1-txt" href="/projects/koukai/contribution?select_id=29236">              <b><p class="Project-return__title u-fs_16 u-mb_15">
+                  気鋭の現地研究者が案内。３万～２万年前の沖縄の重要遺跡調査体験
+              </p></b>
+              <h1 class="u-mb_15">
+                <b class="u-fs_20 u-font-en u-font_b">&yen;
+                  <span class="Project-return__price">
+                    500,000
+                  </span>
+                </b>
+                  <span class="u-fs_16">のリターン</span>
+              </h1>
+              <div class="Project-return__img u-mb_15">
+                <img src="https://readyfor-img.s3.amazonaws.com/reward_images/29236/medium/49bb287585a9ee908f0577c7583369bb7a14ac23.JPG?1454774756" alt="49bb287585a9ee908f0577c7583369bb7a14ac23" width="280" height="173" />
+              </div>
+              <p class="Project-return__description u-mb_30">
+                　100,000円のリターン内容に加えて<br />⑩ 沖縄県は石灰岩洞窟のおかげで、何万年も前の骨などが遺跡に多数残る国内では珍しい所。国内最古の人骨化石や旧石器人の生活の証拠が出土した重要遺跡を巡って１日調査体験するツアー。１人同伴可。<br />今最もアクティブに調査している現地研究者の案内で、3万年前を体感してください（日程は相談の上。旅費は自己負担願います）※写真はイメージです
+              </p>
+              <ul class="Project-return__condition">
+                <li class="u-mb_10">
+                  <span class="Icon-supporter u-mr_10"></span>
+                  <span class="u-valign_m">
+                    2人が支援中／
+                    <span class="Project-return__condition-limit">
+                          数量限定
+                        &nbsp; &nbsp;
+                        残り 3
+                    </span>
+                  </span>
+                </li>
+                <li class="u-mb_10">
+                    <span class="Icon-shipment u-mr_10"></span>
+                    <span class="u-valign_m">
+                      2016年05月までにお届け予定です。
+                    </span>
+                </li>
+              </ul>
+              <a class="Btn-1-flat is-no-shadow u-fit-w u-mt_20" href="/projects/koukai/contribution?select_id=29236">                <div class="Btn-1__inner-flat">
+                  <div class="Btn-1__content">
+                    <div class="Btn-1__txt">このリターンを購入する</div>
+                  </div>
+                </div>
+</a></a>            </section>
+
+                      <section class="Project-return Side-area-1 u-mb_20">
+              <a class="is-no-shadow u-fit-w u-mt_20 Side-area-1-txt" href="/projects/koukai/contribution?select_id=29237">              <b><p class="Project-return__title u-fs_16 u-mb_15">
+                  目玉！ 航海のゴール、台湾をのぞむ日本最西端地点にお名前を刻む
+              </p></b>
+              <h1 class="u-mb_15">
+                <b class="u-fs_20 u-font-en u-font_b">&yen;
+                  <span class="Project-return__price">
+                    1,000,000
+                  </span>
+                </b>
+                  <span class="u-fs_16">のリターン</span>
+              </h1>
+              <div class="Project-return__img u-mb_15">
+                <img src="https://readyfor-img.s3.amazonaws.com/reward_images/29237/medium/0d50124e75db68216faa629a3c07ee8e6b013ef1.JPG?1454765827" alt="0d50124e75db68216faa629a3c07ee8e6b013ef1" width="280" height="173" />
+              </div>
+              <p class="Project-return__description u-mb_30">
+                　100,000円のリターン内容に加えて<br />⑩ 300000円あるいは500000円コースの特典⑩のどれかを選択できます<br />⑪ 航海成功後に、貢献者としてのあなたのお名前を、与那国島の日本最西端ポイントに設置予定のプロジェクト記念碑に刻みます。<br />★島民が大切にしている場所。ふつうはあり得ない話ですが、今回与那国町から特別にご許可頂きました！
+              </p>
+              <ul class="Project-return__condition">
+                <li class="u-mb_10">
+                  <span class="Icon-supporter u-mr_10"></span>
+                  <span class="u-valign_m">
+                    2人が支援中／
+                    <span class="Project-return__condition-limit">
+                        在庫制限無し
+                    </span>
+                  </span>
+                </li>
+                <li class="u-mb_10">
+                    <span class="Icon-shipment u-mr_10"></span>
+                    <span class="u-valign_m">
+                      2016年05月までにお届け予定です。
+                    </span>
+                </li>
+              </ul>
+              <a class="Btn-1-flat is-no-shadow u-fit-w u-mt_20" href="/projects/koukai/contribution?select_id=29237">                <div class="Btn-1__inner-flat">
+                  <div class="Btn-1__content">
+                    <div class="Btn-1__txt">このリターンを購入する</div>
+                  </div>
+                </div>
+</a></a>            </section>
+
+        <div class="u-em u-fs_18 u-font_b u-align_c u-mt_20 u-mb_20">
+            <a rel="nofollow" data-method="post" href="/projects/koukai/watch">    <span class="Icon-plus u-mr_5"></span>
+    <span class="u-valign_m tooltipped tooltipped-n" aria-label="マイページに追加され、新着情報を受け取れます。">
+      気になるリストに追加する
+    </span>
+
+</a>
+        </div>
+        <aside class="Project-promoter Side-area-0 u-mb_20">
+          <h1 class="u-d_none">実行者</h1>
+          <div class="Project-promoter__media Media">
+            <div class="Project-promoter__media-img Media__img">
+              <img alt="海部陽介（国立科学博物館 人類史研究グループ長）" src="https://readyfor-img.s3.amazonaws.com/user_images/158163/medium/137cb8888c302d9b7b0dc673a6e6bb5d60e9215b.jpg?1453712037" width="110" height="110" />
+            </div>
+            <div class="Project-promoter__media-body Media__body">
+              <h1 class="u-fs_18 u-font_b">海部陽介（国立科学博物館 人類史研究グループ長）</h1>
+            </div>
+          </div>
+          <p class="Project-promoter__outline">
+            1969年生まれ。国立科学博物館 人類史研究グループ長。東京大学大学院理学系研究科生物科学専攻准教授（兼任）。2012年日本学術振興会賞受賞
+          </p>
+        </aside>
+
+
+      </div>
+
+    </div>
+
+  </article>
+
+
+
+    <div id="page-top">
+      <p><a id="move-page-top"></a></p>
+    </div>
+
+      <div id="to-intro">
+    <a id="move-to-intro" class="c" onclick="ga(&#39;set&#39;, &#39;nonInteraction&#39;, true);ga(&#39;send&#39;, &#39;event&#39;, { eventCategory: &#39;introLinkClick&#39;, eventAction: &#39;click&#39;, eventLable: &#39;sidebar_link_click&#39;, eventValue: 1});" href="/proposals/intro"></a>
+  </div>
+
+
+
+
+       <footer class="Site-footer">
+    <div class="Site-footer__inner u-clrfix">
+
+      <div class="Site-footer__content-l">
+
+        <div class="Site-footer__sections u-clrfix">
+
+          <section class="Site-footer__section">
+            <h1 class="Site-footer__section-h">会社情報</h1>
+            <ul class="Site-footer__section-list">
+              <li><a href="/about_more">READYFORとは</a></li>
+              <li><a href="/corp#anc03">運営会社</a></li>
+              <li><a href="/staff">開発チーム</a></li>
+              <li><a href="/corp#anc04">採用情報</a></li>
+              <li><a href="/4th_anniversary">4th Anniversary</a></li>
+              <li><a href="/matching_gift">マッチングギフト</a></li>
+            </ul>
+          </section>
+
+          <section class="Site-footer__section">
+            <h1 class="Site-footer__section-h">はじめる</h1>
+            <ul class="Site-footer__section-list">
+              <li><a href="/proposals/intro">プロジェクトを始める</a></li>
+                <li><a href="/feature/region_power/campaign">キャンペーン企画</a> </li>
+              <!--<li><a href="/tips">READYFORの教科書</a></li>-->
+              <li><a href="/readyforoftheyear2015">READYFOR OF THE YEAR</a></li>
+              <!--<li><a href="https://docs.google.com/forms/d/1m2Bp_2xQxUhZJI-9Jv0EnKkUsYvE_PHDawpSsb27-uw/viewform">セミナー情報</a></li>-->
+            </ul>
+          </section>
+
+          <section class="Site-footer__section">
+            <h1 class="Site-footer__section-h">みつける</h1>
+            <ul class="Site-footer__section-list">
+              <li><a href="/projects">募集中のプロジェクト</a></li>
+              <li><a href="/projects/successful">成功したプロジェクト</a></li>
+              <li><a href="/feature/medical_care">特集企画</a></li>
+              <li><a href="/media">メディア掲載一覧</a></li>
+
+            </ul>
+          </section>
+
+        </div>
+
+        <div class="Site-footer__aside">
+          <aside class="Site-footer__sns">
+            <h1 class="u-d_none">SNS</h1>
+            <div class="Site-footer__sns-inner u-clrfix">
+              <div class="Site-footer__sns-tw">
+                <a href="https://twitter.com/share" class="twitter-share-button" data-text="READYFOR?（レディーフォー）は実行者を支援する日本初のクラウドファンディングです。" data-url="https://readyfor.jp/" data-count="vertical" data-via="ready_for" data-lang="ja">Tweet</a>
+              </div>
+              <div class="Site-footer__sns-tw">
+                <fb:like href="http://www.facebook.com/readyfor" send="false" layout="box_count" width="77" show_faces="false"></fb:like>
+              </div>
+
+                  <script type="text/javascript">_ga.trackFacebook();</script>
+                <aside class="Site-footer__mail u-clrfix">
+                  <h1 class="u-d_none">メールサービス</h1>
+                  <div class="Site-footer__mail-form" id="anchor_register_mailing_list">
+                   <p class="Site-footer__mail-txt">READYFORの最新情報をお届け！メールマガジン登録はこちら！</p>
+                      <form class="new_mailing_list_user" id="new_mailing_list_user" action="/mailing_list_user/register_visitor" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="GGxqze8BRu8fPBoitkzE4g+Nk/DR6Tc6ArtCjupwHsxKhgOgMJ5oOEHp082BpZQONnqUASKVyTMzuPXEFtKgKw==" />
+                        <input type="hidden" name="mailing_list_user[user_id]" id="mailing_list_user_user_id" />
+                        <input type="email" class="Site-footer__mail-input" placeholder="メールアドレス" size="40" name="mailing_list_user[email]" id="mailing_list_user_email" />
+                        <input type="submit" name="commit" value="登録" class="Site-footer__mail-btn" />
+</form>                  </div>
+                </aside>
+            </div>
+          </aside>
+
+
+        </div>
+
+        <ul class="Site-footer__nav">
+          <li><a href="/privacypolicy">プライバシーポリシー</a></li>
+          <li><a href="/terms">利用規約</a></li>
+          <li><a href="/about_more#faq">よくある質問</a></li>
+          <li><a href="/guidelines">ガイドライン</a></li>
+          <li><a href="/commercial_transactions">特定商取引法に基づく表記</a></li>
+        </ul>
+      </div>
+
+      <div class="Site-footer__content-r">
+
+        <section class="Site-footer__section Site-footer__news">
+          <div class="Site-footer__news-inner">
+            <h1 class="Site-footer__section-h">最新ニュース一覧</h1>
+
+              <article class="Site-footer__news-entry">
+                <a target="_blank" class="u-link-area" href="https://mofmo.jp/article/2458">
+                  <footer class="Site-footer__news-entry-footer">
+                    <span>mofmo：</span><time>2016年3月7日</time>
+                  </footer>
+                  <div class="Site-footer__news-entry-body Media">
+                    <div class="Media__img u-mr_14">
+                      <img class="u-link-area" width="70" height="70" src="https://readyfor-img.s3.amazonaws.com/publicannouncement_images/677/original/55ef7297341c1f6c5dc2ee796e605e58e42f1fdb.png" alt="55ef7297341c1f6c5dc2ee796e605e58e42f1fdb" />
+                    </div>
+                    <div class="Media__body">
+                      <h1 class="Site-footer__news-entry-h Media__h">劣悪な環境に閉じ込められていた１４匹の猫のために。みんなで協力して救おう。</h1>
+                      <article class="Site-footer__news-entry-txt Media__txt"><p>mofmoにプロジェクトが掲載されました！</p>
+</article>
+                    </div>
+                  </div>
+</a>              </article>
+              <article class="Site-footer__news-entry">
+                <a target="_blank" class="u-link-area" href="https://hyakkei.me/articles-245">
+                  <footer class="Site-footer__news-entry-footer">
+                    <span> .HYAKKEI：</span><time>2016年3月7日</time>
+                  </footer>
+                  <div class="Site-footer__news-entry-body Media">
+                    <div class="Media__img u-mr_14">
+                      <img class="u-link-area" width="70" height="70" src="https://readyfor-img.s3.amazonaws.com/publicannouncement_images/676/original/3749fd23993af9238ee40d772099b0d106a51972.png" alt="3749fd23993af9238ee40d772099b0d106a51972" />
+                    </div>
+                    <div class="Media__body">
+                      <h1 class="Site-footer__news-entry-h Media__h">山でも街でも！相棒カメラを365日持ち運べる、3WAYバッグの使い勝手が抜群にいい！</h1>
+                      <article class="Site-footer__news-entry-txt Media__txt"><p>&nbsp;</p>
+
+<p>.HYAKKEIにプロジェクトが掲載されました！</p>
+</article>
+                    </div>
+                  </div>
+</a>              </article>
+              <article class="Site-footer__news-entry">
+                <a target="_blank" class="u-link-area" href="http://www.asahi.com/articles/CMTW1603071300003.html">
+                  <footer class="Site-footer__news-entry-footer">
+                    <span>朝日新聞：</span><time>2016年3月7日</time>
+                  </footer>
+                  <div class="Site-footer__news-entry-body Media">
+                    <div class="Media__img u-mr_14">
+                      <img class="u-link-area" width="70" height="70" src="https://readyfor-img.s3.amazonaws.com/publicannouncement_images/675/original/d15be76a78ba8c8685bc44a0f30d26869484b709.png" alt="D15be76a78ba8c8685bc44a0f30d26869484b709" />
+                    </div>
+                    <div class="Media__body">
+                      <h1 class="Site-footer__news-entry-h Media__h">東京）唱歌翻訳　シリア難民応援</h1>
+                      <article class="Site-footer__news-entry-txt Media__txt"><p>朝日新聞にプロジェクトが掲載されました！</p>
+</article>
+                    </div>
+                  </div>
+</a>              </article>
+          </div>
+        </section>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+    <!-- footer Area -->
+
+
+
+        <div class="overlay"></div>
+
+
+
+
+
+
+
+
+    <script>
+  
+  $(function() {
+    var cookieNyoro = $.cookie("nyoro-content");
+    if (typeof cookieNyoro !== "undefined") {
+      $.removeCookie("nyoro-content");
+      playNyoro(cookieNyoro);
+    }
+  });
+</script>
+
+
+    
+    <script type="text/javascript" language="javascript">
+/* <![CDATA[ */
+var yahoo_retargeting_id = 'HTWPF0K8YH';
+var yahoo_retargeting_label = '';
+/* ]]> */
+</script>
+<script type="text/javascript" language="javascript" src="//b92.yahoo.co.jp/js/s_retargeting.js"></script>
+
+  </div>
+  </body>
+</html>
+
