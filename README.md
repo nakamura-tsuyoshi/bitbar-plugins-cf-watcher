@@ -41,6 +41,10 @@ watchしたいurlをyaml形式で記載
 ```
 cloneしたパスを記載
 
+* パーミッション変更
+```
+chmod 755 cf_watcher.20m.sh
+```
 
 ## BitBarの設定
 1. BitBarを起動
