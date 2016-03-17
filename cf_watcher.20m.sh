@@ -12,8 +12,12 @@ function save_html {
   for url in $@
   do
     curl $url 2> /dev/null > $TMP/$COUNT.txt
-    echo "url#$url" >> $TMP/$COUNT.txt
-    COUNT=`expr $COUNT + 1`
+    if [ -s $TMP/$COUNT.txt ]; then
+        echo "url#$url" >> $TMP/$COUNT.txt
+        COUNT=`expr $COUNT + 1`
+    else
+        echo "取得エラー"
+    fi
   done
 }
 
@@ -25,6 +29,7 @@ MAKUAKE_URLS=$(ruby $MAINPATH/lib/yaml.rb $MAINPATH/config/watcher.yml makuake)
 save_html $MAKUAKE_URLS
 
 # html parse
+if [ -s $TMP/*.txt ]; then
 for filepath in $TMP/*.txt
   do
     PERCENT=`cat $filepath | grep -e 'stbarin' | cut -d":" -f2 | cut -d";" -f1`
@@ -37,7 +42,7 @@ for filepath in $TMP/*.txt
     LINK=`cat $filepath | grep -e 'url#' | cut -d"#" -f2`
     echo "[$PERCENT][$PRICE][last$LASTDAY days][$TITLE] | size=12 href=$LINK"
   done
-
+fi
 echo "---"
 
 # camp-fire
@@ -50,6 +55,7 @@ save_html $CAMPFIRE_URLS
 
 
 # html parse
+if [ -s $TMP/*.txt ]; then
 for filepath in $TMP/*.txt
   do
     PERCENT=`cat $filepath |  grep -e '<div class="meter"><div class="meter-in"><div class="bar' | cut -d":" -f2 | cut -d";" -f1`
@@ -59,6 +65,7 @@ for filepath in $TMP/*.txt
     LINK=`cat $filepath | grep -e 'url#' | cut -d"#" -f2`
     echo "[$PERCENT][$PRICE][last$LASTDAY days][$TITLE] | size=12 href=$LINK"
   done
+fi
 
 echo "---"
 
@@ -69,6 +76,7 @@ READYFOR_URLS=$(ruby $MAINPATH/lib/yaml.rb $MAINPATH/config/watcher.yml readyfor
 save_html $READYFOR_URLS
 
 # html parse
+if [ -s $TMP/*.txt ]; then
 for filepath in $TMP/*.txt
   do
     PERCENT=`cat $filepath | grep -e 'Gauge__txt' | sed -e 's/<[^>]*>//g'`
@@ -78,4 +86,5 @@ for filepath in $TMP/*.txt
     LINK=`cat $filepath | grep -e 'url#' | cut -d"#" -f2`
     echo "[$PERCENT][$PRICE][last$LASTDAY days][$TITLE] | size=12 href=$LINK"
   done
+fi
 
