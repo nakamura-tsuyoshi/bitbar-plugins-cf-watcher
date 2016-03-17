@@ -18,7 +18,7 @@ function save_html {
 
 # makuake
 echo "makuake | color=black"
-MAKUAKE_URLS=$(ruby $MAINPATH/lib/yaml.rb $MAINPATH/lib/watcher.yml makuake)
+MAKUAKE_URLS=$(ruby $MAINPATH/lib/yaml.rb $MAINPATH/config/watcher.yml makuake)
 
 # get html & save
 save_html $MAKUAKE_URLS
@@ -40,7 +40,7 @@ echo "---"
 
 # camp-fire
 echo "camp-fire | color=black"
-CAMPFIRE_URLS=$(ruby $MAINPATH/lib/yaml.rb $MAINPATH/lib/watcher.yml camp-fire)
+CAMPFIRE_URLS=$(ruby $MAINPATH/lib/yaml.rb $MAINPATH/config/watcher.yml camp-fire)
 
 
 # get html & save
@@ -61,7 +61,7 @@ echo "---"
 
 # readyfor
 echo "readyfor | color=black"
-READYFOR_URLS=$(ruby $MAINPATH/lib/yaml.rb $MAINPATH/lib/watcher.yml readyfor)
+READYFOR_URLS=$(ruby $MAINPATH/lib/yaml.rb $MAINPATH/config/watcher.yml readyfor)
 # get html & save
 save_html $READYFOR_URLS
 
