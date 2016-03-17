@@ -29,9 +29,9 @@ MAKUAKE_URLS=$(ruby $MAINPATH/lib/yaml.rb $MAINPATH/config/watcher.yml makuake)
 save_html $MAKUAKE_URLS
 
 # html parse
-if [ -s $TMP/*.txt ]; then
 for filepath in $TMP/*.txt
   do
+    if [ -s $filepath ]; then
     PERCENT=`cat $filepath | grep -e 'stbarin' | cut -d":" -f2 | cut -d";" -f1`
     TITLE=`cat $filepath | grep -e '<title>' | sed -e 's/<[^>]*>//g' | cut -d"|" -f1 | sed -e 's/ //g'`
     PRICE=`cat $filepath | grep -e 'stMoneyNum' | cut -d">" -f2 | sed -e 's/<\/p//g'`
@@ -41,8 +41,8 @@ for filepath in $TMP/*.txt
     LASTDAY=`expr $DIFF / 86400`
     LINK=`cat $filepath | grep -e 'url#' | cut -d"#" -f2`
     echo "[$PERCENT][$PRICE][last$LASTDAY days][$TITLE] | size=12 href=$LINK"
+    fi
   done
-fi
 echo "---"
 
 # camp-fire
@@ -55,17 +55,17 @@ save_html $CAMPFIRE_URLS
 
 
 # html parse
-if [ -s $TMP/*.txt ]; then
 for filepath in $TMP/*.txt
   do
+    if [ -s $filepath ]; then
     PERCENT=`cat $filepath |  grep -e '<div class="meter"><div class="meter-in"><div class="bar' | cut -d":" -f2 | cut -d";" -f1`
     TITLE=`cat $filepath | grep -e '<title>' | sed -e 's/<[^>]*>//g' | cut -d"-" -f1`
     PRICE=`cat $filepath | grep -e 'number' | sed -e 's/<[^>]*>//g' | grep -e "円" | tr -d '\t'`
     LASTDAY=`cat $filepath | grep -e 'number' | sed -e 's/<[^>]*>//g' | grep -e "日" | tr -d '\t'`
     LINK=`cat $filepath | grep -e 'url#' | cut -d"#" -f2`
     echo "[$PERCENT][$PRICE][last$LASTDAY days][$TITLE] | size=12 href=$LINK"
+    fi
   done
-fi
 
 echo "---"
 
@@ -76,15 +76,15 @@ READYFOR_URLS=$(ruby $MAINPATH/lib/yaml.rb $MAINPATH/config/watcher.yml readyfor
 save_html $READYFOR_URLS
 
 # html parse
-if [ -s $TMP/*.txt ]; then
 for filepath in $TMP/*.txt
   do
+    if [ -s $filepath ]; then
     PERCENT=`cat $filepath | grep -e 'Gauge__txt' | sed -e 's/<[^>]*>//g'`
     TITLE=`cat $filepath | grep -e "og:title" | sed -e 's/<meta property="og:title" content="//g' | cut -d"-" -f1 | sed -e 's/ //g'`
     PRICE=`cat $filepath | grep -e 'Project-visual__condition-dd is-sum' | sed -e 's/<[^>]*>//g' | sed -e 's/ //g'`
     LASTDAY=`cat $filepath | grep -e 'time-left-to-publish-days' | sed -e 's/<[^>]*>//g' | sed -e 's/ //g'`
     LINK=`cat $filepath | grep -e 'url#' | cut -d"#" -f2`
     echo "[$PERCENT][$PRICE][last$LASTDAY days][$TITLE] | size=12 href=$LINK"
+    fi
   done
-fi
 
