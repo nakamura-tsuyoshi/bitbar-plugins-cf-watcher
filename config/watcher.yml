@@ -2,12 +2,20 @@ makuake:
   urls:
     - https://www.makuake.com/project/go-dj-plus/
     - https://www.makuake.com/project/life-link/
+    - https://www.makuake.com/project/sushi-suga/
 
 camp-fire:
   urls:
-    - https://camp-fire.jp/projects/view/5178
+    - https://camp-fire.jp/projects/view/5480
+    - https://camp-fire.jp/projects/view/5474
+    - https://camp-fire.jp/projects/view/5400
+    - https://camp-fire.jp/projects/view/4793
 
 readyfor:
   urls:
+    - https://readyfor.jp/projects/yuki_miyazawa_rio_100m_support
+    - https://readyfor.jp/projects/7023
     - https://readyfor.jp/projects/koukai
     - https://readyfor.jp/projects/uzuhouse
+    - https://readyfor.jp/projects/6591
+    - https://readyfor.jp/projects/6433

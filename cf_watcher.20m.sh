@@ -21,9 +21,23 @@ function save_html {
   done
 }
 
+function get_image {
+    rm -rf $TMP/$2
+    curl -o $TMP/$2  $1 2> /dev/null
+    /usr/bin/sips --resampleWidth 50 $TMP/$2 --out $TMP/$2 > /dev/null 2>&1
+    IMG=`base64 $TMP/$2`
+    echo $IMG
+}
+
+
+
+
+
+
 # makuake
 echo "makuake | color=black"
 MAKUAKE_URLS=$(ruby $MAINPATH/lib/yaml.rb $MAINPATH/config/watcher.yml makuake)
+
 
 # get html & save
 save_html $MAKUAKE_URLS
@@ -40,7 +54,13 @@ for filepath in $TMP/*.txt
     DIFF=`expr $ENDTIME - $NOWTIME`
     LASTDAY=`expr $DIFF / 86400`
     LINK=`cat $filepath | grep -e 'url#' | cut -d"#" -f2`
-    echo "[$PERCENT][$PRICE][last$LASTDAY days][$TITLE] | size=12 href=$LINK"
+    IMGPATH=`cat $filepath | grep -e '690_388' | cut -d"\"" -f2`
+    IMGFILE=`cat $filepath | grep -e '690_388' | cut -d"\"" -f2 | cut -d"/" -f8`
+    IMG=`get_image https:$IMGPATH $IMGFILE`
+    echo "$TITLE | size=12 image=${IMG} href=$LINK"
+    echo "├ $PERCENT | size=12"
+    echo "├ $PRICE | size=12"
+    echo "└ Last$LASTDAY days | size=12"
     fi
   done
 echo "---"
@@ -63,7 +83,13 @@ for filepath in $TMP/*.txt
     PRICE=`cat $filepath | grep -e 'number' | sed -e 's/<[^>]*>//g' | grep -e "円" | tr -d '\t'`
     LASTDAY=`cat $filepath | grep -e 'number' | sed -e 's/<[^>]*>//g' | grep -e "日" | tr -d '\t'`
     LINK=`cat $filepath | grep -e 'url#' | cut -d"#" -f2`
-    echo "[$PERCENT][$PRICE][last$LASTDAY days][$TITLE] | size=12 href=$LINK"
+    IMGPATH=`cat $filepath | grep -e 'og:image' | cut -d"\"" -f4`
+    IMGFILE=`cat $filepath | grep -e 'og:image' | cut -d"\"" -f4 | cut -d"/" -f8`
+    IMG=`get_image $IMGPATH $IMGFILE`
+    echo "$TITLE | size=12 image=${IMG} href=$LINK"
+    echo "├ $PERCENT | size=12"
+    echo "├ $PRICE | size=12"
+    echo "└ Last $LASTDAY days | size=12"
     fi
   done
 
@@ -72,6 +98,7 @@ echo "---"
 # readyfor
 echo "readyfor | color=black"
 READYFOR_URLS=$(ruby $MAINPATH/lib/yaml.rb $MAINPATH/config/watcher.yml readyfor)
+
 # get html & save
 save_html $READYFOR_URLS
 
@@ -84,7 +111,13 @@ for filepath in $TMP/*.txt
     PRICE=`cat $filepath | grep -e 'Project-visual__condition-dd is-sum' | sed -e 's/<[^>]*>//g' | sed -e 's/ //g'`
     LASTDAY=`cat $filepath | grep -e 'time-left-to-publish-days' | sed -e 's/<[^>]*>//g' | sed -e 's/ //g'`
     LINK=`cat $filepath | grep -e 'url#' | cut -d"#" -f2`
-    echo "[$PERCENT][$PRICE][last$LASTDAY days][$TITLE] | size=12 href=$LINK"
+    IMGPATH=`cat $filepath | grep -e 'og:image' | cut -d"\"" -f4 | cut -d"?" -f1`
+    IMGFILE=`cat $filepath | grep -e 'og:image' | cut -d"\"" -f4 | cut -d"?" -f1 | cut -d"/" -f7`
+    IMG=`get_image $IMGPATH $IMGFILE`
+    echo "$TITLE | size=12 image=${IMG} href=$LINK"
+    echo "├ $PERCENT | size=12"
+    echo "├ $PRICE | size=12"
+    echo "└ Last $LASTDAY days | size=12"
     fi
   done
 
