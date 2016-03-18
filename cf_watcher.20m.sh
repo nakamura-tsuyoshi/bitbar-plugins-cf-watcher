@@ -7,7 +7,7 @@ echo 'CF watcher 👀| color=#7808FF'
 echo "---"
 
 function save_html {
- rm -f $TMP/*.txt
+ rm -rf $TMP/*.txt
   COUNT=1
   for url in $@
   do
@@ -22,15 +22,11 @@ function save_html {
 }
 
 function get_image {
-    rm -rf $TMP/$2
     curl -o $TMP/$2  $1 2> /dev/null
     /usr/bin/sips --resampleWidth 50 $TMP/$2 --out $TMP/$2 > /dev/null 2>&1
     IMG=`base64 $TMP/$2`
     echo $IMG
 }
-
-
-
 
 
 
@@ -57,8 +53,10 @@ for filepath in $TMP/*.txt
     IMGPATH=`cat $filepath | grep -e '690_388' | cut -d"\"" -f2`
     IMGFILE=`cat $filepath | grep -e '690_388' | cut -d"\"" -f2 | cut -d"/" -f8`
     IMG=`get_image https:$IMGPATH $IMGFILE`
+    int=`echo $PERCENT | sed -e 's/[^0-9]//g'`
+    COLOR=$(ruby $MAINPATH/lib/decision.rb $int)
     echo "$TITLE | size=12 image=${IMG} href=$LINK"
-    echo "├ $PERCENT | size=12"
+    echo "├ $PERCENT | size=12 color=$COLOR"
     echo "├ $PRICE | size=12"
     echo "└ Last$LASTDAY days | size=12"
     fi
@@ -86,8 +84,10 @@ for filepath in $TMP/*.txt
     IMGPATH=`cat $filepath | grep -e 'og:image' | cut -d"\"" -f4`
     IMGFILE=`cat $filepath | grep -e 'og:image' | cut -d"\"" -f4 | cut -d"/" -f8`
     IMG=`get_image $IMGPATH $IMGFILE`
+    int=`echo $PERCENT | sed -e 's/[^0-9]//g'`
+    COLOR=$(ruby $MAINPATH/lib/decision.rb $int)
     echo "$TITLE | size=12 image=${IMG} href=$LINK"
-    echo "├ $PERCENT | size=12"
+    echo "├ $PERCENT | size=12 color=$COLOR"
     echo "├ $PRICE | size=12"
     echo "└ Last $LASTDAY days | size=12"
     fi
@@ -114,8 +114,10 @@ for filepath in $TMP/*.txt
     IMGPATH=`cat $filepath | grep -e 'og:image' | cut -d"\"" -f4 | cut -d"?" -f1`
     IMGFILE=`cat $filepath | grep -e 'og:image' | cut -d"\"" -f4 | cut -d"?" -f1 | cut -d"/" -f7`
     IMG=`get_image $IMGPATH $IMGFILE`
+    int=`echo $PERCENT | sed -e 's/[^0-9]//g'`
+    COLOR=$(ruby $MAINPATH/lib/decision.rb $int)
     echo "$TITLE | size=12 image=${IMG} href=$LINK"
-    echo "├ $PERCENT | size=12"
+    echo "├ $PERCENT | size=12 color=$COLOR"
     echo "├ $PRICE | size=12"
     echo "└ Last $LASTDAY days | size=12"
     fi
