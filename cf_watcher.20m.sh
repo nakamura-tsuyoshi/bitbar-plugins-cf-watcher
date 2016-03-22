@@ -5,6 +5,8 @@ TMP=$MAINPATH'/tmp'
 
 echo 'CF watcher 👀| color=#7808FF'
 echo "---"
+echo "更新:"`/bin/date`
+echo "---"
 
 function save_html {
  rm -rf $TMP/*.txt
